@@ -34,7 +34,7 @@
     "IDEVersion": "2023.6.0.92",
   },
   "resources": [
-    {"id":{"name":"inviswall","path":"objects/inviswall/inviswall.yy",},},
+    {"id":{"name":"Backtoroom1","path":"objects/Backtoroom1/Backtoroom1.yy",},},
     {"id":{"name":"AnotherRoom","path":"rooms/AnotherRoom/AnotherRoom.yy",},},
     {"id":{"name":"WAll2","path":"objects/WAll2/WAll2.yy",},},
     {"id":{"name":"Thelights","path":"rooms/Thelights/Thelights.yy",},},
@@ -47,10 +47,11 @@
     {"id":{"name":"JSprite","path":"sprites/JSprite/JSprite.yy",},},
     {"id":{"name":"Walls","path":"objects/Walls/Walls.yy",},},
     {"id":{"name":"Wall2","path":"sprites/Wall2/Wall2.yy",},},
-    {"id":{"name":"jalensplayer","path":"objects/jalensplayer/jalensplayer.yy",},},
+    {"id":{"name":"jalenstestplayer","path":"objects/jalenstestplayer/jalenstestplayer.yy",},},
     {"id":{"name":"AnotherRoom2","path":"rooms/AnotherRoom2/AnotherRoom2.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
-    {"id":{"name":"WAll3","path":"objects/WAll3/WAll3.yy",},},
+    {"id":{"name":"PressToClose","path":"objects/PressToClose/PressToClose.yy",},},
+    {"id":{"name":"Endgamewall","path":"objects/Endgamewall/Endgamewall.yy",},},
     {"id":{"name":"JalensRoom","path":"rooms/JalensRoom/JalensRoom.yy",},},
   ],
   "RoomOrderNodes": [

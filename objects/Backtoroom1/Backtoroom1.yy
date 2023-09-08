@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "WAll2",
+  "name": "Backtoroom1",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"jalenstestplayer","path":"objects/jalenstestplayer/jalenstestplayer.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
   ],
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Wall2",
-    "path": "sprites/Wall2/Wall2.yy",
+    "name": "Inviswall",
+    "path": "sprites/Inviswall/Inviswall.yy",
   },
   "spriteMaskId": null,
   "visible": true,

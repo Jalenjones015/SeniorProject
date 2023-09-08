@@ -17,7 +17,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"inviswall","order":6,"path":"objects/inviswall/inviswall.yy",},
+    {"name":"Backtoroom1","order":6,"path":"objects/Backtoroom1/Backtoroom1.yy",},
     {"name":"AnotherRoom","order":1,"path":"rooms/AnotherRoom/AnotherRoom.yy",},
     {"name":"WAll2","order":4,"path":"objects/WAll2/WAll2.yy",},
     {"name":"Thelights","order":4,"path":"rooms/Thelights/Thelights.yy",},
@@ -29,8 +29,9 @@
     {"name":"JSprite","order":2,"path":"sprites/JSprite/JSprite.yy",},
     {"name":"Walls","order":2,"path":"objects/Walls/Walls.yy",},
     {"name":"Wall2","order":3,"path":"sprites/Wall2/Wall2.yy",},
-    {"name":"jalensplayer","order":1,"path":"objects/jalensplayer/jalensplayer.yy",},
+    {"name":"jalenstestplayer","order":1,"path":"objects/jalenstestplayer/jalenstestplayer.yy",},
     {"name":"AnotherRoom2","order":5,"path":"rooms/AnotherRoom2/AnotherRoom2.yy",},
-    {"name":"WAll3","order":5,"path":"objects/WAll3/WAll3.yy",},
+    {"name":"PressToClose","order":7,"path":"objects/PressToClose/PressToClose.yy",},
+    {"name":"Endgamewall","order":5,"path":"objects/Endgamewall/Endgamewall.yy",},
   ],
 }
