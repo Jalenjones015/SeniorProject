@@ -27,6 +27,7 @@
     {"name":"wall","order":1,"path":"sprites/wall/wall.yy",},
     {"name":"Sprite7","order":6,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"_5705d77f_3ea8_4c44_9c54_9ec2fe6f1cbc","order":7,"path":"sprites/_5705d77f_3ea8_4c44_9c54_9ec2fe6f1cbc/_5705d77f_3ea8_4c44_9c54_9ec2fe6f1cbc.yy",},
+    {"name":"Sprite10","order":9,"path":"sprites/Sprite10/Sprite10.yy",},
     {"name":"JSprite","order":2,"path":"sprites/JSprite/JSprite.yy",},
     {"name":"Walls","order":2,"path":"objects/Walls/Walls.yy",},
     {"name":"Wall2","order":3,"path":"sprites/Wall2/Wall2.yy",},

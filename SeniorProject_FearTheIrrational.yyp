@@ -46,6 +46,7 @@
     {"id":{"name":"Character","path":"objects/Character/Character.yy",},},
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},},
     {"id":{"name":"_5705d77f_3ea8_4c44_9c54_9ec2fe6f1cbc","path":"sprites/_5705d77f_3ea8_4c44_9c54_9ec2fe6f1cbc/_5705d77f_3ea8_4c44_9c54_9ec2fe6f1cbc.yy",},},
+    {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},},
     {"id":{"name":"JSprite","path":"sprites/JSprite/JSprite.yy",},},
     {"id":{"name":"Walls","path":"objects/Walls/Walls.yy",},},
     {"id":{"name":"Wall2","path":"sprites/Wall2/Wall2.yy",},},
