@@ -57,6 +57,7 @@
     {"id":{"name":"Endgamewall","path":"objects/Endgamewall/Endgamewall.yy",},},
     {"id":{"name":"e8a063c6_1bb7_40a4_b336_ef02d8627cca","path":"sprites/e8a063c6_1bb7_40a4_b336_ef02d8627cca/e8a063c6_1bb7_40a4_b336_ef02d8627cca.yy",},},
     {"id":{"name":"RoomSwitch2","path":"objects/RoomSwitch2/RoomSwitch2.yy",},},
+    {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},},
     {"id":{"name":"JalensRoom","path":"rooms/JalensRoom/JalensRoom.yy",},},
   ],
   "RoomOrderNodes": [

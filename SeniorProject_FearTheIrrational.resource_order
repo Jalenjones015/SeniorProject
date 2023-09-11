@@ -37,5 +37,6 @@
     {"name":"Endgamewall","order":5,"path":"objects/Endgamewall/Endgamewall.yy",},
     {"name":"e8a063c6_1bb7_40a4_b336_ef02d8627cca","order":8,"path":"sprites/e8a063c6_1bb7_40a4_b336_ef02d8627cca/e8a063c6_1bb7_40a4_b336_ef02d8627cca.yy",},
     {"name":"RoomSwitch2","order":1,"path":"objects/RoomSwitch2/RoomSwitch2.yy",},
+    {"name":"Sprite11","order":10,"path":"sprites/Sprite11/Sprite11.yy",},
   ],
 }
