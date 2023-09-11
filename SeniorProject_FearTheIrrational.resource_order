@@ -15,6 +15,7 @@
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
+    {"name":"RoomSwitch","order":18,"path":"folders/RoomSwitch.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Backtoroom1","order":6,"path":"objects/Backtoroom1/Backtoroom1.yy",},
@@ -22,10 +23,9 @@
     {"name":"WAll2","order":4,"path":"objects/WAll2/WAll2.yy",},
     {"name":"Thelights","order":4,"path":"rooms/Thelights/Thelights.yy",},
     {"name":"Inviswall","order":4,"path":"sprites/Inviswall/Inviswall.yy",},
-    {"name":"_37568685_d845_42f3_b01f_81ef98536e41","order":16,"path":"sprites/_37568685_d845_42f3_b01f_81ef98536e41/_37568685_d845_42f3_b01f_81ef98536e41.yy",},
+    {"name":"_37568685_d845_42f3_b01f_81ef98536e41","order":5,"path":"sprites/_37568685_d845_42f3_b01f_81ef98536e41/_37568685_d845_42f3_b01f_81ef98536e41.yy",},
     {"name":"wall","order":1,"path":"sprites/wall/wall.yy",},
-    {"name":"Object4","order":3,"path":"objects/Object4/Object4.yy",},
-    {"name":"Sprite7","order":17,"path":"sprites/Sprite7/Sprite7.yy",},
+    {"name":"Sprite7","order":6,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"JSprite","order":2,"path":"sprites/JSprite/JSprite.yy",},
     {"name":"Walls","order":2,"path":"objects/Walls/Walls.yy",},
     {"name":"Wall2","order":3,"path":"sprites/Wall2/Wall2.yy",},
@@ -33,5 +33,6 @@
     {"name":"Room2","order":5,"path":"rooms/Room2/Room2.yy",},
     {"name":"PressToClose","order":7,"path":"objects/PressToClose/PressToClose.yy",},
     {"name":"Endgamewall","order":5,"path":"objects/Endgamewall/Endgamewall.yy",},
+    {"name":"RoomSwitch2","order":1,"path":"objects/RoomSwitch2/RoomSwitch2.yy",},
   ],
 }
