@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "e8a063c6_1bb7_40a4_b336_ef02d8627cca",
-  "bbox_bottom": 41,
-  "bbox_left": 8,
-  "bbox_right": 117,
-  "bbox_top": 14,
+  "name": "gold_coin",
+  "bbox_bottom": 103,
+  "bbox_left": 30,
+  "bbox_right": 93,
+  "bbox_top": 28,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9a800c30-e549-4e31-84e1-1e25582a8948",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"581e41c0-0b35-4f78-b69a-e036544bf214",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e6d0e333-631b-46cd-8266-c35e4ff8893c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"54a8e660-8c3b-41b3-99bf-bde54b82558a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "e8a063c6_1bb7_40a4_b336_ef02d8627cca",
+    "name": "gold_coin",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9a800c30-e549-4e31-84e1-1e25582a8948","path":"sprites/e8a063c6_1bb7_40a4_b336_ef02d8627cca/e8a063c6_1bb7_40a4_b336_ef02d8627cca.yy",},},},"Disabled":false,"id":"49f9ed24-16b5-4038-aad7-24abe216be47","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"581e41c0-0b35-4f78-b69a-e036544bf214","path":"sprites/gold_coin/gold_coin.yy",},},},"Disabled":false,"id":"6807e448-a802-4483-8d73-0670998cbeb2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
