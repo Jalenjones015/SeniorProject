@@ -6,6 +6,7 @@ moveSpeed = 3;
 moveX = 0;
 moveY = 0;
 
-accel = .03;
-
-
+zoomX = 0;
+zoomY = 0;
+dash_sp = 7; 
+dashTime = 0;
