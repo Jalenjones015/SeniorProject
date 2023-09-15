@@ -7,12 +7,7 @@ moveX = 0;
 moveY = 0;
 
 accel = .03;
-zoomX = 0;
-zoomY = 0;
-dash = false;
-dash_sp = 8; 
-dash_dir = 0;
-    
+
 
 global.view_enabled = 0;
 global.view_visible[0]=true = 0;

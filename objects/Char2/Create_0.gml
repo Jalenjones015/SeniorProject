@@ -11,4 +11,4 @@ zoomY = 0;
 dash = false;
 dash_sp = 7; 
 dash_dir = 0;
-    
+candash = 0; 
