@@ -73,12 +73,12 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"StartMenu","path":"rooms/StartMenu/StartMenu.yy",},},
+    {"roomId":{"name":"HelpRoom","path":"rooms/HelpRoom/HelpRoom.yy",},},
     {"roomId":{"name":"Startroom","path":"rooms/Startroom/Startroom.yy",},},
     {"roomId":{"name":"MainRoom","path":"rooms/MainRoom/MainRoom.yy",},},
     {"roomId":{"name":"JalensRoom","path":"rooms/JalensRoom/JalensRoom.yy",},},
     {"roomId":{"name":"Thelights","path":"rooms/Thelights/Thelights.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"roomId":{"name":"HelpRoom","path":"rooms/HelpRoom/HelpRoom.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
