@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Thelights",
+  "name": "ZLights_artroom",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,

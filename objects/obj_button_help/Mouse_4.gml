@@ -8,4 +8,4 @@ event_inherited();
 /// @DnDHash : 03D1212E
 /// @DnDArgument : "room" "HelpRoom"
 /// @DnDSaveInfo : "room" "HelpRoom"
-room_goto(HelpRoom);
+room_goto(Help_TestRoom);
