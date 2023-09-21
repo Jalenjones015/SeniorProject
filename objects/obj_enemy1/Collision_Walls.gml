@@ -1,12 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+direction = direction - 180;
+speed = irandom_range(1, 6);
 
 
 
-
-
-//move_towards_point(Char2.x, Char2.y, speed);
 
 
 

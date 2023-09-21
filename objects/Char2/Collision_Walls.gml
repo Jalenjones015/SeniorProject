@@ -6,7 +6,7 @@
 
 
 
-//move_towards_point(Char2.x, Char2.y, speed);
+
 
 
 

@@ -1,6 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 59ED54D8
-/// @DnDArgument : "expr" "3"
-/// @DnDArgument : "var" "En_speed"
-En_speed = 3;
+direction = choose(0, 90, 180, 270);
+speed = irandom_range(1, 4);
+
