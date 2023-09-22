@@ -57,6 +57,7 @@
     {"name":"Endgamewall","order":3,"path":"objects/Endgamewall/Endgamewall.yy",},
     {"name":"obj_button_quit","order":3,"path":"objects/obj_button_quit/obj_button_quit.yy",},
     {"name":"button","order":1,"path":"sprites/button/button.yy",},
+    {"name":"gduygdas","order":23,"path":"objects/gduygdas/gduygdas.yy",},
     {"name":"obaj_button_par","order":1,"path":"objects/obaj_button_par/obaj_button_par.yy",},
     {"name":"gold_coin","order":3,"path":"sprites/gold_coin/gold_coin.yy",},
     {"name":"RoomSwitch2","order":2,"path":"objects/RoomSwitch2/RoomSwitch2.yy",},

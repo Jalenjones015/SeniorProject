@@ -1,4 +1,4 @@
-start_x = x;
+gyudsgdsfsstart_x = x;
 start_y = y;
 
 path_start(Test_path, 4, path_action_reverse, true);

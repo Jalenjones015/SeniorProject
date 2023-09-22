@@ -83,6 +83,7 @@
     {"id":{"name":"Endgamewall","path":"objects/Endgamewall/Endgamewall.yy",},},
     {"id":{"name":"obj_button_quit","path":"objects/obj_button_quit/obj_button_quit.yy",},},
     {"id":{"name":"button","path":"sprites/button/button.yy",},},
+    {"id":{"name":"gduygdas","path":"objects/gduygdas/gduygdas.yy",},},
     {"id":{"name":"obaj_button_par","path":"objects/obaj_button_par/obaj_button_par.yy",},},
     {"id":{"name":"gold_coin","path":"sprites/gold_coin/gold_coin.yy",},},
     {"id":{"name":"RoomSwitch2","path":"objects/RoomSwitch2/RoomSwitch2.yy",},},
