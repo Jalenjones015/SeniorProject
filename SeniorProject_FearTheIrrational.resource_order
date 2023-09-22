@@ -25,7 +25,6 @@
   "ResourceOrderSettings": [
     {"name":"Test_path","order":21,"path":"paths/Test_path/Test_path.yy",},
     {"name":"J_test_Enemy","order":5,"path":"objects/J_test_Enemy/J_test_Enemy.yy",},
-    {"name":"Spriteyes","order":22,"path":"sprites/Spriteyes/Spriteyes.yy",},
     {"name":"MainRoom","order":1,"path":"rooms/MainRoom/MainRoom.yy",},
     {"name":"Charorgpanicopy","order":12,"path":"objects/Charorgpanicopy/Charorgpanicopy.yy",},
     {"name":"OBJ_StickWeapon_plz","order":7,"path":"objects/OBJ_StickWeapon_plz/OBJ_StickWeapon_plz.yy",},
@@ -57,7 +56,6 @@
     {"name":"Endgamewall","order":3,"path":"objects/Endgamewall/Endgamewall.yy",},
     {"name":"obj_button_quit","order":3,"path":"objects/obj_button_quit/obj_button_quit.yy",},
     {"name":"button","order":1,"path":"sprites/button/button.yy",},
-    {"name":"gduygdas","order":23,"path":"objects/gduygdas/gduygdas.yy",},
     {"name":"obaj_button_par","order":1,"path":"objects/obaj_button_par/obaj_button_par.yy",},
     {"name":"gold_coin","order":3,"path":"sprites/gold_coin/gold_coin.yy",},
     {"name":"RoomSwitch2","order":2,"path":"objects/RoomSwitch2/RoomSwitch2.yy",},
