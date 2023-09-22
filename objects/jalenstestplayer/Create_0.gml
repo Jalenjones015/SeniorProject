@@ -1,67 +1,42 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 31052F0B
+/// @DnDInput : 3
 /// @DnDArgument : "expr" "4"
 /// @DnDArgument : "var" "Pspeed"
+/// @DnDArgument : "var_1" "cam_x"
+/// @DnDArgument : "var_2" "cam_y"
 Pspeed = 4;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 19CFEC03
-/// @DnDArgument : "var" "cam_x"
 cam_x = 0;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 68365B40
-/// @DnDArgument : "var" "cam_y"
 cam_y = 0;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 605023E0
+/// @DnDInput : 6
 /// @DnDArgument : "value" "-1"
+/// @DnDArgument : "value_3" "1080"
+/// @DnDArgument : "value_4" "1920"
 /// @DnDArgument : "var" "global.active_room"
+/// @DnDArgument : "var_1" "global.view_enabled"
+/// @DnDArgument : "var_2" "global.view_visible[0]=true"
+/// @DnDArgument : "var_3" "global.view_hport[0]"
+/// @DnDArgument : "var_4" "global.view_wport[0]"
+/// @DnDArgument : "var_5" "global.view_camera[0]=camera_create_view(0,0,384,216)"
 global.active_room = -1;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 1889C3BE
-/// @DnDArgument : "var" "global.view_enabled"
 global.view_enabled = 0;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 09050B51
-/// @DnDArgument : "var" "global.view_visible[0]=true"
 global.view_visible[0]=true = 0;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 283D83C5
-/// @DnDArgument : "value" "1080"
-/// @DnDArgument : "var" "global.view_hport[0]"
 global.view_hport[0] = 1080;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 48FB885D
-/// @DnDArgument : "value" "1920"
-/// @DnDArgument : "var" "global.view_wport[0]"
 global.view_wport[0] = 1920;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 5C5B58E0
-/// @DnDArgument : "var" "global.view_camera[0]=camera_create_view(0,0,384,216)"
 global.view_camera[0]=camera_create_view(0,0,384,216) = 0;
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 67F37AA1
-/// @DnDArgument : "code" "$(13_10)	weapon = instance_create_depth(x, y, depth - 1, OBJ_StickWeapon_plz);$(13_10)	weapon_x_offset = 32;$(13_10)	weapon_y_offset = 32;$(13_10)	is_swinging = false;"
+/// @DnDArgument : "code" "$(13_10)	weapon = OBJ_StickWeapon_plz;$(13_10)	instance_create_depth(x, y, depth - 1, weapon);$(13_10)	weapon_x_offset = 32;$(13_10)	weapon_y_offset = 32;$(13_10)	is_swinging = false;$(13_10)"
 
-	weapon = instance_create_depth(x, y, depth - 1, OBJ_StickWeapon_plz);
+	weapon = OBJ_StickWeapon_plz;
+	instance_create_depth(x, y, depth - 1, weapon);
 	weapon_x_offset = 32;
 	weapon_y_offset = 32;
 	is_swinging = false;

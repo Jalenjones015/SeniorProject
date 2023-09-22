@@ -20,46 +20,45 @@ if global.active_room!=-1
 	if (mouse_check_button_pressed(1))
 	{
 		is_swinging = true; // the club swings
-	
 		if (is_swinging)
 		{
+				OBJ_StickWeapon_plz.image_speed = 1;
+				is_swinging = true;
+				weapon.image_index = 0;
+				weapon.sprite_index = StickWeaponAni;			
+				alarm_set(0, 3);
+				show_debug_message("HIT");
+		}
+	}
+				
 				// set the correct index
 				//weapon.sprite_index = OBJ_StickWeapon_plz;
-				weapon.sprite_index = StickWeaponAni;
-				image_index +=0;
-				image_speed = 20;
-				
-				//if (weapon.sprite_index = OBJ_StickWeapon_plz)
-				if (weapon.sprite_index = StickWeaponAni)
-				{	
-					//if
-					if (image_index = 5)
-					{
-						// reset the sprite
-						//weapon.sprite_index = OBJ_StickWeapon_plz;
-						weapon.sprite_index = StickWeaponAni;
-						image_index +=0;
-						//weapon.sprite_index = StickWeaponAni;
-						is_swinging = false;
-						alarm_set(0,3);
-					}	
-				}	
-		}
-			
-		else
-		{
-			// not doing the swing
-			is_swinging = false;
-			//sprite stuff
-			//weapon.sprite_index = OBJ_StickWeapon_plz;
-			weapon.sprite_index = StickWeaponAni;
-			image_index = 0;
-		}
-		//{
-		//	is_swinging = true;
-		//	weapon.image_index = 0;
-		//	weapon.sprite_index = StickWeaponAni;			
-		//	alarm_set(0, 3);
+				//weapon.sprite_index = StickWeaponAni;
+				//image_index +=0;
+				//image_speed = 20;
+				//if (OBJ_StickWeapon_plz.image_index = 5)
+				//{
+					//	// reset the sprite
+					//	////weapon.sprite_index = OBJ_StickWeapon_plz;
+					//	//weapon.sprite_index = StickWeaponAni;
+					//	////image_index +=0;
+					//	////weapon.sprite_index = StickWeaponAni;
+					//	//is_swinging = false;
+					//	//alarm_set(0,3);
+					//	//OBJ_StickWeapon_plz.image_speed = 0;
+				//}		
 		//}
-	}
+			
+		////else
+		////{
+		////	//// not doing the swing
+		////	//is_swinging = false;
+		////	////sprite stuff
+		////	//weapon.sprite_index = OBJ_StickWeapon_plz;
+			
+		////	////weapon.sprite_index = StickWeaponAni;
+		////	////image_index = 0;
+		////}
+		
+		//{
 	
