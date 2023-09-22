@@ -18,16 +18,22 @@ if global.active_room!=-1
 	}
 	
 	if (mouse_check_button_pressed(1))
-	{if(is_swinging == false)
-		{is_swinging = true;
+	{
+		if(is_swinging == false)
+		{
+			is_swinging = true;
 			weapon.image_index = 0;
 			weapon.sprite_index = StickWeaponAni;
+			
+			alarm_set(0, 3);
 		}
 	}
 	
 	if (is_swinging)
-	{if (round(weapon.image_index) + 2 >= weapon.image_number)
-		{ weapon.sprite_index = StickWeaponOBJ;
+	{
+		if (round(weapon.image_index) + 2 >= weapon.image_number)
+		{ 
+			weapon.sprite_index = OBJ_StickWeapon_plz;
 			is_swinging = false;
 		}
 		

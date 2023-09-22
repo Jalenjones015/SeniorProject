@@ -1,12 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Backtoroom1",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"jalenstestplayer","path":"objects/jalenstestplayer/jalenstestplayer.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Character","path":"objects/Character/Character.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
-  ],
-  "managed": false,
+  "name": "OBJ_StickWeapon_plz",
+  "eventList": [],
+  "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "JalensOBJs",
@@ -28,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "StickWeaponSP",
+    "path": "sprites/StickWeaponSP/StickWeaponSP.yy",
+  },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
