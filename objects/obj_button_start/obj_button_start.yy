@@ -10,8 +10,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obaj_button_par","path":"objects/obaj_button_par/obaj_button_par.yy",},"propertyId":{"name":"button_text","path":"objects/obaj_button_par/obaj_button_par.yy",},"value":"Play",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "AshleysOBJs",
+    "path": "folders/Objects/AshleysOBJs.yy",
   },
   "parentObjectId": {
     "name": "obaj_button_par",

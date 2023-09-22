@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Z_unused_Test_Stuff",
+    "path": "folders/Z_unused_Test_Stuff.yy",
   },
   "parentObjectId": null,
   "persistent": false,

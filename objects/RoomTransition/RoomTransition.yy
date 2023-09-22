@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "RoomSwitch",
-    "path": "folders/RoomSwitch.yy",
+    "name": "RoomTransition",
+    "path": "folders/RoomTransition.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -32,5 +32,5 @@
     "path": "sprites/Sproomtransition/Sproomtransition.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

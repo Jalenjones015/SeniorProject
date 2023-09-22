@@ -1,13 +1,13 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "JalensRoom",
+  "name": "POS_DEL_JalensRoom",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_54A27EBD","path":"rooms/JalensRoom/JalensRoom.yy",},
+    {"name":"inst_54A27EBD","path":"rooms/POS_DEL_JalensRoom/POS_DEL_JalensRoom.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -19,8 +19,8 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4284482659,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Z_Might_Delete",
+    "path": "folders/Z_Might_Delete.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

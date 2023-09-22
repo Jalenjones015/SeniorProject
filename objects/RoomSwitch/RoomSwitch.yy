@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "RoomSwitch",
-    "path": "folders/RoomSwitch.yy",
+    "name": "Z_unused_Test_Stuff",
+    "path": "folders/Z_unused_Test_Stuff.yy",
   },
   "parentObjectId": null,
   "persistent": false,
