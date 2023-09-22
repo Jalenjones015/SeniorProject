@@ -1,14 +1,20 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 31052F0B
-/// @DnDInput : 3
+/// @DnDInput : 5
 /// @DnDArgument : "expr" "4"
+/// @DnDArgument : "expr_3" "10"
+/// @DnDArgument : "expr_4" "10"
 /// @DnDArgument : "var" "Pspeed"
 /// @DnDArgument : "var_1" "cam_x"
 /// @DnDArgument : "var_2" "cam_y"
+/// @DnDArgument : "var_3" "hp"
+/// @DnDArgument : "var_4" "hp_max"
 Pspeed = 4;
 cam_x = 0;
 cam_y = 0;
+hp = 10;
+hp_max = 10;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

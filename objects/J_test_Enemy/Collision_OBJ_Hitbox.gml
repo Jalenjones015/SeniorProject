@@ -12,3 +12,13 @@ with(other)
 x += 8
 image_index = 1
 alarm_set(1, room_speed * 0.1);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 78C33A1F
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "-1"
+/// @DnDArgument : "expr_1" "x-5"
+/// @DnDArgument : "var" "enemyhp"
+enemyhp = -1;
+variable = x-5;
