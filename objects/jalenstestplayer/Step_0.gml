@@ -19,23 +19,47 @@ if global.active_room!=-1
 	
 	if (mouse_check_button_pressed(1))
 	{
-		if(is_swinging == false)
-		{
-			is_swinging = true;
-			weapon.image_index = 0;
-			weapon.sprite_index = StickWeaponAni;
-			
-			alarm_set(0, 3);
-		}
-	}
+		is_swinging = true; // the club swings
 	
-	if (is_swinging)
-	{
-		if (round(weapon.image_index) + 2 >= weapon.image_number)
-		{ 
-			weapon.sprite_index = OBJ_StickWeapon_plz;
-			is_swinging = false;
+		if (is_swinging)
+		{
+				// set the correct index
+				//weapon.sprite_index = OBJ_StickWeapon_plz;
+				weapon.sprite_index = StickWeaponAni;
+				image_index +=0;
+				image_speed = 20;
+				
+				//if (weapon.sprite_index = OBJ_StickWeapon_plz)
+				if (weapon.sprite_index = StickWeaponAni)
+				{	
+					//if
+					if (image_index = 5)
+					{
+						// reset the sprite
+						//weapon.sprite_index = OBJ_StickWeapon_plz;
+						weapon.sprite_index = StickWeaponAni;
+						image_index +=0;
+						//weapon.sprite_index = StickWeaponAni;
+						is_swinging = false;
+						alarm_set(0,3);
+					}	
+				}	
 		}
-		
+			
+		else
+		{
+			// not doing the swing
+			is_swinging = false;
+			//sprite stuff
+			//weapon.sprite_index = OBJ_StickWeapon_plz;
+			weapon.sprite_index = StickWeaponAni;
+			image_index = 0;
+		}
+		//{
+		//	is_swinging = true;
+		//	weapon.image_index = 0;
+		//	weapon.sprite_index = StickWeaponAni;			
+		//	alarm_set(0, 3);
+		//}
 	}
 	

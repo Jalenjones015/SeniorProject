@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "StickWeaponSP",
-    "path": "sprites/StickWeaponSP/StickWeaponSP.yy",
+    "name": "StickWeaponAni",
+    "path": "sprites/StickWeaponAni/StickWeaponAni.yy",
   },
   "spriteMaskId": null,
   "visible": true,
