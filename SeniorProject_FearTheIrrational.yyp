@@ -44,6 +44,7 @@
     {"id":{"name":"Test_path","path":"paths/Test_path/Test_path.yy",},},
     {"id":{"name":"J_test_Enemy","path":"objects/J_test_Enemy/J_test_Enemy.yy",},},
     {"id":{"name":"Backtoroom1","path":"objects/Backtoroom1/Backtoroom1.yy",},},
+    {"id":{"name":"Spriteyes","path":"sprites/Spriteyes/Spriteyes.yy",},},
     {"id":{"name":"MainRoom","path":"rooms/MainRoom/MainRoom.yy",},},
     {"id":{"name":"Charorgpanicopy","path":"objects/Charorgpanicopy/Charorgpanicopy.yy",},},
     {"id":{"name":"OBJ_StickWeapon_plz","path":"objects/OBJ_StickWeapon_plz/OBJ_StickWeapon_plz.yy",},},
