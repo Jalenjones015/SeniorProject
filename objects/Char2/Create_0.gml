@@ -9,6 +9,6 @@ moveY = 0;
 zoomX = 0;
 zoomY = 0;
 dash = false;
-dash_sp = 7; 
+dash_sp = 4; 
 dash_dir = 0;
 candash = 0; 

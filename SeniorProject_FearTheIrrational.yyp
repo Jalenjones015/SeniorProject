@@ -41,6 +41,7 @@
     "IDEVersion": "2023.6.0.92",
   },
   "resources": [
+    {"id":{"name":"Test_path","path":"paths/Test_path/Test_path.yy",},},
     {"id":{"name":"J_test_Enemy","path":"objects/J_test_Enemy/J_test_Enemy.yy",},},
     {"id":{"name":"Backtoroom1","path":"objects/Backtoroom1/Backtoroom1.yy",},},
     {"id":{"name":"MainRoom","path":"rooms/MainRoom/MainRoom.yy",},},

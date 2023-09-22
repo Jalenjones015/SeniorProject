@@ -23,6 +23,7 @@
     {"name":"Z_unused_Test_Stuff","order":19,"path":"folders/Z_unused_Test_Stuff.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"Test_path","order":21,"path":"paths/Test_path/Test_path.yy",},
     {"name":"J_test_Enemy","order":5,"path":"objects/J_test_Enemy/J_test_Enemy.yy",},
     {"name":"MainRoom","order":1,"path":"rooms/MainRoom/MainRoom.yy",},
     {"name":"Charorgpanicopy","order":12,"path":"objects/Charorgpanicopy/Charorgpanicopy.yy",},
