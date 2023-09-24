@@ -21,6 +21,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Z_Might_Delete","order":20,"path":"folders/Z_Might_Delete.yy",},
     {"name":"Z_unused_Test_Stuff","order":19,"path":"folders/Z_unused_Test_Stuff.yy",},
+    {"name":"MIsc","order":17,"path":"folders/Sprites/MIsc.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Test_path","order":21,"path":"paths/Test_path/Test_path.yy",},
@@ -37,6 +38,7 @@
     {"name":"WAll2","order":3,"path":"objects/WAll2/WAll2.yy",},
     {"name":"leavves_layer","order":5,"path":"sprites/leavves_layer/leavves_layer.yy",},
     {"name":"RoomTransition","order":2,"path":"objects/RoomTransition/RoomTransition.yy",},
+    {"name":"Room7","order":6,"path":"rooms/Room7/Room7.yy",},
     {"name":"ZLights_artroom","order":3,"path":"rooms/ZLights_artroom/ZLights_artroom.yy",},
     {"name":"enemy","order":2,"path":"sprites/enemy/enemy.yy",},
     {"name":"RoomSwitch","order":1,"path":"objects/RoomSwitch/RoomSwitch.yy",},
