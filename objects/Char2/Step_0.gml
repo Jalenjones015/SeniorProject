@@ -12,22 +12,27 @@ var _inputY = _down - _up;
  
 
 // add another slash to get it to stop ALARM [0]
-//dash =false; 
-if keyboard_check_pressed(vk_space)
+//dash = false; 
+if keyboard_check_pressed(vk_space) 
+
 {
-	dash = true;
-	alarm[0] = room_speed / 2; //move times speed
+	// makes dash true. If space is pressed.
+	is_dash = !is_dash;
 	
-	if keyboard_check(vk_up) dash_dir = 90;
+ // checking for direction the player is moving in
+ 	if keyboard_check(vk_up) dash_dir = 90;
 	else if keyboard_check(vk_right) dash_dir = 0;
 	else if keyboard_check(vk_down) dash_dir = 270;
 	else if keyboard_check(vk_left) dash_dir = 180;
+	 	  
+
+if is_dash == true 
+//the normal move speed turns to dash speed 
+	moveSpeed = dash_sp;
+ alarm[0] = 20; 
+//also triggers this alarm, which runs down to 0 from 20 steps/frames 
+//I think...
 }
 
-if dash 
-{
-	x += lengthdir_x(dash_sp, dash_dir);
-	y += lengthdir_y(dash_sp, dash_dir);
-}
 
 move_and_collide(_inputX * moveSpeed, _inputY * moveSpeed, Walls,4,0,0,-1,-1);
