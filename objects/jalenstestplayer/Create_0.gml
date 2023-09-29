@@ -39,10 +39,11 @@ global.view_camera[0]=camera_create_view(0,0,384,216) = 0;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 67F37AA1
-/// @DnDArgument : "code" "$(13_10)	weapon = OBJ_StickWeapon_plz;$(13_10)	instance_create_depth(x, y, depth - 1, weapon);$(13_10)	weapon_x_offset = 32;$(13_10)	weapon_y_offset = 32;$(13_10)	is_swinging = false;$(13_10)"
+/// @DnDArgument : "code" "$(13_10)	weapon = OBJ_StickWeapon_plz;$(13_10)	instance_create_depth(x, y, depth - 1, weapon);$(13_10)	weapon_x_offset = 32;$(13_10)	weapon_y_offset = 32;$(13_10)	//is_swinging = false;$(13_10)	image_speed = 0;$(13_10)"
 
 	weapon = OBJ_StickWeapon_plz;
 	instance_create_depth(x, y, depth - 1, weapon);
 	weapon_x_offset = 32;
 	weapon_y_offset = 32;
-	is_swinging = false;
+	//is_swinging = false;
+	image_speed = 0;

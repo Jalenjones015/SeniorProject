@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "SP_Hitbox",
-  "bbox_bottom": 31,
+  "bbox_bottom": 19,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 19,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -15,9 +15,9 @@
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"05347e8a-17ea-45a4-a1ab-e24e0b1dcfce",},
   ],
-  "gridX": 0,
-  "gridY": 0,
-  "height": 32,
+  "gridX": 20,
+  "gridY": 20,
+  "height": 20,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ee04de14-8aec-4082-a27d-e50e83b87945","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32,
+  "width": 20,
 }

@@ -9,8 +9,8 @@
   "managed": false,
   "overriddenProperties": [],
   "parent": {
-    "name": "JalensOBJs",
-    "path": "folders/Objects/JalensOBJs.yy",
+    "name": "Z_unused_Test_Stuff",
+    "path": "folders/Z_unused_Test_Stuff.yy",
   },
   "parentObjectId": null,
   "persistent": false,
