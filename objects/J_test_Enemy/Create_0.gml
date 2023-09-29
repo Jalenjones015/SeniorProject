@@ -1,4 +1,4 @@
-alarm_set(0, room_speed * irandom_range(2, 5));
+//alarm_set(0, room_speed * irandom_range(2, 5));
 image_speed = 0;
-var enemyhp = 5;
-var enemymaxhp = 5;
+Enemyhp = 5;
+Enemymaxhp = 5;

@@ -1,4 +1,29 @@
-instance_create_depth(weapon.x, weapon.y, depth - 1, OBJ_Hitbox)
+
+
+
+instance_create_depth(weapon.x + 30, weapon.y - 10, depth - 1, OBJ_Hitbox)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
