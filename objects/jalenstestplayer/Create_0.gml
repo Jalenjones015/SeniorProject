@@ -1,22 +1,38 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 31052F0B
-/// @DnDInput : 6
-/// @DnDArgument : "expr" "4"
+/// @DnDInput : 12
+/// @DnDArgument : "expr" "3"
 /// @DnDArgument : "expr_3" "10"
 /// @DnDArgument : "expr_4" "10"
-/// @DnDArgument : "var" "Pspeed"
+/// @DnDArgument : "expr_6" "false"
+/// @DnDArgument : "expr_7" "moveSpeed * 2"
+/// @DnDArgument : "expr_10" "2"
+/// @DnDArgument : "expr_11" "20"
+/// @DnDArgument : "var" "moveSpeed"
 /// @DnDArgument : "var_1" "cam_x"
 /// @DnDArgument : "var_2" "cam_y"
 /// @DnDArgument : "var_3" "hp"
 /// @DnDArgument : "var_4" "hp_max"
 /// @DnDArgument : "var_5" "pjDir"
-Pspeed = 4;
+/// @DnDArgument : "var_6" "is_dash"
+/// @DnDArgument : "var_7" "dash_sp"
+/// @DnDArgument : "var_8" "dash_dir"
+/// @DnDArgument : "var_9" "dash_count"
+/// @DnDArgument : "var_10" "cooldown"
+/// @DnDArgument : "var_11" "timer"
+moveSpeed = 3;
 cam_x = 0;
 cam_y = 0;
 hp = 10;
 hp_max = 10;
 pjDir = 0;
+is_dash = false;
+dash_sp = moveSpeed * 2;
+dash_dir = 0;
+dash_count = 0;
+cooldown = 2;
+timer = 20;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

@@ -20,10 +20,10 @@ if keyboard_check_pressed(vk_space)
 	is_dash = !is_dash;
 	
  // checking for direction the player is moving in
- 	if keyboard_check(vk_up) dash_dir = 90;
-	else if keyboard_check(vk_right) dash_dir = 0;
-	else if keyboard_check(vk_down) dash_dir = 270;
-	else if keyboard_check(vk_left) dash_dir = 180;
+ 	if keyboard_check(vk_up)  or keyboard_check(ord("W"))  dash_dir = 90;
+	else if keyboard_check(vk_right) or keyboard_check(ord("D")) dash_dir = 0;
+	else if keyboard_check(vk_down) or keyboard_check(ord("S")) dash_dir = 270;
+	else if keyboard_check(vk_left) or keyboard_check(ord("")) dash_dir = 180;
 	 	  
 
 if is_dash == true 
