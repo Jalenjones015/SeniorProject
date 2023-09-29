@@ -82,7 +82,7 @@
     {"id":{"name":"Rghostie","path":"sprites/Rghostie/Rghostie.yy",},},
     {"id":{"name":"Startroom","path":"rooms/Startroom/Startroom.yy",},},
     {"id":{"name":"Sproomtransition","path":"sprites/Sproomtransition/Sproomtransition.yy",},},
-    {"id":{"name":"PressToClose","path":"objects/PressToClose/PressToClose.yy",},},
+    {"id":{"name":"PressToGoBack","path":"objects/PressToGoBack/PressToGoBack.yy",},},
     {"id":{"name":"StickWeaponAni","path":"sprites/StickWeaponAni/StickWeaponAni.yy",},},
     {"id":{"name":"Endgamewall","path":"objects/Endgamewall/Endgamewall.yy",},},
     {"id":{"name":"obj_button_quit","path":"objects/obj_button_quit/obj_button_quit.yy",},},

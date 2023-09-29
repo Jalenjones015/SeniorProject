@@ -3,8 +3,8 @@
 /// @DnDHash : 31052F0B
 /// @DnDInput : 12
 /// @DnDArgument : "expr" "3"
-/// @DnDArgument : "expr_3" "10"
-/// @DnDArgument : "expr_4" "10"
+/// @DnDArgument : "expr_3" "100"
+/// @DnDArgument : "expr_4" "100"
 /// @DnDArgument : "expr_6" "false"
 /// @DnDArgument : "expr_7" "moveSpeed * 2"
 /// @DnDArgument : "expr_10" "2"
@@ -24,8 +24,8 @@
 moveSpeed = 3;
 cam_x = 0;
 cam_y = 0;
-hp = 10;
-hp_max = 10;
+hp = 100;
+hp_max = 100;
 pjDir = 0;
 is_dash = false;
 dash_sp = moveSpeed * 2;

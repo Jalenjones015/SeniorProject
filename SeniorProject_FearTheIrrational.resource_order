@@ -56,7 +56,7 @@
     {"name":"obj_button_start","order":4,"path":"objects/obj_button_start/obj_button_start.yy",},
     {"name":"jalenstestplayer","order":2,"path":"objects/jalenstestplayer/jalenstestplayer.yy",},
     {"name":"Sproomtransition","order":1,"path":"sprites/Sproomtransition/Sproomtransition.yy",},
-    {"name":"PressToClose","order":4,"path":"objects/PressToClose/PressToClose.yy",},
+    {"name":"PressToGoBack","order":4,"path":"objects/PressToGoBack/PressToGoBack.yy",},
     {"name":"StickWeaponAni","order":5,"path":"sprites/StickWeaponAni/StickWeaponAni.yy",},
     {"name":"Endgamewall","order":3,"path":"objects/Endgamewall/Endgamewall.yy",},
     {"name":"obj_button_quit","order":3,"path":"objects/obj_button_quit/obj_button_quit.yy",},
