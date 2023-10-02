@@ -36,6 +36,13 @@ timer = 20;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
+/// @DnDHash : 48A68ADB
+/// @DnDArgument : "value" "5"
+/// @DnDArgument : "var" "ammo"
+global.ammo = 5;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
 /// @DnDHash : 605023E0
 /// @DnDInput : 6
 /// @DnDDisabled : 1

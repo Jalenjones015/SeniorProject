@@ -20,3 +20,11 @@ alarm_set(1, room_speed * 0.1);
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "Enemyhp"
 Enemyhp += -1;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 48D8B7B8
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "value_relative" "1"
+/// @DnDArgument : "var" "global.ammo"
+global.ammo += 1;
