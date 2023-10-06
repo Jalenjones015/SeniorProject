@@ -29,7 +29,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "SP_SpecialWeapon",
+    "path": "sprites/SP_SpecialWeapon/SP_SpecialWeapon.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

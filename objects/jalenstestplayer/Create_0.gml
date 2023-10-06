@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 31052F0B
-/// @DnDInput : 12
+/// @DnDInput : 13
 /// @DnDArgument : "expr" "3"
 /// @DnDArgument : "expr_3" "100"
 /// @DnDArgument : "expr_4" "100"
@@ -9,6 +9,7 @@
 /// @DnDArgument : "expr_7" "moveSpeed * 2"
 /// @DnDArgument : "expr_10" "2"
 /// @DnDArgument : "expr_11" "20"
+/// @DnDArgument : "expr_12" "50"
 /// @DnDArgument : "var" "moveSpeed"
 /// @DnDArgument : "var_1" "cam_x"
 /// @DnDArgument : "var_2" "cam_y"
@@ -21,6 +22,7 @@
 /// @DnDArgument : "var_9" "dash_count"
 /// @DnDArgument : "var_10" "cooldown"
 /// @DnDArgument : "var_11" "timer"
+/// @DnDArgument : "var_12" "pickup"
 moveSpeed = 3;
 cam_x = 0;
 cam_y = 0;
@@ -33,6 +35,7 @@ dash_dir = 0;
 dash_count = 0;
 cooldown = 2;
 timer = 20;
+pickup = 50;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
