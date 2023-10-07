@@ -22,7 +22,7 @@
 /// @DnDArgument : "var_9" "dash_count"
 /// @DnDArgument : "var_10" "cooldown"
 /// @DnDArgument : "var_11" "timer"
-/// @DnDArgument : "var_12" "pickup"
+/// @DnDArgument : "var_12" "pickup_radius"
 moveSpeed = 3;
 cam_x = 0;
 cam_y = 0;
@@ -35,7 +35,7 @@ dash_dir = 0;
 dash_count = 0;
 cooldown = 2;
 timer = 20;
-pickup = 50;
+pickup_radius = 50;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
@@ -63,13 +63,15 @@ global.ammo = 5;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 67F37AA1
-/// @DnDArgument : "code" "$(13_10)	weapon = OBJ_StickWeapon_plz;$(13_10)	weapon2 = SpecialWeapon;$(13_10)	instance_create_depth(x, y, depth - 1, weapon);$(13_10)	weapon_x_offset = 0;$(13_10)	weapon_y_offset = 0;$(13_10)	is_swinging = false;$(13_10)	is_specialing = false;$(13_10)	image_speed = 0;$(13_10)"
+/// @DnDArgument : "code" "$(13_10)	weapon = OBJ_StickWeapon_plz;$(13_10)	weapon2 = SpecialWeapon;$(13_10)	//instance_create_depth(x, y, depth - 1, weapon);$(13_10)	weapon_x_offset = 0;$(13_10)	weapon_y_offset = 0;$(13_10)	weapon2_x_offset = 3;$(13_10)	weapon2_y_offset = 0;$(13_10)	is_swinging = false;$(13_10)	is_specialing = false;$(13_10)	image_speed = 0;$(13_10)"
 
 	weapon = OBJ_StickWeapon_plz;
 	weapon2 = SpecialWeapon;
-	instance_create_depth(x, y, depth - 1, weapon);
+	//instance_create_depth(x, y, depth - 1, weapon);
 	weapon_x_offset = 0;
 	weapon_y_offset = 0;
+	weapon2_x_offset = 3;
+	weapon2_y_offset = 0;
 	is_swinging = false;
 	is_specialing = false;
 	image_speed = 0;
