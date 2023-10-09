@@ -72,6 +72,7 @@
     {"name":"RoomSwitch2","order":2,"path":"objects/RoomSwitch2/RoomSwitch2.yy",},
     {"name":"StartMenu","order":4,"path":"rooms/StartMenu/StartMenu.yy",},
     {"name":"J_Test_Enemy","order":4,"path":"sprites/J_Test_Enemy/J_Test_Enemy.yy",},
+    {"name":"Oreo_Spawner","order":6,"path":"objects/Oreo_Spawner/Oreo_Spawner.yy",},
     {"name":"Sprite11","order":7,"path":"sprites/Sprite11/Sprite11.yy",},
   ],
 }

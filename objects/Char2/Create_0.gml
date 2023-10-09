@@ -15,3 +15,4 @@ dash_dir = 0;
 dash_count = 0;
 cooldown = 2;
 timer = 20;
+collide_speed = moveSpeed + 1;

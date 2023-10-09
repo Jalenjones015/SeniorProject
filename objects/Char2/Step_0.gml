@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var _right = keyboard_check(vk_right) or keyboard_check(ord("D"));
-var _left = keyboard_check(vk_left) or keyboard_check(ord("A"));
-var _up = keyboard_check(vk_up) or keyboard_check(ord("W"));
-var _down = keyboard_check(vk_down) or keyboard_check(ord("S"));
+var _right = keyboard_check(vk_right) and place_free(x + collide_speed, y);
+var _left = keyboard_check(vk_left)  and place_free(x - collide_speed, y );
+var _up = keyboard_check(vk_up) and place_free( x, y - collide_speed);
+var _down = keyboard_check(vk_down) and place_free( x, y + collide_speed);
 var _dash = keyboard_check_pressed(vk_space);
 var _inputX = _right - _left;
 var _inputY = _down - _up;
