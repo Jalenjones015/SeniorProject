@@ -27,6 +27,7 @@
         {"name":"g_GradientPosition2","type":0,"value":"1",},
         {"name":"g_GradientMode","type":0,"value":"0",},
       ],"spriteId":{"name":"leavves_layer","path":"sprites/leavves_layer/leavves_layer.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":-15,"y":0,},
+    {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
   ],
   "parent": {
     "name": "Rooms",

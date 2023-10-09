@@ -48,6 +48,7 @@
     {"name":"J_test_Enemy22","order":9,"path":"objects/J_test_Enemy22/J_test_Enemy22.yy",},
     {"name":"wall","order":2,"path":"sprites/wall/wall.yy",},
     {"name":"SP_Hitbox","order":7,"path":"sprites/SP_Hitbox/SP_Hitbox.yy",},
+    {"name":"weapons","order":5,"path":"objects/weapons/weapons.yy",},
     {"name":"Sprite7","order":8,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"kitty","order":4,"path":"sprites/kitty/kitty.yy",},
     {"name":"Sprite10","order":6,"path":"sprites/Sprite10/Sprite10.yy",},
