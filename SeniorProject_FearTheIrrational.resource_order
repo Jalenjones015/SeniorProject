@@ -46,6 +46,7 @@
     {"name":"RoomSwitch","order":1,"path":"objects/RoomSwitch/RoomSwitch.yy",},
     {"name":"J_test_Enemy22","order":9,"path":"objects/J_test_Enemy22/J_test_Enemy22.yy",},
     {"name":"wall","order":2,"path":"sprites/wall/wall.yy",},
+    {"name":"Oreo_pause","order":7,"path":"objects/Oreo_pause/Oreo_pause.yy",},
     {"name":"SP_Hitbox","order":7,"path":"sprites/SP_Hitbox/SP_Hitbox.yy",},
     {"name":"Sprite7","order":8,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"kitty","order":4,"path":"sprites/kitty/kitty.yy",},
