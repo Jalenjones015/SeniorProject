@@ -13,10 +13,7 @@
     "name": "JalensOBJs",
     "path": "folders/Objects/JalensOBJs.yy",
   },
-  "parentObjectId": {
-    "name": "weapons",
-    "path": "objects/weapons/weapons.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

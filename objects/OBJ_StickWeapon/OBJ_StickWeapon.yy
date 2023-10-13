@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "OBJ_StickWeapon_plz",
+  "name": "OBJ_StickWeapon",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
@@ -13,10 +13,7 @@
     "name": "JalensOBJs",
     "path": "folders/Objects/JalensOBJs.yy",
   },
-  "parentObjectId": {
-    "name": "weapons",
-    "path": "objects/weapons/weapons.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
