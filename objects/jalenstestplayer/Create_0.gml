@@ -60,7 +60,7 @@ global.ammo = 5;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 67F37AA1
-/// @DnDArgument : "code" "$(13_10)	weapon = OBJ_StickWeapon;$(13_10)	weapon2 = SpecialWeapon;$(13_10)	weapon_x_offset = 0;$(13_10)	weapon_y_offset = 0;$(13_10)	weapon2_x_offset = 0;$(13_10)	weapon2_y_offset = 0;$(13_10)	//is_swinging = false;$(13_10)	//is_specialing = false;$(13_10)	image_speed = 0;$(13_10)$(13_10)active = OBJ_StickWeapon;$(13_10)activeani = StickWeaponAni;"
+/// @DnDArgument : "code" "$(13_10)	weapon = OBJ_StickWeapon;$(13_10)	weapon2 = SpecialWeapon;$(13_10)	weapon_x_offset = 0;$(13_10)	weapon_y_offset = 0;$(13_10)	weapon2_x_offset = 0;$(13_10)	weapon2_y_offset = 0;$(13_10)	//is_swinging = false;$(13_10)	//is_specialing = false;$(13_10)	image_speed = 0;$(13_10)	pickedup = false;$(13_10)$(13_10)active = OBJ_StickWeapon;$(13_10)activeani = StickWeaponAni;"
 
 	weapon = OBJ_StickWeapon;
 	weapon2 = SpecialWeapon;
@@ -71,6 +71,7 @@ global.ammo = 5;
 	//is_swinging = false;
 	//is_specialing = false;
 	image_speed = 0;
+	pickedup = false;
 
 active = OBJ_StickWeapon;
 activeani = StickWeaponAni;

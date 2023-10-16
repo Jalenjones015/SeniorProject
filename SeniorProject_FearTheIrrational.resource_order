@@ -69,6 +69,7 @@
     {"name":"button","order":1,"path":"sprites/button/button.yy",},
     {"name":"obaj_button_par","order":1,"path":"objects/obaj_button_par/obaj_button_par.yy",},
     {"name":"gold_coin","order":3,"path":"sprites/gold_coin/gold_coin.yy",},
+    {"name":"SpecialWeaponPickup","order":13,"path":"objects/SpecialWeaponPickup/SpecialWeaponPickup.yy",},
     {"name":"RoomSwitch2","order":2,"path":"objects/RoomSwitch2/RoomSwitch2.yy",},
     {"name":"StartMenu","order":4,"path":"rooms/StartMenu/StartMenu.yy",},
     {"name":"J_Test_Enemy","order":4,"path":"sprites/J_Test_Enemy/J_Test_Enemy.yy",},

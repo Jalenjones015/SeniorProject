@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 693B85FB
+/// @DnDHash : 2344E138
 /// @DnDArgument : "code" "with(other)$(13_10)$(13_10){$(13_10)	instance_destroy();$(13_10)}$(13_10)$(13_10)x += 20$(13_10)image_index = 1$(13_10)alarm_set(1, room_speed * 0.1);"
 with(other)
 
@@ -14,15 +14,15 @@ alarm_set(1, room_speed * 0.1);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 78C33A1F
-/// @DnDArgument : "expr" "-1"
+/// @DnDHash : 5C41906F
+/// @DnDArgument : "expr" "-5"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "Enemyhp"
-Enemyhp += -1;
+Enemyhp += -5;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 48D8B7B8
+/// @DnDHash : 28A5D39F
 /// @DnDArgument : "value" "1"
 /// @DnDArgument : "value_relative" "1"
 /// @DnDArgument : "var" "global.ammo"
