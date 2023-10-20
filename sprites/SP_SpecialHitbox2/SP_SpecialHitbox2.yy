@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "SP_SpecialHitbox2",
-  "bbox_bottom": 31,
+  "bbox_bottom": 63,
   "bbox_left": 0,
   "bbox_right": 63,
   "bbox_top": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 64,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2dcba1d7-4dbd-482f-ac33-857f63c26a72","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
