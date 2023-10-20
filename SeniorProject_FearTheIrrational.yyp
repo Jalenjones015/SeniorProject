@@ -57,6 +57,7 @@
     {"id":{"name":"obj_button_help","path":"objects/obj_button_help/obj_button_help.yy",},},
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
     {"id":{"name":"SpecialWeapon","path":"objects/SpecialWeapon/SpecialWeapon.yy",},},
+    {"id":{"name":"Sprite28","path":"sprites/Sprite28/Sprite28.yy",},},
     {"id":{"name":"SPR_Projectile","path":"sprites/SPR_Projectile/SPR_Projectile.yy",},},
     {"id":{"name":"J_pause","path":"objects/J_pause/J_pause.yy",},},
     {"id":{"name":"OBJ_Projectile","path":"objects/OBJ_Projectile/OBJ_Projectile.yy",},},

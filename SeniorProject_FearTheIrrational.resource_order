@@ -37,6 +37,7 @@
     {"name":"SpecialWeaponPickup2","order":3,"path":"objects/SpecialWeaponPickup2/SpecialWeaponPickup2.yy",},
     {"name":"obj_button_help","order":3,"path":"objects/obj_button_help/obj_button_help.yy",},
     {"name":"obj_enemy1","order":6,"path":"objects/obj_enemy1/obj_enemy1.yy",},
+    {"name":"Sprite28","order":11,"path":"sprites/Sprite28/Sprite28.yy",},
     {"name":"SPR_Projectile","order":8,"path":"sprites/SPR_Projectile/SPR_Projectile.yy",},
     {"name":"J_pause","order":8,"path":"objects/J_pause/J_pause.yy",},
     {"name":"OBJ_Projectile","order":4,"path":"objects/OBJ_Projectile/OBJ_Projectile.yy",},
