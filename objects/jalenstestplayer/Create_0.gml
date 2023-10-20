@@ -37,9 +37,15 @@ timer = 20;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 48A68ADB
+/// @DnDInput : 3
 /// @DnDArgument : "value" "5"
+/// @DnDArgument : "value_2" "100"
 /// @DnDArgument : "var" "ammo"
+/// @DnDArgument : "var_1" "SWCount"
+/// @DnDArgument : "var_2" "SWMax"
 global.ammo = 5;
+global.SWCount = 0;
+global.SWMax = 100;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
@@ -60,10 +66,10 @@ global.ammo = 5;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 67F37AA1
-/// @DnDArgument : "code" "$(13_10)	weapon = OBJ_StickWeapon;$(13_10)	weapon2 = SpecialWeapon;$(13_10)	weapon_x_offset = 0;$(13_10)	weapon_y_offset = 0;$(13_10)	weapon2_x_offset = 0;$(13_10)	weapon2_y_offset = 0;$(13_10)	//is_swinging = false;$(13_10)	//is_specialing = false;$(13_10)	image_speed = 0;$(13_10)	pickedup = false;$(13_10)$(13_10)active = OBJ_StickWeapon;$(13_10)activeani = StickWeaponAni;"
+/// @DnDArgument : "code" "$(13_10)	//weapon = OBJ_StickWeapon;$(13_10)	//weapon2 = SpecialWeapon;$(13_10)	weapon_x_offset = 0;$(13_10)	weapon_y_offset = 0;$(13_10)	weapon2_x_offset = 0;$(13_10)	weapon2_y_offset = 0;$(13_10)	//is_swinging = false;$(13_10)	//is_specialing = false;$(13_10)	image_speed = 0;$(13_10)	pickedup = false;$(13_10)$(13_10)active = OBJ_StickWeapon;$(13_10)activeani = StickWeaponAni;$(13_10)$(13_10)"
 
-	weapon = OBJ_StickWeapon;
-	weapon2 = SpecialWeapon;
+	//weapon = OBJ_StickWeapon;
+	//weapon2 = SpecialWeapon;
 	weapon_x_offset = 0;
 	weapon_y_offset = 0;
 	weapon2_x_offset = 0;

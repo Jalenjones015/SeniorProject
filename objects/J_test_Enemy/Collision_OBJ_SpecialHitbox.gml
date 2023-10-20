@@ -23,7 +23,12 @@ Enemyhp += -5;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 2B667E58
+/// @DnDInput : 2
 /// @DnDArgument : "value" "1"
 /// @DnDArgument : "value_relative" "1"
+/// @DnDArgument : "value_1" "-2"
+/// @DnDArgument : "value_relative_1" "1"
 /// @DnDArgument : "var" "global.ammo"
+/// @DnDArgument : "var_1" "global.SWCount"
 global.ammo += 1;
+global.SWCount += -2;

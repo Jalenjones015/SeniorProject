@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "JalensOBJs",
-    "path": "folders/Objects/JalensOBJs.yy",
+    "name": "Hitboxes",
+    "path": "folders/Objects/JalensOBJs/Hitboxes.yy",
   },
   "parentObjectId": null,
   "persistent": false,

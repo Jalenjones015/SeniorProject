@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "JalensOBJs",
-    "path": "folders/Objects/JalensOBJs.yy",
+    "name": "SpecialWeapons",
+    "path": "folders/Objects/JalensOBJs/SpecialWeapons.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -1,4 +1,5 @@
-
+if global.SWCount >= 10
+{
 	if pickedup == true
 		{
 			if	(keyboard_check(ord("E")))
@@ -11,4 +12,14 @@
 				activeani = SP_SpecialWeapon;
 				}
 		}
+}
+
+//if global.SWCount <= 0
+//{
+//	global.SWCount = 0;
+//	instance_deactivate_object(SpecialWeapon);
+//	instance_create_depth(x, y, depth - 1, OBJ_StickWeapon);
+//	active = OBJ_StickWeapon;
+//	activeani = StickWeaponAni;
+//}
 	
