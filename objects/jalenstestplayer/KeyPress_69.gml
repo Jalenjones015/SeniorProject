@@ -1,6 +1,6 @@
 if global.SWCount >= 10
 {
-	if pickedup1 == true
+	if pickedup == true
 		{
 			if	(keyboard_check(ord("E")))
 				{
@@ -10,23 +10,6 @@ if global.SWCount >= 10
 				//weapon.y = y + weapon_y_offset;
 				active = SpecialWeapon;
 				activeani = SP_SpecialWeapon;
-				}
-		}
-}
-
-if global.SWCount >= 20
-{
-	if pickedup2 == true
-		{
-			if	(keyboard_check(ord("E")))
-				{
-				instance_deactivate_object(OBJ_StickWeapon);
-				instance_deactivate_object(SpecialWeapon);
-				instance_create_depth(x, y, depth - 1, SpecialWeapon2);
-				//weapon2.x = x + weapon_x_offset;
-				//weapon.y = y + weapon_y_offset;
-				active = SpecialWeapon2;
-				activeani = SP_SpecialWeapon2;
 				}
 		}
 }
