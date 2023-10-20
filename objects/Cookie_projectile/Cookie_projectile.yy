@@ -2,12 +2,14 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "Cookie_projectile",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "SeniorProject_FearTheIrrational",
-    "path": "SeniorProject_FearTheIrrational.yyp",
+    "name": "AshleysOBJs",
+    "path": "folders/Objects/AshleysOBJs.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite26",
-    "path": "sprites/Sprite26/Sprite26.yy",
+    "name": "C_pro",
+    "path": "sprites/C_pro/C_pro.yy",
   },
   "spriteMaskId": null,
   "visible": true,
