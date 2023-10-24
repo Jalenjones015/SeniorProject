@@ -8,11 +8,11 @@ moveY = 0;
 
 zoomX = 0;
 zoomY = 0;
-is_dash = false;
+global.is_dash = false;
 dash_sp = moveSpeed * 2; 
 dash_dir = 0;
 
 dash_count = 0;
-cooldown = 2;
+cooldown = 1;
 timer = 20;
 collide_speed = moveSpeed + 1;

@@ -2,8 +2,18 @@
 // You can write your code in this editor
 
 
-speed =5; 
-depth = -1;
+if (distance_to_point(xstart, ystart) >= 3) 
+{
+	move_towards_point(xstart, ystart, 1)
+}
+
+else 
+
+{
+	speed = 0;
+	
+}
+
 
 
 

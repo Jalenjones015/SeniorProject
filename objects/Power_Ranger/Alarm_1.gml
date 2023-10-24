@@ -2,8 +2,10 @@
 // You can write your code in this editor
 
 
-speed =5; 
-depth = -1;
+
+//rando_go = direction;
+//speed = 5;
+
 
 
 

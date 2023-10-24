@@ -1,9 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+global.is_dash = false;
+p_colli = false;
 
-speed =5; 
-depth = -1;
+
 
 
 

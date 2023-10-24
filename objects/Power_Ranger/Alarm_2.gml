@@ -1,9 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+/// @description Bullet cooldown alarm
 
-speed =5; 
-depth = -1;
+//show_debug_message("alarm");
+alarm[2] = bulletpause;
+
 
 
 

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Cookie_projectile",
+  "name": "O_Pit",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite28",
-    "path": "sprites/Sprite28/Sprite28.yy",
+    "name": "Sprite29",
+    "path": "sprites/Sprite29/Sprite29.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 var _right = keyboard_check(vk_right) and place_free(x + collide_speed, y);
 var _left = keyboard_check(vk_left)  and place_free(x - collide_speed, y );
 var _up = keyboard_check(vk_up) and place_free( x, y - collide_speed);
@@ -17,9 +14,9 @@ if keyboard_check_pressed(vk_space)
 
 {
 	// makes dash true. If space is pressed.
-	is_dash = !is_dash;
+	global.is_dash = !global.is_dash;
 	
-if is_dash == true 
+if global.is_dash == true 
 	
  // checking for direction the player is moving in
  	if keyboard_check(vk_up)  or keyboard_check(ord("W"))  dash_dir = 90;
@@ -32,8 +29,8 @@ if is_dash == true
 //the normal move speed turns to dash speed 
 	moveSpeed = dash_sp;
  alarm[0] = 20; 
-//also triggers this alarm, which runs down to 0 from 20 steps/frames 
-//I think...
+// triggers this alarm, which runs down to 0 from 20 steps/frames. 
+
 }
 
 
