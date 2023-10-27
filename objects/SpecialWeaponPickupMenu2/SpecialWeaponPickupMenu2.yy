@@ -1,16 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "OBJ_Hitbox",
+  "name": "SpecialWeaponPickupMenu2",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Hitboxes",
-    "path": "folders/Objects/JalensOBJs/Hitboxes.yy",
+    "name": "SpecialWeapons",
+    "path": "folders/Objects/JalensOBJs/SpecialWeapons.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,9 +31,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SP_Hitbox",
-    "path": "sprites/SP_Hitbox/SP_Hitbox.yy",
+    "name": "SP_SpecialWeapon2",
+    "path": "sprites/SP_SpecialWeapon2/SP_SpecialWeapon2.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

@@ -29,6 +29,16 @@ draw_healthbar(200, 970, 450, 1000, global.SWCount/global.SWMax * 100, $FF000000
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 21FDFB39
+/// @DnDArgument : "x" "240"
 /// @DnDArgument : "caption" ""Ammo: ""
 /// @DnDArgument : "var" "string(global.ammo)"
-draw_text(0, 0, string("Ammo: ") + string(string(global.ammo)));
+draw_text(240, 0, string("Ammo: ") + string(string(global.ammo)));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 282B18A9
+/// @DnDArgument : "x" "150"
+/// @DnDArgument : "y" "900"
+/// @DnDArgument : "caption" ""Special Weapon: ""
+/// @DnDArgument : "var" "string(global.SWCount)"
+draw_text(150, 900, string("Special Weapon: ") + string(string(global.SWCount)));

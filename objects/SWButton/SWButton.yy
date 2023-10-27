@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "Sp_WeaponButton",
+    "path": "sprites/Sp_WeaponButton/Sp_WeaponButton.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

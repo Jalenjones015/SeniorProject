@@ -33,5 +33,5 @@
     "path": "sprites/SP_SpecialHitbox/SP_SpecialHitbox.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

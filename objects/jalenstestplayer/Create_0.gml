@@ -10,8 +10,8 @@
 /// @DnDArgument : "expr_10" "2"
 /// @DnDArgument : "expr_11" "20"
 /// @DnDArgument : "var" "moveSpeed"
-/// @DnDArgument : "var_1" "cam_x"
-/// @DnDArgument : "var_2" "cam_y"
+/// @DnDArgument : "var_1" "global.cam_x"
+/// @DnDArgument : "var_2" "global.cam_y"
 /// @DnDArgument : "var_3" "hp"
 /// @DnDArgument : "var_4" "hp_max"
 /// @DnDArgument : "var_5" "pjDir"
@@ -22,8 +22,8 @@
 /// @DnDArgument : "var_10" "cooldown"
 /// @DnDArgument : "var_11" "timer"
 moveSpeed = 3;
-cam_x = 0;
-cam_y = 0;
+global.cam_x = 0;
+global.cam_y = 0;
 hp = 100;
 hp_max = 100;
 pjDir = 0;
@@ -66,7 +66,7 @@ global.SWMax = 100;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 67F37AA1
-/// @DnDArgument : "code" "$(13_10)	//weapon = OBJ_StickWeapon;$(13_10)	//weapon2 = SpecialWeapon;$(13_10)	weapon_x_offset = 0;$(13_10)	weapon_y_offset = 0;$(13_10)	weapon2_x_offset = 0;$(13_10)	weapon2_y_offset = 0;$(13_10)	//is_swinging = false;$(13_10)	//is_specialing = false;$(13_10)	image_speed = 0;$(13_10)	pickedup1 = false;$(13_10)	pickedup2 = false;$(13_10)$(13_10)active = OBJ_StickWeapon;$(13_10)activeani = StickWeaponAni;$(13_10)$(13_10)"
+/// @DnDArgument : "code" "$(13_10)	//weapon = OBJ_StickWeapon;$(13_10)	//weapon2 = SpecialWeapon;$(13_10)	weapon_x_offset = 0;$(13_10)	weapon_y_offset = 0;$(13_10)	weapon2_x_offset = 0;$(13_10)	weapon2_y_offset = 0;$(13_10)	//is_swinging = false;$(13_10)	//is_specialing = false;$(13_10)	image_speed = 0;$(13_10)	global.pickedup1 = false;$(13_10)	global.pickedup2 = false;$(13_10)$(13_10)active = OBJ_StickWeapon;$(13_10)activeani = StickWeaponAni;$(13_10)$(13_10)"
 
 	//weapon = OBJ_StickWeapon;
 	//weapon2 = SpecialWeapon;
@@ -77,8 +77,8 @@ global.SWMax = 100;
 	//is_swinging = false;
 	//is_specialing = false;
 	image_speed = 0;
-	pickedup1 = false;
-	pickedup2 = false;
+	global.pickedup1 = false;
+	global.pickedup2 = false;
 
 active = OBJ_StickWeapon;
 activeani = StickWeaponAni;
