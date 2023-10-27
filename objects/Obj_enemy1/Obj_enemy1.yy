@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "enemy",
-    "path": "sprites/enemy/enemy.yy",
+    "name": "Rghostie",
+    "path": "sprites/Rghostie/Rghostie.yy",
   },
   "spriteMaskId": null,
   "visible": true,

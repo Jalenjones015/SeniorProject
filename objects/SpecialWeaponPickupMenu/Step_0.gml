@@ -13,13 +13,6 @@ if(l45FA058C_0)
 	/// @DnDParent : 45FA058C
 	/// @DnDArgument : "instvar" "6"
 	visible = 0;
-
-	/// @DnDAction : YoYo Games.Common.Execute_Code
-	/// @DnDVersion : 1
-	/// @DnDHash : 287F11FA
-	/// @DnDParent : 45FA058C
-	/// @DnDArgument : "code" "	instance_deactivate_object(SpecialWeaponPickupMenu);"
-		instance_deactivate_object(SpecialWeaponPickupMenu);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -36,12 +29,4 @@ if(global.pickedup1 == 1)
 	/// @DnDArgument : "value" "1"
 	/// @DnDArgument : "instvar" "6"
 	visible = 1;
-
-	/// @DnDAction : YoYo Games.Common.Execute_Code
-	/// @DnDVersion : 1
-	/// @DnDHash : 3650EB0A
-	/// @DnDParent : 60AD8B22
-	/// @DnDArgument : "code" "/// @description Execute Code$(13_10)instance_activate_object(SpecialWeaponPickupMenu);"
-	/// @description Execute Code
-	instance_activate_object(SpecialWeaponPickupMenu);
 }

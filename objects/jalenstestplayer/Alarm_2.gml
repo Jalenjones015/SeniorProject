@@ -1,5 +1,4 @@
 moveSpeed = 3;
-is_dash = true;
 
 
 
