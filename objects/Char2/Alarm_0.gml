@@ -6,7 +6,7 @@
 
 
 //once alarm hits zerp it sends the player down back to nromal speed
-moveSpeed = 3; 
+global.moveSpeed = 3; 
 
 	
 

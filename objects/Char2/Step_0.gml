@@ -27,11 +27,11 @@ if global.is_dash == true
 
 
 //the normal move speed turns to dash speed 
-	moveSpeed = dash_sp;
+	global.moveSpeed = dash_sp;
  alarm[0] = 20; 
 // triggers this alarm, which runs down to 0 from 20 steps/frames. 
 
 }
 
 
-move_and_collide(_inputX * moveSpeed, _inputY * moveSpeed, Walls,4,0,0,-1,-1);
+move_and_collide(_inputX * global.moveSpeed, _inputY * global.moveSpeed, Walls,4,0,0,-1,-1);

@@ -1,15 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-global.is_dash = false;
-p_colli = false;
+hspd = lengthdir_x (1.5, direction);
+vspd = lengthdir_y (1.5, direction);
 
-depth = 1;
 
-hspd = lengthdir_x (0, direction);
-vspd = lengthdir_y (0, direction);
 
-target = noone;
+
+
+
+
+
+
+
+
 
 
 
