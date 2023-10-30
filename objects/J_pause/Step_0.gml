@@ -3,9 +3,9 @@
 
 if (keyboard_check_pressed(ord("R"))) 
 {
-	if (!pause)
+	if (!global.pause)
 {
-	pause = true; 
+	global.pause = true; 
 	instance_deactivate_layer("Instances_1")
 	//instance_activate_layer(Instances_1)
 	layer_set_visible("Instances_1", false)
@@ -16,7 +16,7 @@ if (keyboard_check_pressed(ord("R")))
 }
 else 
 {
-pause = false;
+global.pause = false;
 instance_activate_all();
 layer_set_visible("Instances_1", true)
 layer_set_visible("Instances_2", false)

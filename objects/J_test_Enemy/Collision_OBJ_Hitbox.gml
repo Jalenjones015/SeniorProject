@@ -17,8 +17,8 @@ alarm_set(1, room_speed * 0.1);
 /// @DnDHash : 78C33A1F
 /// @DnDArgument : "expr" "-1"
 /// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "Enemyhp"
-Enemyhp += -1;
+/// @DnDArgument : "var" "enemyhp"
+enemyhp += -1;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

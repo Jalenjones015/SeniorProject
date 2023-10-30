@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-if (pause) 
+if (global.pause) 
 {
 	//draw_set_color(c_black);
 	//draw_set_alpha(0.60);

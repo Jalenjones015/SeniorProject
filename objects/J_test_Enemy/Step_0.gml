@@ -33,13 +33,22 @@ else
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 27B1B641
-/// @DnDArgument : "var" "Enemyhp"
+/// @DnDArgument : "var" "enemyhp"
 /// @DnDArgument : "op" "3"
-if(Enemyhp <= 0)
+if(enemyhp <= 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 03E69A77
 	/// @DnDParent : 27B1B641
 	instance_destroy();
+
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 060F31B1
+	/// @DnDParent : 27B1B641
+	/// @DnDArgument : "value" "1"
+	/// @DnDArgument : "value_relative" "1"
+	/// @DnDArgument : "var" "global.killcounter"
+	global.killcounter += 1;
 }

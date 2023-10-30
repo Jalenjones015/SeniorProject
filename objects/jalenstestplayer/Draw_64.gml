@@ -42,3 +42,12 @@ draw_text(240, 0, string("Ammo: ") + string(string(global.ammo)));
 /// @DnDArgument : "caption" ""Special Weapon: ""
 /// @DnDArgument : "var" "string(global.SWCount)"
 draw_text(150, 900, string("Special Weapon: ") + string(string(global.SWCount)));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 04B679BB
+/// @DnDArgument : "x" "700"
+/// @DnDArgument : "y" "900"
+/// @DnDArgument : "caption" ""Kill Count: ""
+/// @DnDArgument : "var" "string(global.killcounter)"
+draw_text(700, 900, string("Kill Count: ") + string(string(global.killcounter)));
