@@ -10,7 +10,7 @@ hspd = lengthdir_x (0, direction);
 vspd = lengthdir_y (0, direction);
 
 target = noone;
-
+global.is_enabled = true;
 
 
 

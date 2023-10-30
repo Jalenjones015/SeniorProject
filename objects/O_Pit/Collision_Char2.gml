@@ -7,7 +7,7 @@ if place_meeting(x, y, Char2) and global.moveSpeed = 3
 	{
 show_debug_message("Green")
 target = other;
-alarm_set(0, room_speed * 0.3);
+alarm_set(0, room_speed * 0.2);
 }
 
 
