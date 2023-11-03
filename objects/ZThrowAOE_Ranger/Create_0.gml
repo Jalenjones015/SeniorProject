@@ -1,0 +1,93 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+can_throw = true;
+bomb_cooldown = 120;
+bomb_power = 9;
+hsp = 0;
+vsp = 0;
+
+rng = 150;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
