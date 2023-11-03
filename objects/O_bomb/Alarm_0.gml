@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+instance_create_layer(x, y, "Instance_Enemy", o_explosion);
+
 instance_destroy()
 
 alarm[0] = 0;

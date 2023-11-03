@@ -8,8 +8,8 @@ if instance_exists(O_bomb) and yes_bomb = true
 	
 //	yes_bomb = false;
 	//alarm[0]=timer;
-	alarm[0] = 60; 
-instance_create_layer(x, y, "Instance_Enemy", o_explosion);
+	alarm[0] = 30; 
+//instance_create_layer(x, y, "Instance_Enemy", o_explosion);
 
 
 }

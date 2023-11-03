@@ -1,6 +1,9 @@
  /// @description Insert description here
 // You can write your code in this editor
 
+hp = 50;
+hp_max = 100;
+
 global.moveSpeed = 3;
 
 moveX = 0;
