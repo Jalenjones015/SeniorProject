@@ -19,7 +19,7 @@ direction = choose(0, 90, 180, 270);
 
 bulletpause = room/8
 alarm[2] = bulletpause;
-
+global.moveSpeed = 3;
 
 
 

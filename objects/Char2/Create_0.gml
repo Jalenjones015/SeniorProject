@@ -3,6 +3,8 @@
 
 hp = 50;
 hp_max = 100;
+invinc = false;
+
 
 global.moveSpeed = 3;
 

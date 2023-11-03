@@ -9,7 +9,7 @@ vsp = 0;
 
 rng = 150;
 
-image_speed=0;
+image_speed = 0;
 
 
 direction = choose(0, 90, 180, 270);

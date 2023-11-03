@@ -2,10 +2,55 @@
 // You can write your code in this editor
 
 
+invinc = false;
 
 
-if keyboard_check_pressed(vk_space) 
- is_dash = false;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
