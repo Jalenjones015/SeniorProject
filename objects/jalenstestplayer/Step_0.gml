@@ -53,7 +53,7 @@ move_and_collide(xinput * moveSpeed, yinput * moveSpeed, Walls,4,0,0,-1,-1);
 	
 	if keyboard_check_pressed(vk_space) 
 {
-	is_dash = !is_dash;
+	global.is_dash = !global.is_dash;
 	
  	if keyboard_check(vk_up)  or keyboard_check(ord("W"))  dash_dir = 90;
 	else if keyboard_check(vk_right) or keyboard_check(ord("D")) dash_dir = 0;
@@ -61,7 +61,7 @@ move_and_collide(xinput * moveSpeed, yinput * moveSpeed, Walls,4,0,0,-1,-1);
 	else if keyboard_check(vk_left) or keyboard_check(ord("")) dash_dir = 180;
 	 	  
 
-if is_dash == true 
+if global.is_dash == true 
 //the normal move speed turns to dash speed 
 	moveSpeed = dash_sp;
  alarm[2] = 20; 
