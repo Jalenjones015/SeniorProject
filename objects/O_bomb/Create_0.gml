@@ -4,8 +4,9 @@
 vsp = 0;
 hsp = 0;
 
-timer =120;
+timer = 60;
 
+yes_bomb = true;
 
 
 
