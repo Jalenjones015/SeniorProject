@@ -4,7 +4,8 @@
 hp = 50;
 hp_max = 100;
 invinc = false;
-
+been_hit = false;
+counter = 0;
 
 global.moveSpeed = 3;
 

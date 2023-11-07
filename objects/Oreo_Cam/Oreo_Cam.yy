@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite34",
-    "path": "sprites/Sprite34/Sprite34.yy",
+    "name": "gold_coin",
+    "path": "sprites/gold_coin/gold_coin.yy",
   },
   "spriteMaskId": null,
   "visible": true,

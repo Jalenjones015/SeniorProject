@@ -22,6 +22,13 @@ else
 }
 }
 }
+
+
+
+
+
+
+
 //if distance_to_object(Char2) < 50
 //{
 //	alarm[1] = 0;

@@ -1,3 +1,5 @@
+counter ++;
+
 var _right = keyboard_check(vk_right) and place_free(x + collide_speed, y);
 var _left = keyboard_check(vk_left)  and place_free(x - collide_speed, y );
 var _up = keyboard_check(vk_up) and place_free( x, y - collide_speed);
