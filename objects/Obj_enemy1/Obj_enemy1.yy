@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Rghostie",
-    "path": "sprites/Rghostie/Rghostie.yy",
+    "name": "Melee",
+    "path": "sprites/Melee/Melee.yy",
   },
   "spriteMaskId": null,
   "visible": true,
