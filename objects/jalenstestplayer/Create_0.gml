@@ -1,13 +1,14 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1DD51145
-/// @DnDInput : 9
+/// @DnDInput : 10
 /// @DnDArgument : "expr" "3"
 /// @DnDArgument : "expr_1" "100"
 /// @DnDArgument : "expr_2" "100"
 /// @DnDArgument : "expr_4" "moveSpeed * 2"
 /// @DnDArgument : "expr_7" "2"
 /// @DnDArgument : "expr_8" "20"
+/// @DnDArgument : "expr_9" "false"
 /// @DnDArgument : "var" "moveSpeed"
 /// @DnDArgument : "var_1" "hp"
 /// @DnDArgument : "var_2" "hp_max"
@@ -17,6 +18,7 @@
 /// @DnDArgument : "var_6" "dash_count"
 /// @DnDArgument : "var_7" "cooldown"
 /// @DnDArgument : "var_8" "timer"
+/// @DnDArgument : "var_9" "is_dash"
 moveSpeed = 3;
 hp = 100;
 hp_max = 100;
@@ -26,26 +28,24 @@ dash_dir = 0;
 dash_count = 0;
 cooldown = 2;
 timer = 20;
+is_dash = false;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 72A9D6AC
-/// @DnDInput : 6
+/// @DnDInput : 5
 /// @DnDArgument : "value_2" "5"
 /// @DnDArgument : "value_4" "100"
-/// @DnDArgument : "value_5" "false"
 /// @DnDArgument : "var" "cam_x"
 /// @DnDArgument : "var_1" "cam_y"
 /// @DnDArgument : "var_2" "ammo"
 /// @DnDArgument : "var_3" "SWCount"
 /// @DnDArgument : "var_4" "SWMax"
-/// @DnDArgument : "var_5" "is_dash"
 global.cam_x = 0;
 global.cam_y = 0;
 global.ammo = 5;
 global.SWCount = 0;
 global.SWMax = 100;
-global.is_dash = false;
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1

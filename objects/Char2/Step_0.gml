@@ -1,9 +1,9 @@
 counter ++;
 
-var _right = keyboard_check(vk_right) and place_free(x + collide_speed, y);
-var _left = keyboard_check(vk_left)  and place_free(x - collide_speed, y );
-var _up = keyboard_check(vk_up) and place_free( x, y - collide_speed);
-var _down = keyboard_check(vk_down) and place_free( x, y + collide_speed);
+var _right = keyboard_check(ord("D")) or keyboard_check(vk_right) and place_free(x + collide_speed, y);
+var _left = keyboard_check(ord("A")) or keyboard_check(vk_left)  and place_free(x - collide_speed, y );
+var _up = keyboard_check(ord("W")) or keyboard_check(vk_up) and place_free( x, y - collide_speed);
+var _down = keyboard_check(ord("S")) or keyboard_check(vk_down) and place_free( x, y + collide_speed);
 var _dash = keyboard_check_pressed(vk_space);
 var _inputX = _right - _left;
 var _inputY = _down - _up;

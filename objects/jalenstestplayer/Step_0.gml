@@ -51,7 +51,7 @@ var yinput = down - up;
 var _dash = keyboard_check_pressed(vk_space);
 move_and_collide(xinput * moveSpeed, yinput * moveSpeed, Walls,4,0,0,-1,-1);
 	
-	if keyboard_check_pressed(vk_space) 
+	if keyboard_check_direct(vk_space) 
 {
 	is_dash = !is_dash;
 	
