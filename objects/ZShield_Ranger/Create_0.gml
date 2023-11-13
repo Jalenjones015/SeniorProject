@@ -9,7 +9,8 @@ vsp = 0;
 
 
 
-
+o_point = true;
+o_angle = true;
 
 
 
