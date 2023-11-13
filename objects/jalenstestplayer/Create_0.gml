@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1DD51145
-/// @DnDInput : 10
+/// @DnDInput : 11
 /// @DnDArgument : "expr" "3"
 /// @DnDArgument : "expr_1" "100"
 /// @DnDArgument : "expr_2" "100"
@@ -9,6 +9,7 @@
 /// @DnDArgument : "expr_7" "2"
 /// @DnDArgument : "expr_8" "20"
 /// @DnDArgument : "expr_9" "false"
+/// @DnDArgument : "expr_10" "true"
 /// @DnDArgument : "var" "moveSpeed"
 /// @DnDArgument : "var_1" "hp"
 /// @DnDArgument : "var_2" "hp_max"
@@ -19,6 +20,7 @@
 /// @DnDArgument : "var_7" "cooldown"
 /// @DnDArgument : "var_8" "timer"
 /// @DnDArgument : "var_9" "is_dash"
+/// @DnDArgument : "var_10" "is_swinging"
 moveSpeed = 3;
 hp = 100;
 hp_max = 100;
@@ -29,6 +31,7 @@ dash_count = 0;
 cooldown = 2;
 timer = 20;
 is_dash = false;
+is_swinging = true;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

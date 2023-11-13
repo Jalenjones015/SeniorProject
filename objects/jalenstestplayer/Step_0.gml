@@ -81,15 +81,18 @@ if global.active_room!=-1
 	{
 			if (image_angle = 90 or image_angle = 0 or image_angle = 180 or image_angle = 270)
 			{
-				is_swinging = true; // the club swings
+				//the club swings
 				if (is_swinging)
 				{
+					is_swinging = false;
 					active.image_speed = 1;
-					is_swinging = true;
+					//is_swinging = true;
 					active.sprite_index = activeani;
 					//activeani.image_index = 0;			
 					alarm_set(0, 3);
 					show_debug_message("Swing");
+					alarm_set(1, room_speed * .75)
+					
 				}
 			}
 		
