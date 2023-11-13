@@ -41,8 +41,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "kitty",
-    "path": "sprites/kitty/kitty.yy",
+    "name": "_547280b6_2c49_4a94_b55b_58d13ade941b",
+    "path": "sprites/_547280b6_2c49_4a94_b55b_58d13ade941b/_547280b6_2c49_4a94_b55b_58d13ade941b.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -46,6 +46,7 @@
   },
   "resources": [
     {"id":{"name":"O_standing_tile","path":"objects/O_standing_tile/O_standing_tile.yy",},},
+    {"id":{"name":"_547280b6_2c49_4a94_b55b_58d13ade941b","path":"sprites/_547280b6_2c49_4a94_b55b_58d13ade941b/_547280b6_2c49_4a94_b55b_58d13ade941b.yy",},},
     {"id":{"name":"Test_path","path":"paths/Test_path/Test_path.yy",},},
     {"id":{"name":"J_test_Enemy","path":"objects/J_test_Enemy/J_test_Enemy.yy",},},
     {"id":{"name":"wall21","path":"sprites/wall21/wall21.yy",},},
@@ -59,6 +60,7 @@
     {"id":{"name":"Path3","path":"paths/Path3/Path3.yy",},},
     {"id":{"name":"obj_button_help","path":"objects/obj_button_help/obj_button_help.yy",},},
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
+    {"id":{"name":"ZShield_Ranger","path":"objects/ZShield_Ranger/ZShield_Ranger.yy",},},
     {"id":{"name":"SpecialWeapon","path":"objects/SpecialWeapon/SpecialWeapon.yy",},},
     {"id":{"name":"SPR_Projectile","path":"sprites/SPR_Projectile/SPR_Projectile.yy",},},
     {"id":{"name":"Sprite34","path":"sprites/Sprite34/Sprite34.yy",},},
@@ -127,6 +129,7 @@
     {"id":{"name":"ZThrowAOE_Ranger","path":"objects/ZThrowAOE_Ranger/ZThrowAOE_Ranger.yy",},},
     {"id":{"name":"Rghostie","path":"sprites/Rghostie/Rghostie.yy",},},
     {"id":{"name":"Startroom","path":"rooms/Startroom/Startroom.yy",},},
+    {"id":{"name":"_8987f183_6ebb_4c70_8b28_0104eeee7258","path":"sprites/_8987f183_6ebb_4c70_8b28_0104eeee7258/_8987f183_6ebb_4c70_8b28_0104eeee7258.yy",},},
     {"id":{"name":"Sproomtransition","path":"sprites/Sproomtransition/Sproomtransition.yy",},},
     {"id":{"name":"Dooh_explosion","path":"sprites/Dooh_explosion/Dooh_explosion.yy",},},
     {"id":{"name":"PressToGoBack","path":"objects/PressToGoBack/PressToGoBack.yy",},},

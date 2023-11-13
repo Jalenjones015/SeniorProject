@@ -27,6 +27,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"O_standing_tile","order":12,"path":"objects/O_standing_tile/O_standing_tile.yy",},
+    {"name":"_547280b6_2c49_4a94_b55b_58d13ade941b","order":26,"path":"sprites/_547280b6_2c49_4a94_b55b_58d13ade941b/_547280b6_2c49_4a94_b55b_58d13ade941b.yy",},
     {"name":"Test_path","order":21,"path":"paths/Test_path/Test_path.yy",},
     {"name":"wall21","order":8,"path":"sprites/wall21/wall21.yy",},
     {"name":"SWButton","order":10,"path":"objects/SWButton/SWButton.yy",},
@@ -38,6 +39,7 @@
     {"name":"Path3","order":24,"path":"paths/Path3/Path3.yy",},
     {"name":"obj_button_help","order":2,"path":"objects/obj_button_help/obj_button_help.yy",},
     {"name":"obj_enemy1","order":5,"path":"objects/obj_enemy1/obj_enemy1.yy",},
+    {"name":"ZShield_Ranger","order":21,"path":"objects/ZShield_Ranger/ZShield_Ranger.yy",},
     {"name":"SPR_Projectile","order":7,"path":"sprites/SPR_Projectile/SPR_Projectile.yy",},
     {"name":"Sprite34","order":16,"path":"sprites/Sprite34/Sprite34.yy",},
     {"name":"SP_","order":14,"path":"sprites/SP_/SP_.yy",},
@@ -95,6 +97,7 @@
     {"name":"Bossman","order":2,"path":"objects/Bossman/Bossman.yy",},
     {"name":"ZThrowAOE_Ranger","order":20,"path":"objects/ZThrowAOE_Ranger/ZThrowAOE_Ranger.yy",},
     {"name":"Rghostie","order":12,"path":"sprites/Rghostie/Rghostie.yy",},
+    {"name":"_8987f183_6ebb_4c70_8b28_0104eeee7258","order":27,"path":"sprites/_8987f183_6ebb_4c70_8b28_0104eeee7258/_8987f183_6ebb_4c70_8b28_0104eeee7258.yy",},
     {"name":"Sproomtransition","order":1,"path":"sprites/Sproomtransition/Sproomtransition.yy",},
     {"name":"Dooh_explosion","order":17,"path":"sprites/Dooh_explosion/Dooh_explosion.yy",},
     {"name":"PressToGoBack","order":4,"path":"objects/PressToGoBack/PressToGoBack.yy",},
