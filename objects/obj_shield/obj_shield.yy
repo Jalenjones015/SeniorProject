@@ -1,11 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ZShield_Ranger",
+  "name": "obj_shield",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Char2","path":"objects/Char2/Char2.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -13,10 +13,7 @@
     "name": "AshleysOBJs",
     "path": "folders/Objects/AshleysOBJs.yy",
   },
-  "parentObjectId": {
-    "name": "obj_shield",
-    "path": "objects/obj_shield/obj_shield.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -33,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "_8987f183_6ebb_4c70_8b28_0104eeee7258",
-    "path": "sprites/_8987f183_6ebb_4c70_8b28_0104eeee7258/_8987f183_6ebb_4c70_8b28_0104eeee7258.yy",
+    "name": "Sprite48",
+    "path": "sprites/Sprite48/Sprite48.yy",
   },
   "spriteMaskId": null,
   "visible": true,

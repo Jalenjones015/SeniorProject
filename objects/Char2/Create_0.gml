@@ -22,6 +22,10 @@ cooldown = 1;
 timer = 20;
 collide_speed = global.moveSpeed + 1;
 depth = -2;
+global.yes_collide = true;
 
 
-
+ global._right = 0;
+ global._left = 0;
+global._up = 0;
+global._down = 0;

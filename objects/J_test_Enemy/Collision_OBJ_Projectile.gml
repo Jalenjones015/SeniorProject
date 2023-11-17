@@ -17,5 +17,5 @@ alarm_set(1, room_speed * 0.1);
 /// @DnDHash : 4DDFAAFB
 /// @DnDArgument : "expr" "-2"
 /// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "Enemyhp"
-Enemyhp += -2;
+/// @DnDArgument : "var" "enemyhp"
+enemyhp += -2;

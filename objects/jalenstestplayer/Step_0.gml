@@ -129,20 +129,26 @@ if global.active_room!=-1
 	//	}
 	}
 	
-	if (mouse_check_button_pressed(2))
-	{
-		if global.ammo >= 1
-		{
-			if (image_xscale = 1)
-			{
-			instance_create_layer(x + 20 , y + 0, "Instances_1", OBJ_Projectile);
-			global.ammo -= 1
-			}
-		
-			if (image_xscale != 1)
-			{
-			instance_create_layer(x - 20, y + 0, "Instances_1", OBJ_Projectile);
-			global.ammo -= 1
+if (mouse_check_button_pressed(2))
+    {
+
+        if global.ammo >= 1
+        {
+            if (is_shooting)
+            {
+                is_shooting = false;
+                if (image_xscale = 1)
+                {
+                instance_create_layer(x + 20 , y + 0, "Instances_1", OBJ_Projectile);
+                global.ammo -= 1
+                }
+
+                if (image_xscale != 1)
+                {
+                instance_create_layer(x - 20, y + 0, "Instances_1", OBJ_Projectile);
+                global.ammo -= 1
+                }
+                alarm_set(1, room_speed * .50)
 			}
 		}
 			else
@@ -151,6 +157,7 @@ if global.active_room!=-1
 			}
 		
 	}
+	
 	if global.ammo >= 10
 	{
 		global.ammo = 10;
