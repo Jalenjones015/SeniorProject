@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+place_free(x + global.collide_speed, y + global.collide_speed);
+
 if distance_to_object(Char2) < 120
 {
 move_towards_point(Char2.x, Char2.y, 2)
@@ -26,7 +29,11 @@ move_towards_point(Char2.x, Char2.y, 2)
 	}
 }
 
+if (currenthP == 0)
 
+{instance_destroy()
+	
+	}
 
 
 

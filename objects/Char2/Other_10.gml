@@ -2,6 +2,19 @@
 // You can write your code in this editor
 
 
+speed = 0;
+global.yes_collide = true;
+
+show_debug_message("Green" )
+
+
+
+
+
+
+
+
+
 
 
 

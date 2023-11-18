@@ -32,7 +32,7 @@ else if keyboard_check(vk_down) or keyboard_check(ord("S"))
 	}
 // add another slash to get it to stop ALARM [0]
 //dash = false; 
-if keyboard_check_pressed(vk_space) 
+if keyboard_check_pressed(vk_space) and can_dash = true
 
 {
 	// makes dash true. If space is pressed.
@@ -69,6 +69,8 @@ if global.is_dash == true
 //the normal move speed turns to dash speed 
 	global.moveSpeed = dash_sp;
  alarm[0] = 20; 
+ can_dash = false; 
+ alarm[5] = room_speed * 2;
 // triggers this alarm, which runs down to 0 from 20 steps/frames. 
 
 }
@@ -77,6 +79,34 @@ if global.is_dash == true
 move_and_collide(_inputX * global.moveSpeed, _inputY * global.moveSpeed, Walls,4,0,0,-1,-1);
 
 
+hit = instance_place(x, y, obj_enemy1)
+if (hit != noone) and can_hit = true
+{
+	can_hit = false;
+hit.currenthP -= 5;
+alarm[4] = room_speed * 2;
+
+}
 
 
+
+hit = instance_place(x, y, ZPower_Ranger)
+if (hit != noone) and can_hit = true
+{
+	
+can_hit = false;
+hit.currenthP -= 5;
+alarm[4] = room_speed * 2;
+
+}
+
+hit = instance_place(x, y, ZThrowAOE_Ranger)
+if (hit != noone) and can_hit = true
+{
+can_hit = false;
+hit.currenthP -= 5;
+alarm[4] = room_speed * 2;
+
+
+}
 

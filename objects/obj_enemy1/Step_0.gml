@@ -1,6 +1,6 @@
 if distance_to_object(Char2) < 100
 {
-path_end();
+//path_end();
 move_towards_point(Char2.x, Char2.y, 2)
 //mp_potential_step_object(Char2.x, Char2.y, 2, Walls )
 }
@@ -23,9 +23,13 @@ else
 	
 //if (abs(x - start_x) < 1 && abs(y - start_y) < 1) {
 	//path_start(Test_path, 3, path_action_reverse, false);
+
 }
 
+if (currenthP == 0)
 
-
-
+{
+	instance_destroy()
+	
+	}
 

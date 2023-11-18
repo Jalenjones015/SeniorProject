@@ -5,7 +5,7 @@
 
 
 
-speed = 0;
+speed = 2;
 global.yes_collide = true;
 
 show_debug_message("Green" )

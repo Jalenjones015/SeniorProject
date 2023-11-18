@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+maxHp = 15;
+currenthP = maxHp;
 
 heart = 5;
 spd = 3; 
@@ -20,8 +22,7 @@ direction = choose(0, 90, 180, 270);
 bulletpause = room/8
 alarm[2] = bulletpause;
 global.moveSpeed = 3;
-
-
+global.collide_speed = speed + 1;
 
 
 

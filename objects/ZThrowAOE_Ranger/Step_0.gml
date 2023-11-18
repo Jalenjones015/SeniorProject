@@ -29,6 +29,15 @@ else
 
 
 
+if (currenthP == 0)
+
+{instance_destroy()
+	
+	}
+
+
+
+
 
 
 

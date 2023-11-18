@@ -1,11 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-speed = 0;
-if speed = 0
-{
-global.yes_collide = true;
-}
+
+
+
+text = " Tutorial here: A is to jump, B is to."
+boxW = sprite_get_width(Sprite49);
+stringH = string_height(text);
+
+
+
+
+
+
+
 
 
 

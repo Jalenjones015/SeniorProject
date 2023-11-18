@@ -5,6 +5,8 @@ hp_max = 100;
 invinc = false;
 been_hit = false;
 counter = 0;
+can_hit = true;
+can_dash = true; 
 
 global.moveSpeed = 3;
 
@@ -16,6 +18,7 @@ zoomY = 0;
 global.is_dash = false;
 dash_sp = global.moveSpeed * 2; 
 dash_dir = 0;
+
 
 dash_count = 0;
 cooldown = 1;
@@ -29,3 +32,5 @@ global.yes_collide = true;
  global._left = 0;
 global._up = 0;
 global._down = 0;
+reverse_x = direction - x;
+reverse_y = direction - y;

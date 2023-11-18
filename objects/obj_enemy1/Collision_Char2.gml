@@ -1,11 +1,26 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-speed = 0;
-if speed = 0
-{
-global.yes_collide = true;
-}
+if (currenthP == 10)
+{colorbop = true; }
+
+	if colorbop = true
+	{
+		colorbop = false;
+
+yes_color = mycolor
+alarm[1] = room_speed * 2;
+
+
+
+	}
+
+
+
+
+
+
+
 
 
 

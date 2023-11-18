@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+maxHp = 15;
+currenthP = maxHp;
 
 can_throw = true;
 bomb_cooldown = 180;

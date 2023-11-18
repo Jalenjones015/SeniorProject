@@ -11,12 +11,15 @@ var _inputY = _down - _up;
 if global.yes_collide = true
 {
 global.yes_collide = false;
-move_and_collide(_inputX * global.moveSpeed, _inputY * global.moveSpeed, obj_shield,4,0,0,-1,-1);
-Char2.direction = direction - 180;
+move_and_collide(_inputX * global.moveSpeed, _inputY * global.moveSpeed, obj_shield,3,0,0,-1,-1);
+Char2.direction = direction - y + 2;
+
 //speed = irandom_range(1, 6);
 speed = 2;
-alarm_set(3, 0);
+alarm[2] = room_speed * 1 ;
+
 //alarm[3] = room * 2;
+
 }
 
 
