@@ -1,13 +1,9 @@
-
-active.x = x + weapon_x_offset;
-active.y = y + weapon_y_offset;
-//OBJ_PlayerHitbox.x = x + weapon_x_offset;
-//OBJ_PlayerHitbox.y = y + weapon_y_offset;
-
-
-
-
-
+if is_bombing == false
+{
+	var bullet = instance_create_layer( x, y, "Instances_1", O_bomb);
+	bullet.direction = direction;
+	is_bombing =true
+}
 
 
 

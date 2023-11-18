@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 595EBDB7
-/// @DnDInput : 11
+/// @DnDInput : 12
 /// @DnDArgument : "expr" "100"
 /// @DnDArgument : "expr_1" "200"
 /// @DnDArgument : "expr_2" "300"
@@ -13,6 +13,7 @@
 /// @DnDArgument : "expr_8" "true"
 /// @DnDArgument : "expr_9" "false"
 /// @DnDArgument : "expr_10" "false"
+/// @DnDArgument : "expr_11" " room/8"
 /// @DnDArgument : "var" "Bosshp1"
 /// @DnDArgument : "var_1" "Bosshp2"
 /// @DnDArgument : "var_2" "Bosshp3"
@@ -24,6 +25,7 @@
 /// @DnDArgument : "var_8" "phase1"
 /// @DnDArgument : "var_9" "phase2"
 /// @DnDArgument : "var_10" "phase3"
+/// @DnDArgument : "var_11" "bulletpause "
 Bosshp1 = 100;
 Bosshp2 = 200;
 Bosshp3 = 300;
@@ -35,13 +37,13 @@ is_charging = false;
 phase1 = true;
 phase2 = false;
 phase3 = false;
+bulletpause  =  room/8;
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 47D98A30
-/// @DnDArgument : "code" "//path_start(Path3, 4, path_action_reverse, true);$(13_10)$(13_10)$(13_10)//direction = choose(0, 90, 180, 270);$(13_10)//speed = irandom_range(1, 4);"
+/// @DnDArgument : "code" "//path_start(Path3, 4, path_action_reverse, true);$(13_10)$(13_10)$(13_10)direction = choose(0, 90, 180, 270);$(13_10)"
 //path_start(Path3, 4, path_action_reverse, true);
 
 
-//direction = choose(0, 90, 180, 270);
-//speed = irandom_range(1, 4);
+direction = choose(0, 90, 180, 270);

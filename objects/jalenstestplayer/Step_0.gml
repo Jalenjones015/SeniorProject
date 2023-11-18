@@ -4,7 +4,7 @@ var right =  keyboard_check(ord("D"));
 	{
 		//image_index = 0;
 		image_angle = 0;
-		pjDir = 0;
+
 	}
 	
 var left =  keyboard_check(ord("A"));
@@ -12,7 +12,7 @@ var left =  keyboard_check(ord("A"));
 	{
 		//image_index = 1;
 		image_angle = 180;
-		pjDir = 1;
+
 	}
 	
 var up =  keyboard_check(ord("W"));
@@ -20,7 +20,7 @@ if  (keyboard_check_pressed(ord("W")))
 	{
 		//image_index = 1;
 		image_angle = 90;
-		pjDir = 0;
+
 	}
 
 var down =  keyboard_check(ord("S"));
@@ -28,7 +28,7 @@ if  (keyboard_check_pressed(ord("S")))
 	{
 		//image_index = 1;
 		image_angle = 270;
-		pjDir = 1;
+
 	}
 
 
