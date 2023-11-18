@@ -5,7 +5,6 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"J_test_Enemy","path":"objects/J_test_Enemy/J_test_Enemy.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
@@ -17,7 +16,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"SpecialWeaponPickup","path":"objects/SpecialWeaponPickup/SpecialWeaponPickup.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"SpecialWeaponPickup2","path":"objects/SpecialWeaponPickup2/SpecialWeaponPickup2.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"O_Pit","path":"objects/O_Pit/O_Pit.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Bossman","path":"objects/Bossman/Bossman.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],

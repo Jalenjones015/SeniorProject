@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Walls",
-  "eventList": [],
+  "name": "OBJ_PlayerHitbox",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Bossman","path":"objects/Bossman/Bossman.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "JalensOBJs",
-    "path": "folders/Objects/JalensOBJs.yy",
+    "name": "Hitboxes",
+    "path": "folders/Objects/JalensOBJs/Hitboxes.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -24,10 +26,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "wall21",
-    "path": "sprites/wall21/wall21.yy",
+    "name": "SP_PlayerHitbox",
+    "path": "sprites/SP_PlayerHitbox/SP_PlayerHitbox.yy",
   },
   "spriteMaskId": null,
   "visible": true,

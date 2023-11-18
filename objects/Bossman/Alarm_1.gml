@@ -1,10 +1,6 @@
 
-active.x = x + weapon_x_offset;
-active.y = y + weapon_y_offset;
-//OBJ_PlayerHitbox.x = x + weapon_x_offset;
-//OBJ_PlayerHitbox.y = y + weapon_y_offset;
-
-
+var bullet = instance_create_layer( x, y, "Instances_1", Cookie_projectile);
+	bullet.direction = direction;
 
 
 

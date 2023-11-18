@@ -1,11 +1,4 @@
-
-active.x = x + weapon_x_offset;
-active.y = y + weapon_y_offset;
-//OBJ_PlayerHitbox.x = x + weapon_x_offset;
-//OBJ_PlayerHitbox.y = y + weapon_y_offset;
-
-
-
+//global.hp += -5
 
 
 
