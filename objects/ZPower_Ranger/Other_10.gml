@@ -17,7 +17,7 @@ if alarm[2] <= 0 && instance_exists(jalenstestplayer)
 	var bullet = instance_create_layer( x, y, "Instances_1", Cookie_projectile);
 	bullet.direction = direction; 
 	speed = .3;
-alarm[2] = 50;
+alarm[2] = room_speed * 3;
 }
 
 
