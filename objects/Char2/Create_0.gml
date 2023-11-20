@@ -1,6 +1,6 @@
  /// @description Insert description here
 // You can write your code in this editor
-hp = 70;
+hp = 100;
 hp_max = 100;
 invinc = false;
 been_hit = false;
@@ -32,5 +32,9 @@ global.yes_collide = true;
  global._left = 0;
 global._up = 0;
 global._down = 0;
+global._Xright = 0;
+ global._Xleft = 0;
+global._Xup = 0;
+global._Xdown = 0;
 reverse_x = direction - x;
 reverse_y = direction - y;

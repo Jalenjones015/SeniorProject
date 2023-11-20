@@ -4,6 +4,8 @@ global._right = keyboard_check(vk_right) and place_free(x + collide_speed, y);
 global._left = keyboard_check(vk_left)  and place_free(x - collide_speed, y );
 global._up = keyboard_check(vk_up) and place_free( x, y - collide_speed);
  global._down = keyboard_check(vk_down) and place_free( x, y + collide_speed);
+
+ 
 var _dash = keyboard_check_pressed(vk_space);
 var _inputX = global._right - global._left;
 var _inputY = global._down - global._up;
@@ -84,7 +86,7 @@ if (hit != noone) and can_hit = true
 {
 	can_hit = false;
 hit.currenthP -= 5;
-alarm[4] = room_speed * 2;
+alarm[4] = room_speed * 1;
 
 }
 
@@ -96,7 +98,7 @@ if (hit != noone) and can_hit = true
 	
 can_hit = false;
 hit.currenthP -= 5;
-alarm[4] = room_speed * 2;
+alarm[4] = room_speed * 1.5;
 
 }
 
