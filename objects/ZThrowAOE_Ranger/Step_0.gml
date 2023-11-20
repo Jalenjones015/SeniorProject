@@ -54,7 +54,7 @@ else
 
 
 
-if (currenthP == 0)
+if (currenthP <= 0)
 
 {
 	instance_destroy()

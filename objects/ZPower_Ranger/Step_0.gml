@@ -55,7 +55,7 @@ move_towards_point(jalenstestplayer.x, jalenstestplayer.y, 2)
 	}
 }
 
-if (currenthP == 0)
+if (currenthP <= 0)
 
 {instance_destroy()
 	

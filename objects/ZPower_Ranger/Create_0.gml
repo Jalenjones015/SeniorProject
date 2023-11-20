@@ -19,7 +19,6 @@ Yesfire = true;
 rando_go = 0;
 direction = choose(0, 90, 180, 270);
 
-bulletpause = room/10;
 global.moveSpeed = 3;
 global.collide_speed = speed + 1;
 

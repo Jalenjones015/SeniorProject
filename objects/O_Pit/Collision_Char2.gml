@@ -6,8 +6,10 @@ if place_meeting(x, y, Char2) and global.moveSpeed = 3
 	if global.is_enabled = false 
 	{
 show_debug_message("Green")
-target = other;
-alarm_set(0, room_speed * 0.2);
+target = Char2;
+target.x = global.checkpt_x;
+target.y = global.checkpt_y;
+
 }
 
 
