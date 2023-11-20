@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 maxHp = 15;
-currenthP = maxHp;
+currenthP = 4;
 
 heart = 5;
 spd = 3; 
