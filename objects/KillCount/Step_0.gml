@@ -1,6 +1,8 @@
 if global.killcounter >= 1
 {
-	instance_destroy(DestroyWall);
+	instance_destroy(inst_78087265);
+	instance_destroy(inst_24910348);
+	instance_destroy(inst_614AFE4F);
 }
 
 

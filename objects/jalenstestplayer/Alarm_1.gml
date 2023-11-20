@@ -6,4 +6,5 @@ if is_swinging = false
 if is_shooting = false
 {
     is_shooting = true;
+	
 }

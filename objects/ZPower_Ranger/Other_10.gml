@@ -14,7 +14,7 @@ if alarm[2] <= 0 && instance_exists(jalenstestplayer)
 {
 	var dir = point_direction(x, y, jalenstestplayer.x, jalenstestplayer.y);
 	
-	var bullet = instance_create_layer( x, y, "Instances_2", Cookie_projectile);
+	var bullet = instance_create_layer( x, y, "Instances_1", Cookie_projectile);
 	bullet.direction = direction; 
 	speed = .3;
 alarm[2] = 50;

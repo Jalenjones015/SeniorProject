@@ -1,9 +1,9 @@
 counter ++;
 
-global._right = keyboard_check(vk_right) and place_free(x + collide_speed, y);
-global._left = keyboard_check(vk_left)  and place_free(x - collide_speed, y );
-global._up = keyboard_check(vk_up) and place_free( x, y - collide_speed);
- global._down = keyboard_check(vk_down) and place_free( x, y + collide_speed);
+global._right = keyboard_check(vk_right) or keyboard_check(ord("D")) and place_free(x + collide_speed, y);
+global._left = keyboard_check(vk_left) or keyboard_check(ord("A"))  and place_free(x - collide_speed, y );
+global._up = keyboard_check(vk_up) or  keyboard_check(ord("W")) and place_free( x, y - collide_speed);
+ global._down = keyboard_check(vk_down) or keyboard_check(ord("S")) and place_free( x, y + collide_speed);
 
  
 var _dash = keyboard_check_pressed(vk_space);
@@ -112,3 +112,12 @@ alarm[4] = room_speed * 1;
 
 }
 
+if global.active_room!=-1
+	{
+		cam_x=clamp(x-192,global.active_room.x-48,global.active_room.x+global.active_room.sprite_width+32-camera_get_view_width(view_camera[1]));
+		cam_y=clamp(y-108,global.active_room.y-27,global.active_room.y+global.active_room.sprite_height+32-camera_get_view_height(view_camera[1]));
+		
+		camera_set_view_pos(view_camera[0],
+		lerp(camera_get_view_x(view_camera[0]),cam_x,0.2),
+		lerp(camera_get_view_y(view_camera[0]),cam_y,0.2));
+	}

@@ -36,5 +36,7 @@ global._Xright = 0;
  global._Xleft = 0;
 global._Xup = 0;
 global._Xdown = 0;
+
 reverse_x = direction - x;
 reverse_y = direction - y;
+

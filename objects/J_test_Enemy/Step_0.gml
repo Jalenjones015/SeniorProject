@@ -1,12 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 400ABFAD
-/// @DnDArgument : "code" "/// @description Execute Code$(13_10)if distance_to_object(jalenstestplayer) < 100$(13_10){$(13_10)path_end();$(13_10)move_towards_point(jalenstestplayer.x, jalenstestplayer.y, 2)$(13_10)//mp_potential_step_object(Char2.x, Char2.y, 2, Walls )$(13_10)}$(13_10)else $(13_10){$(13_10)	$(13_10)if (distance_to_point(xstart, ystart) >= 2)$(13_10){$(13_10)	move_towards_point(xstart, ystart, 2)		$(13_10)$(13_10)}$(13_10)else$(13_10){$(13_10)	speed = 0; $(13_10)	$(13_10)}$(13_10)$(13_10)//if path_index != Test_path {$(13_10)//	mp_potential_step_object(start_x, start_y, 3, Walls);$(13_10)	$(13_10)//if (abs(x - start_x) < 1 && abs(y - start_y) < 1) {$(13_10)	//path_start(Test_path, 3, path_action_reverse, false);$(13_10)}"
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)if distance_to_object(jalenstestplayer) < 100$(13_10){$(13_10)path_end();$(13_10)move_towards_point(jalenstestplayer.x + 25, jalenstestplayer.y, 2)$(13_10)//mp_potential_step_object(Char2.x, Char2.y, 2, Walls )$(13_10)}$(13_10)else $(13_10){$(13_10)	$(13_10)if (distance_to_point(xstart, ystart) >= 2)$(13_10){$(13_10)	move_towards_point(xstart, ystart, 2)		$(13_10)$(13_10)}$(13_10)else$(13_10){$(13_10)	speed = 0; $(13_10)	$(13_10)}$(13_10)$(13_10)//if path_index != Test_path {$(13_10)//	mp_potential_step_object(start_x, start_y, 3, Walls);$(13_10)	$(13_10)//if (abs(x - start_x) < 1 && abs(y - start_y) < 1) {$(13_10)	//path_start(Test_path, 3, path_action_reverse, false);$(13_10)}"
 /// @description Execute Code
 if distance_to_object(jalenstestplayer) < 100
 {
 path_end();
-move_towards_point(jalenstestplayer.x, jalenstestplayer.y, 2)
+move_towards_point(jalenstestplayer.x + 25, jalenstestplayer.y, 2)
 //mp_potential_step_object(Char2.x, Char2.y, 2, Walls )
 }
 else 

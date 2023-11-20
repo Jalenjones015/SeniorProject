@@ -49,11 +49,13 @@ if  (keyboard_check_pressed(ord("S")))
 var xinput = right - left;
 var yinput = down - up;
 var _dash = keyboard_check_pressed(vk_space);
-move_and_collide(xinput * moveSpeed, yinput * moveSpeed, Walls,4,0,0,-1,-1);
+move_and_collide(xinput * global.moveSpeed, yinput * global.moveSpeed, Walls,4,0,0,-1,-1);
+
+
 	
 	if keyboard_check_direct(vk_space) 
 {
-	is_dash = !is_dash;
+	global.is_dash = !global.is_dash;
 	
  	if keyboard_check(vk_up)  or keyboard_check(ord("W"))  dash_dir = 90;
 	else if keyboard_check(vk_right) or keyboard_check(ord("D")) dash_dir = 0;
@@ -61,9 +63,9 @@ move_and_collide(xinput * moveSpeed, yinput * moveSpeed, Walls,4,0,0,-1,-1);
 	else if keyboard_check(vk_left) or keyboard_check(ord("")) dash_dir = 180;
 	 	  
 
-if is_dash == true 
+if global.is_dash == true 
 //the normal move speed turns to dash speed 
-	moveSpeed = dash_sp;
+	global.moveSpeed = global.dash_sp;
  alarm[2] = 20; 
 }
 
@@ -91,7 +93,7 @@ if global.active_room!=-1
 					//activeani.image_index = 0;			
 					alarm_set(0, 3);
 					show_debug_message("Swing");
-					alarm_set(1, room_speed * .75)
+					alarm_set(1, room_speed * .25)
 					
 				}
 			}
@@ -214,3 +216,4 @@ if (mouse_check_button_pressed(2))
 	// image_xscale = 1;
 	// image_yscale = 1;
 // }
+

@@ -2,19 +2,19 @@
 // You can write your code in this editor
 
 
-if place_meeting(x, y, O_Pit) and moveSpeed = 3
+//if place_meeting(x, y, O_Pit) and global.moveSpeed = 3
 
-{
-x = xstart;
-y = ystart;
+//{
+//x = xstart;
+//y = ystart;
 
-}
+//}
 
-else if place_meeting (x, y, O_Pit) 
+//else if place_meeting (x, y, O_Pit) 
 
-{
-	show_debug_message( "Hi" )
-}
+//{
+//	show_debug_message( "Hi" )
+//}
 
 
 

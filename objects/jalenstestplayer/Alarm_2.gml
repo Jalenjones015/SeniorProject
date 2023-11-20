@@ -1,4 +1,4 @@
-moveSpeed = 3;
+global.moveSpeed = 3;
 
 
 

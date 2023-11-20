@@ -4,6 +4,13 @@ if distance_to_object(Char2) < 100
 move_towards_point(Char2.x, Char2.y, 2)
 //mp_potential_step_object(Char2.x, Char2.y, 2, Walls )
 }
+
+if distance_to_object(jalenstestplayer) < 100
+{
+//path_end();
+move_towards_point(jalenstestplayer.x, jalenstestplayer.y, 2)
+//mp_potential_step_object(Char2.x, Char2.y, 2, Walls )
+}
 else 
 {
 	

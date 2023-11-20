@@ -1,12 +1,11 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 if !been_hit {
 	
- hp += -10;
+ global.hp += -10;
  been_hit = true;
- alarm[1] = 1;
+ alarm[4] = 1;
 }
-// x = x + 30;
+
 
 
 
