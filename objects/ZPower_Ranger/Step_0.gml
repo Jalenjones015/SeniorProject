@@ -1,13 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-place_free(x + global.collide_speed, y + global.collide_speed);
+
 
 if distance_to_object(Char2) < 120
 {
 move_towards_point(Char2.x, Char2.y, 2)
 
-	if distance_to_object(Char2) < 70
+	if distance_to_object(Char2) < 90
 	{
 	event_user (0); 
 	//mp_potential_step_object(Char2.x, Char2.y, 2, Walls )
@@ -36,9 +36,67 @@ if (currenthP == 0)
 	}
 
 
+if(place_meeting( x, y, Walls))
+{ for(var i = 0; i < 1000; ++i)
+	{
+		//right
+if(!place_meeting(x + i, y, Walls))
+{ x += i;
+	break;
+}
+
+//up
+if(!place_meeting(x - i, y, Walls))
+{ x -= i;
+	break;
+
+}
+
+//up
+if(!place_meeting(x, y - i, Walls))
+{ y -= i;
+	break;
+
+}
+
+//down
+if(!place_meeting(x, y + i, Walls))
+{ y += i;
+	break;
+
+}
+//top right
+if(!place_meeting(x + i, y - i, Walls))
+{ x += i;
+	y -= i;
+	break;
+
+}
+
+// TOP LEFT
+if(!place_meeting(x - i, y - i, Walls))
+{ x -= i;
+	y -= i;
+	break;
+
+}
+if(!place_meeting(x + i, y + i, Walls))
+{ x += i;
+	y += i;
+	break;
+
+}
+
+if(!place_meeting(x - i, y + i, Walls))
+{ x -= i;
+	y += i;
+	break;
+
+}
 
 
-
+	}
+}
 //if distance_to_object(Char2) < 50
 //{
 //	alarm[1] = 0;

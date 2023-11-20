@@ -70,7 +70,7 @@ if global.is_dash == true
 	global.moveSpeed = dash_sp;
  alarm[0] = 20; 
  can_dash = false; 
- alarm[5] = room_speed * 2;
+ alarm[5] = room_speed * 1;
 // triggers this alarm, which runs down to 0 from 20 steps/frames. 
 
 }
@@ -105,7 +105,7 @@ if (hit != noone) and can_hit = true
 {
 can_hit = false;
 hit.currenthP -= 5;
-alarm[4] = room_speed * 2;
+alarm[4] = room_speed * 1;
 
 
 }

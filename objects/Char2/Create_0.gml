@@ -1,6 +1,6 @@
  /// @description Insert description here
 // You can write your code in this editor
-hp = 50;
+hp = 70;
 hp_max = 100;
 invinc = false;
 been_hit = false;
