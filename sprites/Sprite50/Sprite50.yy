@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "SeniorProject_FearTheIrrational",
-    "path": "SeniorProject_FearTheIrrational.yyp",
+    "name": "AshleysSprites",
+    "path": "folders/Sprites/AshleysSprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -2,10 +2,7 @@
 // You can write your code in this editor
 
 
-
-//rando_go = direction;
-//speed = 5;
-
+can_reverse = true;
 
 
 

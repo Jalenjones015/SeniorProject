@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "SeniorProject_FearTheIrrational",
-    "path": "SeniorProject_FearTheIrrational.yyp",
+    "name": "AshleysOBJs",
+    "path": "folders/Objects/AshleysOBJs.yy",
   },
   "parentObjectId": null,
   "persistent": false,

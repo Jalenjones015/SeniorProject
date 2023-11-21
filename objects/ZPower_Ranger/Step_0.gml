@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+x += hspd;
+y += vspd;
 
 if distance_to_object(Char2) < 120
 {
@@ -61,6 +62,39 @@ if (currenthP <= 0)
 	
 	}
 
+if(place_meeting(x + hspd, y, Walls))
+{ while(!place_meeting( x + sign(hspd), y , Walls))
+//if place_free(x , y + 3)
+//	{
+	if can_reverse = true
+	{
+	can_reverse = false;
+	x += sign(hspd);
+	hspd = 0;
+	speed = -speed; 
+	
+	}
+}
+
+
+//hor collision
+
+if(place_meeting( x, y + vspd, Walls))
+{ while(!place_meeting(x, y + sign(vspd), Walls))
+//if place_free( x + 3, y)
+//{
+	if can_reverse = true
+	{
+	can_reverse = false;
+ y += sign(vspd);
+ vspd = 0;
+ speed = -speed; 
+
+
+}
+}
+
+// ver collision
 
 if(place_meeting( x, y, Walls))
 { for(var i = 0; i < 1000; ++i)
@@ -123,6 +157,8 @@ if(!place_meeting(x - i, y + i, Walls))
 
 	}
 }
+
+
 //if distance_to_object(Char2) < 50
 //{
 //	alarm[1] = 0;
