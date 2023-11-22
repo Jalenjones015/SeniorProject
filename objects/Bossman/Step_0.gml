@@ -1,10 +1,14 @@
 //Phase 1: Melee and charging
 
 
+//if object_exists(jalenstestplayer)
+//{
+//		move_towards_point(jalenstestplayer.x, jalenstestplayer.y, 2)
+//}
+
 if phase1 == true
 {
-	if !is_shooting && !is_bombing && !is_charging
-	{
+
 		if distance_to_object(jalenstestplayer) < 80
 		{
 			is_meleeing = true;
@@ -16,42 +20,38 @@ if phase1 == true
 			}
 	
 		}
-	}
-	
-	if !is_meleeing && !is_bombing && !is_charging
-	{
-		if distance_to_object(jalenstestplayer) > 80 
+
+
+		if distance_to_object(jalenstestplayer) < 150
 		{
 			is_shooting = true;
 			if is_shooting == true
 			{
-				is_shooting = false
-				alarm_set(1, 3)
+				is_shooting = false;
+				var bullet1 = instance_create_layer( x, y, "Instances_1", Cookie_projectile);
+				bullet1.direction = direction;
+				alarm_set(1, room_speed * 15)
 			}
 	
 		}
-	}
 	
-	if distance_to_object(jalenstestplayer) > 80
-	{
-		move_towards_point(xstart, ystart, .5)
 
-	}
-	
-	if !is_meleeing && !is_shooting && !is_charging
-	{
-		if distance_to_object(jalenstestplayer) > 105 
+		if distance_to_object(jalenstestplayer) > 50
 		{
 			is_bombing = true
 			if is_bombing == true
 			{
 				is_bombing = false
-				alarm_set(2, room_speed * 3)
+				alarm_set(2, room_speed * .1)
 			}
 		}
-	}
+
 	
-	
+		//if distance_to_object(jalenstestplayer) > 80
+	//{
+	//	move_towards_point(xstart, ystart, .5)
+
+	//}
 	
 	
 	
@@ -67,18 +67,6 @@ if phase1 == true
 //Phase 2: Melee and range/AOE
 if phase2 == true
 {
-	if !is_meleeing && !is_bombing && !is_charging
-	{
-		if distance_to_object(jalenstestplayer) < 80
-		{
-			is_shooting = true;
-			if is_shooting == true
-			{
-				move_towards_point(jalenstestplayer.x, jalenstestplayer.y, 2)
-			}
-	
-		}
-	}
 
 	if Bosshp2 == 0
 	{

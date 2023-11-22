@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "JalensOBJs",
-    "path": "folders/Objects/JalensOBJs.yy",
+    "name": "Walls",
+    "path": "folders/Objects/JalensOBJs/Walls.yy",
   },
   "parentObjectId": null,
   "persistent": false,

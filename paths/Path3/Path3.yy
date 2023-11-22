@@ -5,8 +5,8 @@
   "closed": true,
   "kind": 0,
   "parent": {
-    "name": "SeniorProject_FearTheIrrational",
-    "path": "SeniorProject_FearTheIrrational.yyp",
+    "name": "Paths",
+    "path": "folders/Paths.yy",
   },
   "points": [
     {"speed":100.0,"x":1952.7058,"y":255.01465,},

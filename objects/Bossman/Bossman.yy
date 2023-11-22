@@ -14,8 +14,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "TestEnemies",
-    "path": "folders/Objects/JalensOBJs/TestEnemies.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/JalensOBJs/Enemies.yy",
   },
   "parentObjectId": null,
   "persistent": false,
