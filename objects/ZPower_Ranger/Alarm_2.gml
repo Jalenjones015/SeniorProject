@@ -1,12 +1,68 @@
 /// @description Insert description here
 // You can write your code in this editor
-if !been_hit {
-	
- hp += -5;
- been_hit = true;
- alarm[1] = 10;
-}
-// x = x + 30;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

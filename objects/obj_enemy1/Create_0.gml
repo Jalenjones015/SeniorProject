@@ -1,5 +1,5 @@
 maxHp = 15;
-currenthP = 2;
+currenthP = 15;
 
 
 start_x = x;
