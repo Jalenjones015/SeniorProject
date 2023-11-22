@@ -4,7 +4,7 @@
   "name": "SP_Hitbox",
   "bbox_bottom": 19,
   "bbox_left": 0,
-  "bbox_right": 19,
+  "bbox_right": 49,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -93,5 +93,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 20,
+  "width": 50,
 }

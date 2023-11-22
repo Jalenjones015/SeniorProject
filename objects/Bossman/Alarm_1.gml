@@ -1,6 +1,7 @@
-
-var bullet = instance_create_layer( x, y, "Instances_1", Cookie_projectile);
-	bullet.direction = direction;
+if is_shooting = false
+{
+	is_shooting = true
+}	
 
 
 

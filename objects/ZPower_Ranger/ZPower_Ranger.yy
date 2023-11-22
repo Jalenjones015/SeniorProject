@@ -16,8 +16,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "AshleysOBJs",
-    "path": "folders/Objects/AshleysOBJs.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/AshleysOBJs/Enemies.yy",
   },
   "parentObjectId": null,
   "persistent": false,
