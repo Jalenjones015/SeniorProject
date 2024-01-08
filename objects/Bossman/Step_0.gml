@@ -80,12 +80,6 @@ if phase2 == true
 if phase3 == true
 {
 
-
-
-
-
-
-
 	if Bosshp3 == 0
 	{
 	instance_destroy();
