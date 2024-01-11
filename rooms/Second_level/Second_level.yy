@@ -36,7 +36,6 @@
     {"name":"inst_6C2F72B1","path":"rooms/Second_level/Second_level.yy",},
     {"name":"inst_803FA8F","path":"rooms/Second_level/Second_level.yy",},
     {"name":"inst_604E9AD9","path":"rooms/Second_level/Second_level.yy",},
-    {"name":"inst_25069E34","path":"rooms/Second_level/Second_level.yy",},
     {"name":"inst_7650DBD4","path":"rooms/Second_level/Second_level.yy",},
     {"name":"inst_205F934C","path":"rooms/Second_level/Second_level.yy",},
     {"name":"inst_5660C53E","path":"rooms/Second_level/Second_level.yy",},
@@ -51,6 +50,7 @@
     {"name":"inst_B6324CB","path":"rooms/Second_level/Second_level.yy",},
     {"name":"inst_75BE54F0","path":"rooms/Second_level/Second_level.yy",},
     {"name":"inst_DD81D17","path":"rooms/Second_level/Second_level.yy",},
+    {"name":"inst_25069E34","path":"rooms/Second_level/Second_level.yy",},
   ],
   "isDnd": false,
   "layers": [
