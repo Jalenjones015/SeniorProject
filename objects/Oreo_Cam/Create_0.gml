@@ -2,7 +2,7 @@
 cam_W = 450;
 cam_H = 450;
 
-follow = Char3_Dolphin;
+//follow = Char3_Dolphin;
 
 X_to = x;
 Y_to = y;

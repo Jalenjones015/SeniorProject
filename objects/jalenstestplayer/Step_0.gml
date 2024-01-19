@@ -139,15 +139,27 @@ if (mouse_check_button_pressed(2))
             if (is_shooting)
             {
                 is_shooting = false;
-                if (image_xscale = 1)
+                if (image_angle = 0)
                 {
                 instance_create_layer(x + 20 , y + 0, "Instances_1", OBJ_Projectile);
                 global.ammo -= 1
                 }
 
-                if (image_xscale != 1)
+                if (image_angle = 180)
                 {
                 instance_create_layer(x - 20, y + 0, "Instances_1", OBJ_Projectile);
+                global.ammo -= 1
+                }
+				
+                if (image_angle = 90)
+                {
+                instance_create_layer(x + 0, y - 40, "Instances_1", OBJ_ProjectileUp);
+                global.ammo -= 1
+                }
+				
+                if (image_angle = 270)
+                {
+                instance_create_layer(x - 0, y + 40, "Instances_1", OBJ_ProjectileUp);
                 global.ammo -= 1
                 }
                 alarm_set(1, room_speed * .50)
