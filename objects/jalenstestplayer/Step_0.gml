@@ -153,13 +153,13 @@ if (mouse_check_button_pressed(2))
 				
                 if (image_angle = 90)
                 {
-                instance_create_layer(x + 0, y - 40, "Instances_1", OBJ_ProjectileUp);
+                instance_create_layer(x + 0, y - 20, "Instances_1", OBJ_ProjectileUp);
                 global.ammo -= 1
                 }
 				
                 if (image_angle = 270)
                 {
-                instance_create_layer(x - 0, y + 40, "Instances_1", OBJ_ProjectileUp);
+                instance_create_layer(x - 0, y + 20, "Instances_1", OBJ_ProjectileUp);
                 global.ammo -= 1
                 }
                 alarm_set(1, room_speed * .50)
