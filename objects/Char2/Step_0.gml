@@ -6,12 +6,13 @@ global._up = keyboard_check(vk_up) or  keyboard_check(ord("W")) and place_free( 
  global._down = keyboard_check(vk_down) or keyboard_check(ord("S")) and place_free( x, y + collide_speed);
 
  
-var _dash = keyboard_check_pressed(vk_space);
+var _dash = keyboard_check_pressed(vk_tab)
 var _inputX = global._right - global._left;
 var _inputY = global._down - global._up;
 
  
  if keyboard_check(vk_up) or keyboard_check(ord("W")) { 
+	 
 	image_angle = 90;
  }
 else if keyboard_check(vk_right) or keyboard_check(ord("D"))
@@ -34,7 +35,7 @@ else if keyboard_check(vk_down) or keyboard_check(ord("S"))
 	}
 // add another slash to get it to stop ALARM [0]
 //dash = false; 
-if keyboard_check_pressed(vk_space) and can_dash = true
+if keyboard_check_pressed(vk_tab) and can_dash = true
 
 {
 	// makes dash true. If space is pressed.
@@ -51,6 +52,7 @@ if global.is_dash == true
 	else if keyboard_check(vk_right) or keyboard_check(ord("D"))
 	{
 		dash_dir = 0;
+			show_debug_message("Tim")
 		
 		}
 	
@@ -59,15 +61,17 @@ if global.is_dash == true
 	{
 		
 		dash_dir = 270;
-
 		
 	}
 	else if keyboard_check(vk_left) or keyboard_check(ord("A"))
 	{
 		
 		dash_dir = 180;
+		show_debug_message("KiM")
 	 	  
 	}
+	
+	
 //the normal move speed turns to dash speed 
 	global.moveSpeed = dash_sp;
  alarm[0] = 20; 
