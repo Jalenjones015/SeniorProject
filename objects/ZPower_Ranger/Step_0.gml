@@ -4,14 +4,17 @@
 x += hspd;
 y += vspd;
 
+
+
 if distance_to_object(Char2) < 120
 {
 move_towards_point(Char2.x, Char2.y, 2)
-
+}
+//shooting code below 
 	if distance_to_object(Char2) < 90
 	{
 	event_user (0); 
-	//mp_potential_step_object(Char2.x, Char2.y, 2, Walls )
+	//running away code
 	}
 	
 	if distance_to_object(Char2) < 90
@@ -19,7 +22,8 @@ move_towards_point(Char2.x, Char2.y, 2)
 		speed = -speed
 
 	}
-
+// if you want ot make some more agressive rngers that just dip in and out all the time
+//this makes it stop and stare
 	else
 	{
 		if(distance_to_object(Char2) < rng)
@@ -28,7 +32,8 @@ move_towards_point(Char2.x, Char2.y, 2)
 		alarm[0] = 40;
 		}
 	}
-}
+	//remove this bit above
+
 
 if distance_to_object(jalenstestplayer) < 120
 {
@@ -62,10 +67,9 @@ if (currenthP <= 0)
 	
 	}
 
-if(place_meeting(x + hspd, y, Walls))
-{ while(!place_meeting( x + sign(hspd), y , Walls))
-//if place_free(x , y + 3)
-//	{
+if(place_meeting(x + 2, y, Walls))
+{ 
+
 	if can_reverse = true
 	{
 	can_reverse = false;
@@ -79,16 +83,14 @@ if(place_meeting(x + hspd, y, Walls))
 
 //hor collision
 
-if(place_meeting( x, y + vspd, Walls))
-{ while(!place_meeting(x, y + sign(vspd), Walls))
+if(place_meeting( x, y + 2, Walls))
+{
 //if place_free( x + 3, y)
 //{
 	if can_reverse = true
 	{
-	can_reverse = false;
- y += sign(vspd);
- vspd = 0;
- speed = -speed; 
+
+ show_debug_message("Heeeelllloooo")
 
 
 }
