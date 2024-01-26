@@ -7,7 +7,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obaj_button_par","path":"objects/obaj_button_par/obaj_button_par.yy",},"propertyId":{"name":"button_text","path":"objects/obaj_button_par/obaj_button_par.yy",},"value":"Level Two",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obaj_button_par","path":"objects/obaj_button_par/obaj_button_par.yy",},"propertyId":{"name":"button_text","path":"objects/obaj_button_par/obaj_button_par.yy",},"value":"Chracter Testing ",},
   ],
   "parent": {
     "name": "Systems",
