@@ -13,11 +13,12 @@ move_towards_point(Char2.x, Char2.y, 2)
 //shooting code below 
 	if distance_to_object(Char2) < 90
 	{
+		
 	event_user (0); 
 	//running away code
 	}
 	
-	if distance_to_object(Char2) < 90
+	if distance_to_object(Char2) < 100
 	{  
 		speed = -speed
 

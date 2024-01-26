@@ -2,17 +2,64 @@
 // You can write your code in this editor
 
 
-if (distance_to_point(xstart, ystart) >= 3) 
-{
-	move_towards_point(start_x, start_y, .5)
-}
+speed = 0;
+global.yes_collide = true;
 
-else 
+show_debug_message("Green" )
 
-{
-	speed = 0;
-	
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

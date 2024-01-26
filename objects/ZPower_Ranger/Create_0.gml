@@ -8,8 +8,8 @@ spd = 3;
 rng = 150;
 bullet = 0;
 
-start_x = x;
-start_y = y;
+start_x = xstart;
+start_y = ystart;
 hspd= 0;
 vspd = 0;
 
