@@ -22,21 +22,18 @@ if phase1 == true
 		}
 
 
-		if distance_to_object(jalenstestplayer) < 150
+		if alarm[1] <= 0 && distance_to_object(jalenstestplayer) < 150
 		{
-			is_shooting = true;
-			if is_shooting == true
-			{
-				is_shooting = false;
-				var bullet1 = instance_create_layer( x, y, "Instances_1", Cookie_projectile);
-				bullet1.direction = direction;
-				alarm_set(1, room_speed * 15)
-			}
+				var dir = point_direction(x, y, jalenstestplayer.x, jalenstestplayer.y);
 	
+				var bullet = instance_create_layer( x, y, "Instances_1", Cookie_projectile);
+				bullet.direction = direction; 
+				speed = .3;
+				alarm[1] = room_speed * 3;
 		}
 	
 
-		if distance_to_object(jalenstestplayer) > 50
+		if distance_to_object(jalenstestplayer) > 10
 		{
 			is_bombing = true
 			if is_bombing == true
