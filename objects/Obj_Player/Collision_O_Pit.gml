@@ -17,9 +17,22 @@
 //}
 
 
+if !been_hit {
+	
+ hp += -5;
+ been_hit = true;
+ alarm[1] = 10;
+}
 
 
+//when player collides inot pit with zero health
+if hp = 0
 
+{
+	
+show_debug_message("WOWWWWWWW")	
+
+}
 
 
 

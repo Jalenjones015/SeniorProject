@@ -12,18 +12,20 @@ move_towards_point(Char2.x, Char2.y, 2)
 }
 //shooting code below 
 	if distance_to_object(Char2) < 90
+	
 	{
-		
 	event_user (0); 
-	//running away code
+	
 	}
 	
+	//running away code
 	if distance_to_object(Char2) < 100
+	
 	{  
 		speed = -speed
-
 	}
-// if you want ot make some more agressive rngers that just dip in and out all the time
+	
+// if you want to make some more agressive rangers that just dip in and out all the time
 //this makes it stop and stare
 	else
 	{
