@@ -1,11 +1,15 @@
-if is_bombing == false
+if is_bombing == true
 {
-	var bullet = instance_create_layer( x, y, "Instances_1", O_bomb);
+	var bullet = instance_create_layer( x, y, "Instances_1", BossBomb);
 	bullet.direction = direction;
-	//is_bombing =true
+	show_debug_message("This is working")
+
 }
 
-
+//if instance_destroy(o_explosion) 
+//{
+//	is_bombing = true
+//}
 
 
 

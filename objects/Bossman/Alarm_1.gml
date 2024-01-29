@@ -1,7 +1,6 @@
-if is_shooting = false
-{
-	is_shooting = true
-}	
+
+is_shooting = true
+show_debug_message("im shooting")
 
 
 
