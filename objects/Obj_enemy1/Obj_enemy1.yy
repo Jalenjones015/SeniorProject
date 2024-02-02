@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Melee",
-    "path": "sprites/Melee/Melee.yy",
+    "name": "Sprite73",
+    "path": "sprites/Sprite73/Sprite73.yy",
   },
   "spriteMaskId": null,
   "visible": true,

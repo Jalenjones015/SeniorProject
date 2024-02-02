@@ -22,17 +22,17 @@ move_towards_point(Char2.x, Char2.y, 2)
 	if distance_to_object(Char2) < 100
 	
 	{  
-		speed = -speed
+ speed = -speed
 	}
 	
 // if you want to make some more agressive rangers that just dip in and out all the time
 //this makes it stop and stare
 	else
 	{
-		if(distance_to_object(Char2) < rng)
+		if (distance_to_point(xstart, ystart) > 3)
 		{
 		speed = 0;
-		alarm[0] = 40;
+		alarm[0] = room_speed * 1;
 		}
 	}
 	//remove this bit above

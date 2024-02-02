@@ -5,6 +5,9 @@
 if distance_to_object(Char2) < 120
 {
 move_towards_point(Char2.x, Char2.y, 2)
+
+
+
 if distance_to_object(Char2) < 110
 {
 event_user (0); 

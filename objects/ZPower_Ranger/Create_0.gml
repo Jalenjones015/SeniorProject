@@ -17,7 +17,7 @@ atckrate = 10;
 attcounter = 0;
 Yesfire = true; 
 can_reverse = true;
-
+can_return = false;
 
 Rang_spd = 3;
 global.collide_speed = speed + 2;

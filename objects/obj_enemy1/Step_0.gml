@@ -1,4 +1,11 @@
 
+if speed = 0
+{ 
+	//image_index = 
+
+}
+
+
 if distance_to_object(Char2) < 90
 {
 //path_end();
