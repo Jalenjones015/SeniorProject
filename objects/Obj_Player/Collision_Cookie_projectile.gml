@@ -1,14 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if invinc == false {
- hp += -3;
-been_hit = true;
-invinc = true;
-alarm[1] = game_get_speed(gamespeed_fps);
-}
+//if invinc == false {
+// hp += -3;
+//been_hit = true;
+//invinc = true;
+//alarm[1] = game_get_speed(gamespeed_fps);
+//}
 
- instance_destroy(other);
+// instance_destroy(other);
 
 
 

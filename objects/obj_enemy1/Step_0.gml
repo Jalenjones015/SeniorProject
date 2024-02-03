@@ -62,30 +62,30 @@ if (currenthP <= 0)
 }
 
 
-if (direction > 0) && (direction < 90)
+//if (direction > 0) && (direction < 90)
 
-{
-image_xscale = 2;
-		sprite_index = Oplayer_walkS;
+//{
+//image_xscale = 2;
+//		sprite_index = Oplayer_walkS;
 	
-}
+//}
 
-if (direction > 90) && (direction < 180)
+//if (direction > 90) && (direction < 180)
 
-{
-image_angle = 180;
-}
+//{
+//image_angle = 180;
+//}
 
 
-if (direction > 180) && (direction < 270)
+//if (direction > 180) && (direction < 270)
 
-{
-	sprite_index = Oplayer_walkB;
-}
-if (direction > 270) && (direction < 360)
+//{
+//	sprite_index = Oplayer_walkB;
+//}
+//if (direction > 270) && (direction < 360)
 
-{
+//{
 	
-image_angle = 360;
-}
+//image_angle = 360;
+//}
 

@@ -8,7 +8,7 @@ if been_hit
 	}
 	else
 	{
-	draw_sprite_ext(O_sparkle, 1, x, y ,.5, .5, 0, c_olive, 0.35);
+	draw_sprite_ext(gold_coin, 1, x, y ,.5, .5, 0, c_olive, 0.35);
  	}
 }
 else

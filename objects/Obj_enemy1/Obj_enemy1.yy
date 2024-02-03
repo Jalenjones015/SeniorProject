@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite73",
-    "path": "sprites/Sprite73/Sprite73.yy",
+    "name": "Rghostie",
+    "path": "sprites/Rghostie/Rghostie.yy",
   },
   "spriteMaskId": null,
   "visible": true,
