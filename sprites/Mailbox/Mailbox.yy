@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "MIsc",
-    "path": "folders/Sprites/MIsc.yy",
+    "name": "SpritesForLevel",
+    "path": "folders/Sprites/SpritesForLevel.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
