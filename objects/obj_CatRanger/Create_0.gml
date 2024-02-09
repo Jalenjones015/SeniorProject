@@ -19,12 +19,15 @@ Yesfire = true;
 can_reverse = true;
 can_return = false;
 
-Rang_spd = 3;
-global.collide_speed = speed + 2;
+walk_sp = 2.5;
 
+
+in_pause  = false;
+is_panic = false;
 
 
 image_speed = 1;
+
 
 
 

@@ -16,3 +16,6 @@ mycolor = c_aqua
 
 yes_color = mycolor;
 global.collide_speed = speed + 1; 
+
+	
+can_idle = false;

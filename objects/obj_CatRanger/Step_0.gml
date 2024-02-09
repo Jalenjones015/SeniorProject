@@ -4,21 +4,19 @@
 x += hspd;
 y += vspd;
 
-
+	//direction sprites
 	
 	if (direction > 0) && (direction < 90)
-
+	
 {
     image_xscale = 2;
-		sprite_index = Ocat_walkS;
-	
+	sprite_index = Ocat_walkS;	
 }
 	
 	if (direction > 90) && (direction < 180)
 
 {
-  sprite_index = Ocat_walkB;
-  
+  sprite_index = Ocat_walkB; 
 }
 
 //left
@@ -33,127 +31,102 @@ if (direction > 180) && (direction < 270)
 if (direction > 270) && (direction < 360)
 
 {
-	
 	sprite_index = Ocat_walkF;
-
 }
 
 
-if distance_to_object(Obj_Player) < 120
+
+
+if distance_to_object(Obj_Player) < 140
+
+{
+		sprite_index = Ocat_alertS;
+	//show_debug_message( "Tim")
+}
+		else
+		
+		{ 
+			sprite_index = Ocat_idleS
+		}
+
+
+//need to test this some more 
+if distance_to_object(Obj_Player) < 50
+
 {
 move_towards_point(Obj_Player.x, Obj_Player.y, 2)
+
+show_debug_message("Jim")
 }
 
-if distance_to_object(Obj_Player) <112
-{
-	sprite_index = Ocat_alertS;
-}
+
 
 //shooting code below 
-	if distance_to_object(Obj_Player) < 85
+
+	if distance_to_object(Obj_Player) < 80
 	
 	{
 	event_user (0); 
-	
+show_debug_message("Coookkkiiieeesss")
 	}
 	
 	//running away code
 	if distance_to_object(Obj_Player) < 100
 	
-	{  
- speed = -speed
-	}
-	
-// if you want to make some more agressive rangers that just dip in and out all the time
-//this makes it stop and stare
-	else
-	{
-		if (distance_to_point(xstart, ystart) > 3)
-		{
+	{ is_panic = true
 		
+		if is_panic = true
 	
-		alarm[0] = room_speed * 1;
-		}
+	{  is_panic = false;
+		show_debug_message("Dangit Jim")
+		 speed = -speed
 	}
-
-
-
-
-
-if distance_to_object(Char2) < 120
-{
-move_towards_point(Char2.x, Char2.y, 2)
-}
-//shooting code below 
-	if distance_to_object(Char2) < 90
-	
-	{
-	event_user (0); 
-	
 	}
 	
-	//running away code
-	if distance_to_object(Char2) < 100
-	
-	{  
- speed = -speed
-	}
 	
 // if you want to make some more agressive rangers that just dip in and out all the time
 //this makes it stop and stare
-	else
-	{
-		if (distance_to_point(xstart, ystart) > 3)
-		{
-		speed = 0;
-		alarm[0] = room_speed * 1;
-		}
-	}
+
+
+
+//	 if is_panic = false 
+
+//	{ 
+//		in_pause = true;
+		
+//		if (distance_to_point(xstart, ystart) > 3) and in_pause = true
+//		{
+//		show_debug_message("Terry and Jerry")
+
+//		alarm[0] = room_speed * 1;
+//		}
+//	}
+////remove this bit 
+
+
+
+
+
+	
+// if you want to make some more agressive rangers that just dip in and out all the time
+//this makes it stop and stare
+
+
+	
 	//remove this bit above
 
 
-if distance_to_object(jalenstestplayer) < 120
-{
-move_towards_point(jalenstestplayer.x, jalenstestplayer.y, 2)
 
-	if distance_to_object(jalenstestplayer) < 90
-	{
-	event_user (0); 
-	//mp_potential_step_object(Char2.x, Char2.y, 2, Walls )
-	}
-	
-	if distance_to_object(jalenstestplayer) < 90
-	{  
-		speed = -speed
-
-	}
-
-	else
-	{
-		if(distance_to_object(jalenstestplayer) < rng)
-		{
-		speed = 0;
-		alarm[0] = 40;
-		}
-	}
-}
 
 if (currenthP <= 0)
 
 {
 	instance_destroy()
 	
-	}
+}
 	
 	
 
-
-
-	
-	
-	
-	
-	
 
 if(place_meeting(x + 2, y, Walls))
 { 

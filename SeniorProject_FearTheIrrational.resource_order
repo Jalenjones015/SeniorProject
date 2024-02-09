@@ -27,11 +27,11 @@
     {"name":"Other","order":39,"path":"folders/Sprites/AshleysSprites/Other.yy",},
     {"name":"JalensSprites","order":1,"path":"folders/Sprites/JalensSprites.yy",},
     {"name":"MIsc","order":2,"path":"folders/Sprites/MIsc.yy",},
+    {"name":"SpritesForLevel","order":3,"path":"folders/Sprites/SpritesForLevel.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":17,"path":"folders/Timelines.yy",},
     {"name":"Z_Might_Delete","order":15,"path":"folders/Z_Might_Delete.yy",},
     {"name":"Z_unused_Test_Stuff","order":14,"path":"folders/Z_unused_Test_Stuff.yy",},
-    {"name":"SpritesForLevel","order":3,"path":"folders/Sprites/SpritesForLevel.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"O_standing_tile","order":12,"path":"objects/O_standing_tile/O_standing_tile.yy",},
