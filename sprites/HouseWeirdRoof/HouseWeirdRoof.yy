@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "HouseWithTiles",
+  "name": "HouseWeirdRoof",
   "bbox_bottom": 61,
-  "bbox_left": 2,
-  "bbox_right": 61,
-  "bbox_top": 5,
+  "bbox_left": 1,
+  "bbox_right": 62,
+  "bbox_top": 8,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "HouseWithTiles",
+    "name": "HouseWeirdRoof",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2d857a67-59a8-48c7-b441-b4a44553385e","path":"sprites/HouseWithTiles/HouseWithTiles.yy",},},},"Disabled":false,"id":"c1b8c0c0-7141-4feb-85bf-02b3408e94e8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2d857a67-59a8-48c7-b441-b4a44553385e","path":"sprites/HouseWeirdRoof/HouseWeirdRoof.yy",},},},"Disabled":false,"id":"afc7e7f2-3fed-445a-a5cc-972707b225fa","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

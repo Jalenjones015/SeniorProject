@@ -1,4 +1,7 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"HouseFaceBrick","order":1,"path":"sprites/HouseFaceBrick/HouseFaceBrick.yy",},
+    {"name":"HouseSide","order":2,"path":"sprites/HouseSide/HouseSide.yy",},
+  ],
 }
