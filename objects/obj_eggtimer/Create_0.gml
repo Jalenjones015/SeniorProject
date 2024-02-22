@@ -1,11 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-image_speed = 0;
-instance_destroy();
+vsp = 0;
+hsp = 0;
 
+timer = 60;
 
-
+yes_bomb = true;
 
 
 

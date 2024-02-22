@@ -2,8 +2,29 @@
 // You can write your code in this editor
 
 
-speed = 4.5; 
-depth = -1;
+vsp = 0;
+hsp = 0;
+
+timer = 60;
+
+yes_bomb = true;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

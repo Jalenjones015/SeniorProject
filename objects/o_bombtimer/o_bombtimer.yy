@@ -1,16 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_explosion",
+  "name": "o_bombtimer",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/AshleysOBJs/Enemies.yy",
+    "name": "Projectiles and Bombs",
+    "path": "folders/Objects/AshleysOBJs/Enemies/Projectiles and Bombs.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Dooh_explosion",
-    "path": "sprites/Dooh_explosion/Dooh_explosion.yy",
+    "name": "Sprite35",
+    "path": "sprites/Sprite35/Sprite35.yy",
   },
   "spriteMaskId": null,
   "visible": true,
