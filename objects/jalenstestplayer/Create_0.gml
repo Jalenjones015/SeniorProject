@@ -39,9 +39,11 @@ global.dash_sp = global.moveSpeed * 2;
 	active = OBJ_StickWeapon;
 	activeani = StickWeaponAni;
 	
+	
 	p_colli = false;
 	//hitbox = OBJ_PlayerHitbox;
 	
 	invinc = false;
 	been_hit = false;
-	counter = 0;
+	can_dash = true;
+	dash_sp = global.moveSpeed * 2

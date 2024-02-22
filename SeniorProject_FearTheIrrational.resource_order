@@ -1,6 +1,8 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"DashSprite","order":1,"path":"sprites/DashSprite/DashSprite.yy",},
+    {"name":"PS_Dash","order":1,"path":"particles/PS_Dash/PS_Dash.yy",},
     {"name":"HouseFaceBrick","order":1,"path":"sprites/HouseFaceBrick/HouseFaceBrick.yy",},
     {"name":"HouseSide","order":2,"path":"sprites/HouseSide/HouseSide.yy",},
   ],

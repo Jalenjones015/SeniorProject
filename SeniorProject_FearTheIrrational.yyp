@@ -53,6 +53,7 @@
     "IDEVersion": "2023.6.0.92",
   },
   "resources": [
+    {"id":{"name":"DashSprite","path":"sprites/DashSprite/DashSprite.yy",},},
     {"id":{"name":"O_standing_tile","path":"objects/O_standing_tile/O_standing_tile.yy",},},
     {"id":{"name":"kitty_v2","path":"sprites/kitty_v2/kitty_v2.yy",},},
     {"id":{"name":"Test_path","path":"paths/Test_path/Test_path.yy",},},
@@ -193,6 +194,7 @@
     {"id":{"name":"_8987f183_6ebb_4c70_8b28_0104eeee7258","path":"sprites/_8987f183_6ebb_4c70_8b28_0104eeee7258/_8987f183_6ebb_4c70_8b28_0104eeee7258.yy",},},
     {"id":{"name":"nope","path":"sprites/nope/nope.yy",},},
     {"id":{"name":"Oplayer_idleF","path":"sprites/Oplayer_idleF/Oplayer_idleF.yy",},},
+    {"id":{"name":"PS_Dash","path":"particles/PS_Dash/PS_Dash.yy",},},
     {"id":{"name":"Sproomtransition","path":"sprites/Sproomtransition/Sproomtransition.yy",},},
     {"id":{"name":"Ocow_alertS","path":"sprites/Ocow_alertS/Ocow_alertS.yy",},},
     {"id":{"name":"Dooh_explosion","path":"sprites/Dooh_explosion/Dooh_explosion.yy",},},
