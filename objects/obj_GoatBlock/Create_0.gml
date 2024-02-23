@@ -9,11 +9,13 @@ vsp = 0;
 
 
 
+
 o_point = true;
 o_angle = true;
 
 
 active = obj_shield;
+
 
 weapon_x_offset = 0;
 weapon_y_offset = 0;

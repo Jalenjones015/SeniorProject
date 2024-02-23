@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite48",
-    "path": "sprites/Sprite48/Sprite48.yy",
+    "name": "Shield_side",
+    "path": "sprites/Shield_side/Shield_side.yy",
   },
   "spriteMaskId": null,
   "visible": true,

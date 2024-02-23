@@ -12,7 +12,8 @@ if(o_point >= 45 && o_point <= 135)
 
 {// up 
 	
-		image_index = Shield_front
+image_angle = 90;
+		sprite_index = Shield_side
 	
 }
 
@@ -21,19 +22,20 @@ if(o_point >= 135 && o_point <= 225)
 {//left
 		
 	image_angle = 180;
+	sprite_index = Shield_side
 }
 
 if(o_point >= 225 && o_point <= 315)
 
 {//down
-		
-		image_index = Shield_back
+		image_angle = 270;
+		sprite_index = Shield_side
 		
 }
 
 if((o_point <= 45 && o_point >= 0) || (o_point >= 315 && o_point <= 360))
 {//right
-		
+		sprite_index = Shield_side
 	image_angle = 0;
 	 
 }

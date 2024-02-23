@@ -175,15 +175,6 @@ alarm[4] = room_speed * 1;
 }
 
 
-hit = instance_place(x, y, obj_GoatBlock)
-if (hit != noone) and can_hit = true
-{
-can_hit = false;
-hit.currenthP -= 5;
-alarm[4] = room_speed * 1;
-
-
-}
 
 //if global.active_room!=-1
 //	{

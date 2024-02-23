@@ -1,5 +1,5 @@
 
-
+currenthp = 100;
 hp = 100;
 hp_max = 100;
 invinc = false;

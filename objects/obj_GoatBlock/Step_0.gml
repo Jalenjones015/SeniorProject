@@ -13,29 +13,30 @@ if(o_point >= 45 && o_point <= 135)
 
 {// up 
 	
-		image_angle = 90;
+		sprite_index = Goat_up
 	
 }
 
 if(o_point >= 135 && o_point <= 225)
 
 {//left
-		
-	image_angle = 180;
+	
+	image_xscale = 1.5
+		sprite_index = Ogoat_idle;
+	
 }
 
 if(o_point >= 225 && o_point <= 315)
 
 {//down
 		
-	image_angle = 270;
+	sprite_index = Goat_down
 }
 
 if((o_point <= 45 && o_point >= 0) || (o_point >= 315 && o_point <= 360))
 {//right
-		
-	image_angle = 0;
-	 
+		image_xscale = -1.5
+sprite_index = Ogoat_idle;
 }
 
 
