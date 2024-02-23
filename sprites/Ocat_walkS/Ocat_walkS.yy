@@ -27,7 +27,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"855373a2-09f8-4c2b-a292-166ae826eb30","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 9,
+  "origin": 4,
   "parent": {
     "name": "Animations",
     "path": "folders/Sprites/AshleysSprites/Animations.yy",
@@ -67,7 +67,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 6,
+    "xorigin": 8,
     "yorigin": 14,
   },
   "swatchColours": null,

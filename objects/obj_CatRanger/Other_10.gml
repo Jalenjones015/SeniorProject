@@ -7,9 +7,9 @@ if speed = 0 and all_the_turns = true
 	if Obj_Player.x < x
 
 {
-	image_speed = 1;
+	
 	image_xscale = -2;
-	sprite_index = Ocat_attackS
+	sprite_index = Ocat_attackS;
 	
 	
 }
@@ -17,9 +17,9 @@ if speed = 0 and all_the_turns = true
 if Obj_Player.x > x
 
 {
-	image_speed = 1;
+
 	image_xscale = 2;
-sprite_index =  Ocat_attackS	
+sprite_index =  Ocat_attackS;	
 }
 	
 //	if (direction > 0) && (direction < 90)
@@ -78,7 +78,7 @@ else
 		if Obj_Player.x > x
 	
 	{	image_xscale = -2;
-		sprite_index = Ocat_moveattackS
+		sprite_index = Ocat_moveattackS;
 		
 	}
 }
