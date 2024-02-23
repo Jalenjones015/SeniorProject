@@ -63,15 +63,15 @@ move_and_collide(xinput * global.moveSpeed, yinput * global.moveSpeed, Walls,4,0
 	else if keyboard_check(vk_left) or keyboard_check(ord("")) dash_dir = 180;
 	 	  
 
-	if global.is_dash == true 
-	//the normal move speed turns to dash speed 
-	global.moveSpeed = dash_sp;
-	alarm[2] = 20; 
-	can_dash = false; 
-	alarm[3] = room_speed * 1
-	var dash = part_system_create(PS_Dash);
-	part_system_position(dash, jalenstestplayer.x, jalenstestplayer.y)
-
+	if global.is_dash == true
+	{
+		global.moveSpeed = dash_sp;
+		alarm[2] = 20; 
+		can_dash = false; 
+		alarm[3] = room_speed * 2
+		var dash = part_system_create(PS_Dash);
+		part_system_position(dash, jalenstestplayer.x, jalenstestplayer.y)
+	}
  
 }
 
@@ -100,6 +100,7 @@ if global.active_room!=-1
 					alarm_set(0, 3);
 					show_debug_message("Swing");
 					alarm_set(1, room_speed * .25)
+					audio_play_sound(Untitled_1, 1, false)
 					
 				}
 			}
