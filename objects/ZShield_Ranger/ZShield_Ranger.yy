@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "_8987f183_6ebb_4c70_8b28_0104eeee7258",
-    "path": "sprites/_8987f183_6ebb_4c70_8b28_0104eeee7258/_8987f183_6ebb_4c70_8b28_0104eeee7258.yy",
+    "name": "Sprite53",
+    "path": "sprites/Sprite53/Sprite53.yy",
   },
   "spriteMaskId": null,
   "visible": true,

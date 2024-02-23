@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/AshleysOBJs/Enemies.yy",
+    "name": "Projectiles and Bombs",
+    "path": "folders/Objects/AshleysOBJs/Enemies/Projectiles and Bombs.yy",
   },
   "parentObjectId": null,
   "persistent": false,

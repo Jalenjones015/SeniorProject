@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 image_speed = 0;
-//instance_destroy();
+instance_destroy();
 
 
 

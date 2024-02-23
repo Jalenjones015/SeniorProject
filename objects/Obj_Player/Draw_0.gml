@@ -1,5 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
+
+
+
+
 if been_hit
 {
 	if counter mod 20 = 0
@@ -8,7 +10,7 @@ if been_hit
 	}
 	else
 	{
-	draw_sprite_ext(gold_coin, 1, x, y ,.5, .5, 0, c_olive, 0.35);
+	draw_sprite_ext(Oplayer_idleS, 1, x, y ,.5, .5, 0, c_olive, 0.35);
  	}
 }
 else

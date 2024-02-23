@@ -3,9 +3,7 @@
 
 
 
-
-
-//once alarm hits zerp it sends the player down back to nromal speed
+//once alarm hits blep it sends the player down back to nromal speed
 global.moveSpeed = 3; 
 
 	
@@ -21,7 +19,6 @@ global.moveSpeed = 3;
 //not sure what this is 
 //	is_dash = true;
 	
-
 
 
 

@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 counter ++;
 image_speed = 1;
 
@@ -48,13 +49,14 @@ else if keyboard_check(vk_down) or keyboard_check(ord("S"))
 	{
 	image_speed = 0;
 	sprite_index = Oplayer_idleF;
+	image_xscale = 2
 	}
 
 // add another slash to get it to stop ALARM [0]
 //dash = false; 
-if keyboard_check_pressed(vk_tab) and can_dash = true
+if keyboard_check_pressed(vk_lshift) and can_dash = true
 
-{
+{ 
 	// makes dash true. If space is pressed.
 	global.is_dash = !global.is_dash;
 	
@@ -67,9 +69,9 @@ if global.is_dash == true
 	
 	}
 	else if keyboard_check(vk_right) or keyboard_check(ord("D"))
-	{
+	{ 
 		dash_dir = 0;
-			show_debug_message("Tim")
+			//show_debug_message("Tim")
 		
 		}
 	
@@ -84,7 +86,7 @@ if global.is_dash == true
 	{
 		
 		dash_dir = 180;
-		show_debug_message("KiM")
+		//show_debug_message("KiM")
 	 	  
 	}
 	
@@ -102,12 +104,51 @@ if global.is_dash == true
 move_and_collide(_inputX * global.moveSpeed, _inputY * global.moveSpeed, Walls,4,0,0,-1,-1);
 
 
+
+
+
+
+									//this code allows you to take hp from the neemies 
+
 hit = instance_place(x, y, obj_enemy1)
 if (hit != noone) and can_hit = true
 {
 	can_hit = false;
 hit.currenthP -= 5;
 alarm[4] = room_speed * 1;
+
+}
+
+
+
+//hit = instance_place(x, y, obj_CowMelee)
+//if (hit != noone) and can_hit = true
+//{
+	
+//can_hit = false;
+//hit.currenthP -= 5;
+//alarm[4] = room_speed * 1.5;
+
+//}
+
+
+hit = instance_place(x, y, obj_CatRanger)
+if (hit != noone) and can_hit = true
+{
+	
+can_hit = false;
+hit.currenthP -= 5;
+alarm[4] = room_speed * 1.5;
+
+}
+
+hit = instance_place(x, y, obj_ChickenAOE)
+if (hit != noone) and can_hit = true
+{
+	
+can_hit = false;
+hit.currenthP -= 5;
+alarm[4] = room_speed * 1.5;
 
 }
 
@@ -123,7 +164,7 @@ alarm[4] = room_speed * 1.5;
 
 }
 
-hit = instance_place(x, y, ZThrowAOE_Ranger)
+hit = instance_place(x, y, ZThrowAOE_dorpbomb_var)
 if (hit != noone) and can_hit = true
 {
 can_hit = false;
@@ -133,162 +174,26 @@ alarm[4] = room_speed * 1;
 
 }
 
-////if global.active_room!=-1
-	//{
-	//	cam_x=clamp(x-192,global.active_room.x-48,global.active_room.x+global.active_room.sprite_width+32-camera_get_view_width(view_camera[1]));
-	//	cam_y=clamp(y-108,global.active_room.y-27,global.active_room.y+global.active_room.sprite_height+32-camera_get_view_height(view_camera[1]));
+
+hit = instance_place(x, y, obj_GoatBlock)
+if (hit != noone) and can_hit = true
+{
+can_hit = false;
+hit.currenthP -= 5;
+alarm[4] = room_speed * 1;
+
+
+}
+
+//if global.active_room!=-1
+//	{
+//		cam_x=clamp(x-192,global.active_room.x-48,global.active_room.x+global.active_room.sprite_width+32-camera_get_view_width(view_camera[1]));
+//		cam_y=clamp(y-108,global.active_room.y-27,global.active_room.y+global.active_room.sprite_height+32-camera_get_view_height(view_camera[1]));
 		
-	//	camera_set_view_pos(view_camera[0],
-	//	lerp(camera_get_view_x(view_camera[0]),cam_x,0.2),
-	//	lerp(camera_get_view_y(view_camera[0]),cam_y,0.2));
-	//}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//		camera_set_view_pos(view_camera[0],
+//		lerp(camera_get_view_x(view_camera[0]),cam_x,0.2),
+//		lerp(camera_get_view_y(view_camera[0]),cam_y,0.2));
+//	}
 
 
 

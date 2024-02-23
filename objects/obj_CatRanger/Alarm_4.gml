@@ -1,14 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-
-
-
-
-
-
-speed = -speed
+show_debug_message( "Popcorn")
+can_turn = false;
+can_alert = false;
+yes_alert = false;
 
 
 
