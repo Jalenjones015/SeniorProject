@@ -43,6 +43,7 @@
     {"name":"ZPower_Ranger","order":5,"path":"objects/ZPower_Ranger/ZPower_Ranger.yy",},
     {"name":"aaaPlains_citynudge_REdraawwwww","order":28,"path":"sprites/aaaPlains_citynudge_REdraawwwww/aaaPlains_citynudge_REdraawwwww.yy",},
     {"name":"Sprite32","order":27,"path":"sprites/Sprite32/Sprite32.yy",},
+    {"name":"obj_button_level1","order":1,"path":"objects/obj_button_level1/obj_button_level1.yy",},
     {"name":"_37568685_d845_42f3_b01f_81ef98536e41","order":26,"path":"sprites/_37568685_d845_42f3_b01f_81ef98536e41/_37568685_d845_42f3_b01f_81ef98536e41.yy",},
     {"name":"enemy","order":25,"path":"sprites/enemy/enemy.yy",},
     {"name":"Shop_Three_back","order":24,"path":"sprites/Shop_Three_back/Shop_Three_back.yy",},
