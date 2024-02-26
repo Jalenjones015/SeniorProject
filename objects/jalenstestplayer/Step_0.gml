@@ -71,6 +71,7 @@ move_and_collide(xinput * global.moveSpeed, yinput * global.moveSpeed, Walls,4,0
 		alarm[3] = room_speed * 2
 		var dash = part_system_create(PS_Dash);
 		part_system_position(dash, jalenstestplayer.x, jalenstestplayer.y)
+		audio_play_sound(Zoom_Sound_Effect, 1, false)
 	}
  
 }

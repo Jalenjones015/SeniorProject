@@ -1,0 +1,25 @@
+{
+  "resourceType": "GMParticleSystem",
+  "resourceVersion": "1.0",
+  "name": "PS_Dash_Left",
+  "backdropHeight": 768,
+  "backdropImageOpacity": 0.5,
+  "backdropImagePath": "",
+  "backdropWidth": 1366,
+  "backdropXOffset": 0.0,
+  "backdropYOffset": 0.0,
+  "drawOrder": 0,
+  "emitters": [
+    {"resourceType":"GMPSEmitter","resourceVersion":"1.0","name":"DashParticles_2","additiveBlend":false,"directionIncrease":0.0,"directionMax":0.0,"directionMin":0.0,"directionWiggle":0.0,"distribution":0,"editorColour":1090475617,"editorDrawShape":true,"emitCount":1,"enabled":true,"endColour":67043301,"GMPresetName":null,"gravityDirection":0.0,"gravityForce":0.0,"headPosition":0.0,"lifetimeMax":15.0,"lifetimeMin":15.0,"linkedEmitter":null,"locked":false,"midColour":1391984621,"mode":1,"orientationIncrease":0.0,"orientationMax":0.0,"orientationMin":0.0,"orientationRelative":false,"orientationWiggle":0.0,"regionH":1.0,"regionW":1.0,"regionX":-9.0,"regionY":11.0,"scaleX":0.5,"scaleY":0.2,"shape":0,"sizeIncrease":0.0,"sizeMax":3.0,"sizeMin":1.0,"sizeWiggle":0.0,"spawnOnDeathCount":50,"spawnOnDeathGMPreset":null,"spawnOnDeathId":null,"spawnOnUpdateCount":1,"spawnOnUpdateGMPreset":null,"spawnOnUpdateId":null,"speedIncrease":0.0,"speedMax":5.0,"speedMin":5.0,"speedWiggle":0.0,"spriteAnimate":false,"spriteId":null,"spriteRandom":false,"spriteStretch":true,"startColour":2633957357,"texture":12,},
+    {"resourceType":"GMPSEmitter","resourceVersion":"1.0","name":"DashParticles_1","additiveBlend":false,"directionIncrease":0.0,"directionMax":0.0,"directionMin":0.0,"directionWiggle":0.0,"distribution":0,"editorColour":1090475617,"editorDrawShape":true,"emitCount":1,"enabled":true,"endColour":277644931,"GMPresetName":null,"gravityDirection":0.0,"gravityForce":0.0,"headPosition":0.0,"lifetimeMax":15.0,"lifetimeMin":15.0,"linkedEmitter":null,"locked":false,"midColour":2625929341,"mode":1,"orientationIncrease":0.0,"orientationMax":0.0,"orientationMin":0.0,"orientationRelative":false,"orientationWiggle":0.0,"regionH":1.0,"regionW":1.0,"regionX":21.0,"regionY":-12.0,"scaleX":0.5,"scaleY":0.2,"shape":0,"sizeIncrease":0.0,"sizeMax":3.0,"sizeMin":1.0,"sizeWiggle":0.0,"spawnOnDeathCount":50,"spawnOnDeathGMPreset":null,"spawnOnDeathId":null,"spawnOnUpdateCount":1,"spawnOnUpdateGMPreset":null,"spawnOnUpdateId":null,"speedIncrease":0.0,"speedMax":5.0,"speedMin":5.0,"speedWiggle":0.0,"spriteAnimate":false,"spriteId":null,"spriteRandom":false,"spriteStretch":true,"startColour":3867969409,"texture":12,},
+    {"resourceType":"GMPSEmitter","resourceVersion":"1.0","name":"DashParticles","additiveBlend":false,"directionIncrease":0.0,"directionMax":0.0,"directionMin":0.0,"directionWiggle":0.0,"distribution":0,"editorColour":1090475617,"editorDrawShape":true,"emitCount":1,"enabled":true,"endColour":66912224,"GMPresetName":null,"gravityDirection":0.0,"gravityForce":0.0,"headPosition":0.0,"lifetimeMax":15.0,"lifetimeMin":15.0,"linkedEmitter":null,"locked":false,"midColour":1392377839,"mode":1,"orientationIncrease":0.0,"orientationMax":0.0,"orientationMin":0.0,"orientationRelative":false,"orientationWiggle":0.0,"regionH":1.0,"regionW":1.0,"regionX":6.0,"regionY":0.0,"scaleX":0.7,"scaleY":0.2,"shape":0,"sizeIncrease":0.0,"sizeMax":3.0,"sizeMin":1.0,"sizeWiggle":0.0,"spawnOnDeathCount":50,"spawnOnDeathGMPreset":null,"spawnOnDeathId":null,"spawnOnUpdateCount":1,"spawnOnUpdateGMPreset":null,"spawnOnUpdateId":null,"speedIncrease":0.0,"speedMax":5.0,"speedMin":5.0,"speedWiggle":0.0,"spriteAnimate":false,"spriteId":null,"spriteRandom":false,"spriteStretch":true,"startColour":2634022911,"texture":12,},
+  ],
+  "parent": {
+    "name": "Particle Systems",
+    "path": "folders/Particle Systems.yy",
+  },
+  "showBackdrop": true,
+  "showBackdropImage": false,
+  "xorigin": 0,
+  "yorigin": 0,
+}
