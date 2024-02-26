@@ -64,8 +64,8 @@ if keyboard_check_pressed(vk_lshift) and can_dash = true
 	
  // checking for direction the player is moving in
  	if keyboard_check(vk_up)  or keyboard_check(ord("W")) { 
-	dash_dir = 90;
-		var dash1 = part_system_create(PS_Dash_Down);
+	//dash_dir = 90;
+		var dash1 = part_system_create(PS_Dash_Up);
 		part_system_position(dash1, Obj_Player.x, Obj_Player.y)
 	
 	}
@@ -80,7 +80,7 @@ if keyboard_check_pressed(vk_lshift) and can_dash = true
 	else if keyboard_check(vk_down) or keyboard_check(ord("S"))
 	
 	{
-		var dash3 = part_system_create(PS_Dash_up);
+		var dash3 = part_system_create(PS_Dash_Down);
 		part_system_position(dash3, Obj_Player.x, Obj_Player.y)
 		//dash_dir = 270;
 		
@@ -88,7 +88,7 @@ if keyboard_check_pressed(vk_lshift) and can_dash = true
 	else if keyboard_check(vk_left) or keyboard_check(ord("A"))
 	{
 		
-		dash_dir = 180;
+		//dash_dir = 180;
 		//show_debug_message("KiM")
 		var dash4 = part_system_create(PS_Dash_Left);
 		part_system_position(dash4, Obj_Player.x, Obj_Player.y)
