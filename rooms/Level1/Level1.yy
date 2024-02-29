@@ -15,6 +15,7 @@
     {"name":"inst_652857D3","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_1493EED5","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_15C73DB2","path":"rooms/Level1/Level1.yy",},
+    {"name":"inst_58B6815","path":"rooms/Level1/Level1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -27,6 +28,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_652857D3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"RoomSwitch","path":"objects/RoomSwitch/RoomSwitch.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":4.0,"x":1824.0,"y":352.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1493EED5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Endgamewall","path":"objects/Endgamewall/Endgamewall.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2784.0,"y":896.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_15C73DB2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"PressToGoBack","path":"objects/PressToGoBack/PressToGoBack.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":1376.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_58B6815","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"J_test_Enemy","path":"objects/J_test_Enemy/J_test_Enemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1344.0,"y":448.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_5","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_2F966136","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":0.75,"scaleY":0.75,"spriteId":{"name":"LawnGames","path":"sprites/LawnGames/LawnGames.yy",},"x":704.0,"y":288.0,},

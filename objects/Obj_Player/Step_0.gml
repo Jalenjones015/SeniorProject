@@ -82,7 +82,7 @@ if keyboard_check_pressed(vk_lshift) and can_dash = true
 	{
 		var dash3 = part_system_create(PS_Dash_Down);
 		part_system_position(dash3, Obj_Player.x, Obj_Player.y)
-		//dash_dir = 270;
+		dash_dir = 270;
 		
 	}
 	else if keyboard_check(vk_left) or keyboard_check(ord("A"))
