@@ -1,9 +1,9 @@
 
-if !been_hit {
-
- hp += -5;
- been_hit = true;
- alarm[1] = 10;
+if !been_hit 
+{
+	hp += -5;
+	been_hit = true;
+	alarm[1] = 10;
 }
 // x = x + 30;
 

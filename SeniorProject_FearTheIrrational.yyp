@@ -246,7 +246,6 @@
     {"id":{"name":"Oreo_Cam","path":"objects/Oreo_Cam/Oreo_Cam.yy",},},
     {"id":{"name":"Sprite50","path":"sprites/Sprite50/Sprite50.yy",},},
     {"id":{"name":"O_sign","path":"objects/O_sign/O_sign.yy",},},
-    {"id":{"name":"NewRoomForDeletion","path":"rooms/NewRoomForDeletion/NewRoomForDeletion.yy",},},
     {"id":{"name":"SP_Hitbox2","path":"sprites/SP_Hitbox2/SP_Hitbox2.yy",},},
     {"id":{"name":"obj_button_quit","path":"objects/obj_button_quit/obj_button_quit.yy",},},
     {"id":{"name":"button","path":"sprites/button/button.yy",},},
@@ -288,7 +287,6 @@
     {"roomId":{"name":"MainRoom","path":"rooms/MainRoom/MainRoom.yy",},},
     {"roomId":{"name":"Room7","path":"rooms/Room7/Room7.yy",},},
     {"roomId":{"name":"POS_DEL_JalensRoom","path":"rooms/POS_DEL_JalensRoom/POS_DEL_JalensRoom.yy",},},
-    {"roomId":{"name":"NewRoomForDeletion","path":"rooms/NewRoomForDeletion/NewRoomForDeletion.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

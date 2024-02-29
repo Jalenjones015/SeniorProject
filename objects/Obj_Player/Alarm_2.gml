@@ -3,9 +3,9 @@
 
 speed = 0;
 if speed = 0
-{
-global.yes_collide = true;
-}
+	{
+		global.yes_collide = true;
+	}
 
 
 

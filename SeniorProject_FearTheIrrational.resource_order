@@ -99,7 +99,6 @@
     {"name":"PS_Dash_Left","order":3,"path":"particles/PS_Dash_Left/PS_Dash_Left.yy",},
     {"name":"Oreo_Cam","order":1,"path":"objects/Oreo_Cam/Oreo_Cam.yy",},
     {"name":"Sprite50","order":5,"path":"sprites/Sprite50/Sprite50.yy",},
-    {"name":"NewRoomForDeletion","order":1,"path":"rooms/NewRoomForDeletion/NewRoomForDeletion.yy",},
     {"name":"button","order":4,"path":"sprites/button/button.yy",},
     {"name":"Sprite33","order":3,"path":"sprites/Sprite33/Sprite33.yy",},
     {"name":"Sprite3137","order":2,"path":"sprites/Sprite3137/Sprite3137.yy",},

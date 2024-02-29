@@ -27,22 +27,29 @@ collide_speed = global.moveSpeed + 1;
 depth = -2;
 global.yes_collide = true;
 
-
- global._right = 0;
- global._left = 0;
+global._right = 0;
+global._left = 0;
 global._up = 0;
 global._down = 0;
 global._Xright = 0;
- global._Xleft = 0;
+global._Xleft = 0;
 global._Xup = 0;
 global._Xdown = 0;
 
 reverse_x = direction - x;
 reverse_y = direction - y;
 
-
  global.active_room = -1;
 
-
-
+active = OBJ_StickWeapon;
+activeani = StickWeaponAni;
+is_swinging = true;
+is_shooting = true;
+global.ammo = 5;
+global.SWCount = 0;
+global.SWMax = 100;
+weapon_x_offset = 0;
+weapon_y_offset = 0;
+weapon2_x_offset = 0;
+weapon2_y_offset = 0;
 
