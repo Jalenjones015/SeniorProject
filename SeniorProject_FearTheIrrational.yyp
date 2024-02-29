@@ -171,6 +171,7 @@
     {"id":{"name":"Second_level","path":"rooms/Second_level/Second_level.yy",},},
     {"id":{"name":"Ocow_attackS","path":"sprites/Ocow_attackS/Ocow_attackS.yy",},},
     {"id":{"name":"Zoom_Sound_Effect","path":"sounds/Zoom_Sound_Effect/Zoom_Sound_Effect.yy",},},
+    {"id":{"name":"dashhin","path":"sounds/dashhin/dashhin.yy",},},
     {"id":{"name":"Ogoat_idle","path":"sprites/Ogoat_idle/Ogoat_idle.yy",},},
     {"id":{"name":"HouseFace","path":"sprites/HouseFace/HouseFace.yy",},},
     {"id":{"name":"O_bomb","path":"objects/O_bomb/O_bomb.yy",},},

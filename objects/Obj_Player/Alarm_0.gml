@@ -10,18 +10,6 @@ global.moveSpeed = 3;
 
 
 	
-//alarm[1]= 0;
-
-//show_message("hi");
-
-
-
-//not sure what this is 
-//	is_dash = true;
-	
-
-
-
 
 
 

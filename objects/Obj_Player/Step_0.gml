@@ -44,17 +44,18 @@ var _inputY = global._down - global._up;
 		image_xscale = 2
 	}
 
-// add another slash to get it to stop ALARM [0]
-//dash = false; 
+
 	if keyboard_check_pressed(vk_lshift) and can_dash = true
 	{ 
+		 audio_play_sound(dashhin, 1,false);
 		// makes dash true. If space is pressed.
 		global.is_dash = !global.is_dash;
-		//if global.is_dash == true 
+		
+	
 	
 	//checking for direction the player is moving in
 	 	if keyboard_check(vk_up)  or keyboard_check(ord("W")) 
-		{ 
+		{
 			//dash_dir = 90;
 			var dash1 = part_system_create(PS_Dash_Up);
 			part_system_position(dash1, Obj_Player.x, Obj_Player.y)

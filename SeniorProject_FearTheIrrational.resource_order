@@ -62,6 +62,7 @@
     {"name":"da_egg","order":36,"path":"sprites/da_egg/da_egg.yy",},
     {"name":"Ochicken_hurt","order":6,"path":"sprites/Ochicken_hurt/Ochicken_hurt.yy",},
     {"name":"Zoom_Sound_Effect","order":1,"path":"sounds/Zoom_Sound_Effect/Zoom_Sound_Effect.yy",},
+    {"name":"dashhin","order":2,"path":"sounds/dashhin/dashhin.yy",},
     {"name":"Ogoat_idle","order":7,"path":"sprites/Ogoat_idle/Ogoat_idle.yy",},
     {"name":"Oplayer_hurt","order":9,"path":"sprites/Oplayer_hurt/Oplayer_hurt.yy",},
     {"name":"O_glass","order":39,"path":"sprites/O_glass/O_glass.yy",},

@@ -1,9 +1,9 @@
 
 
-right = keyboard_check(vk_right) and place_free(x + collide_speed, y);
-left = keyboard_check(vk_left)  and place_free(x - collide_speed, y );
-up = keyboard_check(vk_up) and place_free( x, y - collide_speed);
-down = keyboard_check(vk_down) and place_free( x, y + collide_speed);
+_right = keyboard_check(vk_right) and place_free(x + collide_speed, y);
+_left = keyboard_check(vk_left)  and place_free(x - collide_speed, y );
+_up = keyboard_check(vk_up) and place_free( x, y - collide_speed);
+_down = keyboard_check(vk_down) and place_free( x, y + collide_speed);
 
 var _inputX = _right - _left;
 var _inputY = _down - _up;
