@@ -1,13 +1,72 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+up_key = keyboard_check_pressed(vk_backspace);
+	down_key = keyboard_check_pressed(vk_enter);
+	accept_key = keyboard_check_pressed(vk_space);
+	
+	pos += down_key - up_key;
+	if pos >= op_len {pos = 0};
+	if pos < 0  {pos = op_len-1};
+	
+	
+	//all the menus 
+	
+	op_len = array_length(option[menu_level]);
+	
+	
+	//using the options
+	if accept_key  {
+			var _sml = menu_level;
+		
+	
+		switch(menu_level){
+		
+			//pause stuff
+			case 0:
+				switch(pos){
+		
+				case 0:
+					room_goto_previous() break;
+		
+				case 1: menu_level = 1; break;
+
+				case 2:	game_end(); break;
+				}
+				break;
+		
+			case 1:
+			switch(pos){
+			
+				case 0:
+					room_goto_previous() break;
+		
+				case 1: break;
+
+				case 2:	menu_level = 0; break;
+			}
+		
+			break;		
+		}
+		if _sml != menu_level {pos = 0};
+	
+		op_len = array_length(option[menu_level]);
+	
+		}
+
 if (keyboard_check_pressed(ord("P"))) {
 	if (!pause)
 {
 	pause = true; 
+	
+	
 	instance_deactivate_all(true);
+	
+	
+	
 }
-else {
+else
+{
  pause = false;
  instance_activate_all();
  if (surface_exists(pause_surf)) surface_free(pause_surf);
@@ -24,6 +83,9 @@ else {
 }
 
 }
+
+
+
 
 
 
