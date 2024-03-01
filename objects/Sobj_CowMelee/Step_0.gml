@@ -148,3 +148,8 @@ if (currenthP <= 0)
 	
 }
 
+if currenthP = 2
+{
+	Sobj_CowMelee.sprite_index = Ocow_hurtS
+}
+

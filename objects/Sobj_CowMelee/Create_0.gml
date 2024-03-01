@@ -1,6 +1,6 @@
 
-maxHp = 2;
-currenthP = 2;
+maxHp = 5;
+currenthP = 5;
 
 
 start_x = x;

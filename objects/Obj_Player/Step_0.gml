@@ -47,28 +47,28 @@ var _inputY = global._down - global._up;
 		{
 			image_speed = 0;
 			sprite_index = Oplayer_idleS;
-			image_xscale = -2
+			//image_xscale = -2
 		}
 		
 		if keyboard_check_released(vk_right) or keyboard_check_released(ord("D"))
 		{
 			image_speed = 0;
 			sprite_index = Oplayer_idleS;
-			image_xscale = 2
+			//image_xscale = 2
 		}
 		
 		if keyboard_check_released(vk_up) or keyboard_check_released(ord("W")) 
 		{
 			image_speed = 0;
 			sprite_index = Oplayer_idleB;
-			image_xscale = -2
+			//image_xscale = -2
 		}
 			
 		if keyboard_check_released(vk_down) or keyboard_check_released(ord("S"))
 		{
 			image_speed = 0;
 			sprite_index = Oplayer_idleF;
-			image_xscale = -2
+			//image_xscale = -2
 		}
 		
 		
@@ -228,25 +228,25 @@ if hp = 0
             if (is_shooting)
             {
                 is_shooting = false;
-                if sprite_index = Oplayer_walkS or Oplayer_idleS and image_xscale = 2
+                if sprite_index = Oplayer_walkS or sprite_index = Oplayer_idleS and image_xscale = 2
                 {
 	                instance_create_layer(x + 20 , y + 0, "Instances", OBJ_Projectile);
 	                global.ammo -= 1
                 }
 
-                if sprite_index = Oplayer_walkS or Oplayer_idleS and image_xscale = -2
+                if sprite_index = Oplayer_walkS or sprite_index = Oplayer_idleS and image_xscale = -2
                 {
 	                instance_create_layer(x - 20, y + 0, "Instances", OBJ_Projectile);
 	                global.ammo -= 1
                 }
 				
-                if sprite_index = Oplayer_walkB or Oplayer_idleB and weapon_x_offset = -10
+                if sprite_index = Oplayer_walkB or sprite_index = Oplayer_idleB
                 {
 	                instance_create_layer(x + 0, y - 20, "Instances", OBJ_ProjectileUp);
 	                global.ammo -= 1
                 }
 				
-                if sprite_index = Oplayer_walkF or Oplayer_idleF and weapon_x_offset = 10
+                if sprite_index = Oplayer_walkF or sprite_index = Oplayer_idleF
                 {
 	                instance_create_layer(x - 0, y + 20, "Instances", OBJ_ProjectileUp);
 	                global.ammo -= 1
