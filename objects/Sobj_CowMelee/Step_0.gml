@@ -148,8 +148,3 @@ global.killcounter += 1
 	
 }
 
-if currenthP = 2
-{
-	Sobj_CowMelee.sprite_index = Ocow_hurtS
-}
-
