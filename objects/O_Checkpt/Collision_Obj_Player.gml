@@ -1,18 +1,49 @@
+/// @description Insert description here
+// You can write your code in this editor
 
 
-if place_meeting(x, y, obj_GoatBlock)
-{
-	if (obj_GoatBlock.image_angle = 87)
-	{
-		show_debug_message( "SUUUUUP")
-	}
 
-	else 
-	{ 
-		show_debug_message( "1")
-		instance_destroy( obj_shield);
-	}
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -6,7 +6,7 @@ if invinc == false {
  hp += -10;
 been_hit = true;
 invinc = true;
-alarm[1] = game_get_speed(gamespeed_fps);
+	alarm[1] =room_speed * 2;
 }
 
  instance_destroy(other);
