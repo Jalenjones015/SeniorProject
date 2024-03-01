@@ -182,7 +182,7 @@ if (hit != noone) and can_hit = true
 	}
 
 
-
+//camera code 
 if global.active_room!=-1
 	{
 		cam_x=clamp(x-192,global.active_room.x-48,global.active_room.x+global.active_room.sprite_width+32-camera_get_view_width(view_camera[1]));
