@@ -1,15 +1,17 @@
 
 
+can_wait = false;
+can_attack = true;
 
-sprite_index = Oplayer_hurt;
-if invinc == false {
- hp += -10;
-been_hit = true;
-invinc = true;
-alarm[1] = game_get_speed(gamespeed_fps);
+
+{
+//show_debug_message( "ice cream")
+
+
 }
 
- instance_destroy(other);
+
+
 
 
 

@@ -1,8 +1,8 @@
 show_debug_message("alarm act");
-if instance_number(obj_enemy1) >= 3
+if instance_number(Sobj_CowMelee) >= 3
 exit
 
-instance_create_layer(x, y, "Instance_Enemy", obj_enemy1 )
+instance_create_layer(x, y, "Instance_Enemy", Sobj_CowMelee )
 
 alarm[0] =  random_range(room_speed* .5, room_speed * 8)
 canspawn = true;

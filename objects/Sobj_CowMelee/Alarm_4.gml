@@ -1,15 +1,8 @@
+/// @description Insert description here
+// You can write your code in this editor
 
 
 
-sprite_index = Oplayer_hurt;
-if invinc == false {
- hp += -10;
-been_hit = true;
-invinc = true;
-alarm[1] = game_get_speed(gamespeed_fps);
-}
-
- instance_destroy(other);
 
 
 

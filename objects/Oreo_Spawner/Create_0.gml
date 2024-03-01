@@ -6,9 +6,9 @@ wave_w = 1;
 
 time = room_speed * 3;
 timer = time;
-topX = x - 300;
-topY = y - 300;
-bottomX = x + 400;
+topX = x - 500;
+topY = y - 500;
+bottomX = x + 900;
 bottomY = y + 400;
 
 debugon = true;

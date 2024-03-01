@@ -39,9 +39,37 @@ var _inputY = global._down - global._up;
 	
 	else 
 	{
+		
+		if keyboard_check_released(vk_left)
+		{
 		image_speed = 0;
-		sprite_index = Oplayer_idleF;
+		sprite_index = Oplayer_idleS;
+		image_xscale = -2
+		}
+		
+			if keyboard_check_released(vk_right)
+			{
+				image_speed = 0;
+		sprite_index = Oplayer_idleS;
 		image_xscale = 2
+			}
+		
+			if keyboard_check_released(vk_up)
+			{
+				image_speed = 0;
+		sprite_index = Oplayer_idleB;
+		image_xscale = -2
+			}
+			
+			if keyboard_check_released(vk_down)
+			{
+				image_speed = 0;
+		sprite_index = Oplayer_idleF;
+		image_xscale = -2
+			}
+		
+		
+		
 	}
 
 
@@ -102,25 +130,25 @@ move_and_collide(_inputX * global.moveSpeed, _inputY * global.moveSpeed, Walls,4
 
 //this code allows you to take hp from the neemies 
 
-hit = instance_place(x, y, obj_enemy1)
-if (hit != noone) and can_hit = true
-	{
-		can_hit = false;
-		hit.currenthP -= 5;
-		alarm[4] = room_speed * 1;
-	}
-
-
-
-//hit = instance_place(x, y, obj_CowMelee)
+//hit = instance_place(x, y, obj_enemy1)
 //if (hit != noone) and can_hit = true
-//{
-	
-//can_hit = false;
-//hit.currenthP -= 5;
-//alarm[4] = room_speed * 1.5;
+//	{
+//		can_hit = false;
+//		hit.currenthP -= 5;
+//		alarm[4] = room_speed * 1;
+//	}
 
-//}
+
+
+hit = instance_place(x, y, obj_CowMelee)
+if (hit != noone) and can_hit = true
+{
+	
+can_hit = false;
+hit.currenthP -= 5;
+alarm[4] = room_speed * 1.5;
+
+}
 
 
 hit = instance_place(x, y, obj_CatRanger)
@@ -169,7 +197,11 @@ if global.active_room!=-1
 		lerp(camera_get_view_y(view_camera[0]),cam_y,0.2));
 	}
 
+if hp = 0
 
+{
+room_goto(StartMenu)
+}
 
 
 	if (mouse_check_button_pressed(1))

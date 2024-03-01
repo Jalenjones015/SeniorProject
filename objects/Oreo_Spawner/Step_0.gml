@@ -4,7 +4,7 @@ show_debug_message(string(time));
 show_debug_message(string(timer));
 timer = time;
 playercollide = noone;
-playercollide = collision_rectangle(topX, topY, bottomX, bottomY, Char2, false, true);
+playercollide = collision_rectangle(topX, topY, bottomX, bottomY, Obj_Player, false, true);
 
 if(playercollide != noone)
 
@@ -23,10 +23,10 @@ alarm[0] = random_range(room_speed* .5, room_speed * 3);
 }
 else if(playercollide == noone)
 {show_debug_message("enemy destroyed");
-	if(instance_exists(obj_enemy1))
+	if(instance_exists(Sobj_CowMelee))
 	
 	{
-	instance_destroy(obj_enemy1);
+	instance_destroy(Sobj_CowMelee);
 	
 	
 	}
