@@ -18,6 +18,7 @@ var _inputY = global._down - global._up;
 	if keyboard_check(vk_up) or keyboard_check(ord("W")) 
 	{ 
 		sprite_index = Oplayer_walkB;
+		weapon_x_offset = -10
 	}
  
 	else if keyboard_check(vk_right) or keyboard_check(ord("D"))
@@ -29,44 +30,46 @@ var _inputY = global._down - global._up;
 	else if keyboard_check(vk_down) or keyboard_check(ord("S"))
 	{
 		sprite_index = Oplayer_walkF;
+		weapon_x_offset = 10
 	}
 	
 	else if keyboard_check(vk_left) or keyboard_check(ord("A"))
 	{
 		image_xscale = -2;	
 		sprite_index = Oplayer_walkS;
+		weapon_x_offset = 5
 	}
 	
 	else 
 	{
 		
-		if keyboard_check_released(vk_left)
+		if keyboard_check_released(vk_left) or keyboard_check_released(ord("A"))
 		{
-		image_speed = 0;
-		sprite_index = Oplayer_idleS;
-		image_xscale = -2
+			image_speed = 0;
+			sprite_index = Oplayer_idleS;
+			image_xscale = -2
 		}
 		
-			if keyboard_check_released(vk_right)
-			{
-				image_speed = 0;
-		sprite_index = Oplayer_idleS;
-		image_xscale = 2
-			}
+		if keyboard_check_released(vk_right) or keyboard_check_released(ord("D"))
+		{
+			image_speed = 0;
+			sprite_index = Oplayer_idleS;
+			image_xscale = 2
+		}
 		
-			if keyboard_check_released(vk_up)
-			{
-				image_speed = 0;
-		sprite_index = Oplayer_idleB;
-		image_xscale = -2
-			}
+		if keyboard_check_released(vk_up) or keyboard_check_released(ord("W")) 
+		{
+			image_speed = 0;
+			sprite_index = Oplayer_idleB;
+			image_xscale = -2
+		}
 			
-			if keyboard_check_released(vk_down)
-			{
-				image_speed = 0;
-		sprite_index = Oplayer_idleF;
-		image_xscale = -2
-			}
+		if keyboard_check_released(vk_down) or keyboard_check_released(ord("S"))
+		{
+			image_speed = 0;
+			sprite_index = Oplayer_idleF;
+			image_xscale = -2
+		}
 		
 		
 		
@@ -87,15 +90,13 @@ var _inputY = global._down - global._up;
 			//dash_dir = 90;
 			var dash1 = part_system_create(PS_Dash_Up);
 			part_system_position(dash1, Obj_Player.x, Obj_Player.y)
-	
 		}
 		else if keyboard_check(vk_right) or keyboard_check(ord("D"))
 		{ 
 			//dash_dir = 0;
 			var dash2 = part_system_create(PS_Dash_Right);
 			part_system_position(dash2, Obj_Player.x, Obj_Player.y)
-		
-			}
+		}
 	
 		else if keyboard_check(vk_down) or keyboard_check(ord("S"))
 	
@@ -103,16 +104,13 @@ var _inputY = global._down - global._up;
 			var dash3 = part_system_create(PS_Dash_Down);
 			part_system_position(dash3, Obj_Player.x, Obj_Player.y)
 			//dash_dir = 270;
-		
 		}
 		else if keyboard_check(vk_left) or keyboard_check(ord("A"))
 		{
-		
 			//dash_dir = 180;
 			//show_debug_message("KiM")
 			var dash4 = part_system_create(PS_Dash_Left);
 			part_system_position(dash4, Obj_Player.x, Obj_Player.y)
-	 	  
 		}
 	
 	
@@ -142,13 +140,11 @@ move_and_collide(_inputX * global.moveSpeed, _inputY * global.moveSpeed, Walls,4
 
 hit = instance_place(x, y, obj_CowMelee)
 if (hit != noone) and can_hit = true
-{
-	
-can_hit = false;
-hit.currenthP -= 5;
-alarm[4] = room_speed * 1.5;
-
-}
+	{
+		can_hit = false;
+		hit.currenthP -= 5;
+		alarm[4] = room_speed * 1.5;
+	}
 
 
 hit = instance_place(x, y, obj_CatRanger)
@@ -200,7 +196,7 @@ if global.active_room!=-1
 if hp = 0
 
 {
-room_goto(StartMenu)
+	room_goto(StartMenu)
 }
 
 
@@ -232,25 +228,25 @@ room_goto(StartMenu)
             if (is_shooting)
             {
                 is_shooting = false;
-                if (image_angle = 0)
+                if sprite_index = Oplayer_walkS or Oplayer_idleS and image_xscale = 2
                 {
 	                instance_create_layer(x + 20 , y + 0, "Instances", OBJ_Projectile);
 	                global.ammo -= 1
                 }
 
-                if (image_angle = 180)
+                if sprite_index = Oplayer_walkS or Oplayer_idleS and image_xscale = -2
                 {
 	                instance_create_layer(x - 20, y + 0, "Instances", OBJ_Projectile);
 	                global.ammo -= 1
                 }
 				
-                if (image_angle = 90)
+                if sprite_index = Oplayer_walkB or Oplayer_idleB and weapon_x_offset = -10
                 {
 	                instance_create_layer(x + 0, y - 20, "Instances", OBJ_ProjectileUp);
 	                global.ammo -= 1
                 }
 				
-                if (image_angle = 270)
+                if sprite_index = Oplayer_walkF or Oplayer_idleF and weapon_x_offset = 10
                 {
 	                instance_create_layer(x - 0, y + 20, "Instances", OBJ_ProjectileUp);
 	                global.ammo -= 1
