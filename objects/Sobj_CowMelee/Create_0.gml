@@ -18,6 +18,7 @@ mycolor = c_aqua
 yes_color = mycolor;
 global.collide_speed = speed + 1; 
 
+
 can_wait = true;	
 can_attack = false;
 can_idle = false;
