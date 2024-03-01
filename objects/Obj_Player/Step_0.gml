@@ -202,28 +202,28 @@ if global.active_room!=-1
                 is_shooting = false;
                 if (image_angle = 0)
                 {
-	                instance_create_layer(x + 20 , y + 0, "Instances_1", OBJ_Projectile);
+	                instance_create_layer(x + 20 , y + 0, "Instances", OBJ_Projectile);
 	                global.ammo -= 1
                 }
 
                 if (image_angle = 180)
                 {
-	                instance_create_layer(x - 20, y + 0, "Instances_1", OBJ_Projectile);
+	                instance_create_layer(x - 20, y + 0, "Instances", OBJ_Projectile);
 	                global.ammo -= 1
                 }
 				
                 if (image_angle = 90)
                 {
-	                instance_create_layer(x + 0, y - 20, "Instances_1", OBJ_ProjectileUp);
+	                instance_create_layer(x + 0, y - 20, "Instances", OBJ_ProjectileUp);
 	                global.ammo -= 1
                 }
 				
                 if (image_angle = 270)
                 {
-	                instance_create_layer(x - 0, y + 20, "Instances_1", OBJ_ProjectileUp);
+	                instance_create_layer(x - 0, y + 20, "Instances", OBJ_ProjectileUp);
 	                global.ammo -= 1
                 }
-                alarm_set(1, room_speed * .50)
+                alarm_set(7, room_speed * .50)
 			}
 		}
 			

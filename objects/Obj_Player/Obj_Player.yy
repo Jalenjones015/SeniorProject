@@ -57,6 +57,9 @@
     "name": "Oplayer_idleF",
     "path": "sprites/Oplayer_idleF/Oplayer_idleF.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "Sprite20",
+    "path": "sprites/Sprite20/Sprite20.yy",
+  },
   "visible": true,
 }

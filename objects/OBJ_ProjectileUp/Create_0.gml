@@ -1,10 +1,10 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6D90698C
-/// @DnDApplyTo : {jalenstestplayer}
+/// @DnDApplyTo : {Obj_Player}
 /// @DnDArgument : "var" "image_angle"
 /// @DnDArgument : "value" "90"
-with(jalenstestplayer) var l6D90698C_0 = image_angle == 90;
+with(Obj_Player) var l6D90698C_0 = image_angle == 90;
 if(l6D90698C_0)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
@@ -19,10 +19,10 @@ if(l6D90698C_0)
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6C72139B
-/// @DnDApplyTo : {jalenstestplayer}
+/// @DnDApplyTo : {Obj_Player}
 /// @DnDArgument : "var" "image_angle"
 /// @DnDArgument : "value" "270"
-with(jalenstestplayer) var l6C72139B_0 = image_angle == 270;
+with(Obj_Player) var l6C72139B_0 = image_angle == 270;
 if(l6C72139B_0)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
@@ -33,9 +33,3 @@ if(l6C72139B_0)
 	/// @DnDArgument : "var" "vspeed"
 	vspeed = 3;
 }
-
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 02D8C907
-/// @DnDDisabled : 1
-/// @DnDArgument : "code" "with(jalenstestplayer) var b0 = pjDir == 0;$(13_10)if (b0)$(13_10){$(13_10)	direction = 0;$(13_10)}$(13_10)$(13_10)with(jalenstestplayer) var b1 = pjDir == 1;$(13_10)if (b1)$(13_10){$(13_10)	direction = 180;$(13_10)}"
