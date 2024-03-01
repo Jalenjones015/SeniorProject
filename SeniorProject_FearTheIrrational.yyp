@@ -79,6 +79,7 @@
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
     {"id":{"name":"Sprite56","path":"sprites/Sprite56/Sprite56.yy",},},
     {"id":{"name":"ZShield_Ranger","path":"objects/ZShield_Ranger/ZShield_Ranger.yy",},},
+    {"id":{"name":"Level_2","path":"rooms/Level_2/Level_2.yy",},},
     {"id":{"name":"SpecialWeapon","path":"objects/SpecialWeapon/SpecialWeapon.yy",},},
     {"id":{"name":"MilkCrate","path":"sprites/MilkCrate/MilkCrate.yy",},},
     {"id":{"name":"o_bombtimer","path":"objects/o_bombtimer/o_bombtimer.yy",},},
@@ -282,6 +283,7 @@
     {"id":{"name":"POS_DEL_JalensRoom","path":"rooms/POS_DEL_JalensRoom/POS_DEL_JalensRoom.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"Level_2","path":"rooms/Level_2/Level_2.yy",},},
     {"roomId":{"name":"StartMenu","path":"rooms/StartMenu/StartMenu.yy",},},
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"Character_testing","path":"rooms/Character_testing/Character_testing.yy",},},
