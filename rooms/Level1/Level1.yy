@@ -34,6 +34,7 @@
     {"name":"inst_4EBEC35B","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_3F6E0FA1","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_54C6410E","path":"rooms/Level1/Level1.yy",},
+    {"name":"inst_59FF8EA","path":"rooms/Level1/Level1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -70,6 +71,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3C7C8932","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Walls","path":"objects/Walls/Walls.yy",},"properties":[],"rotation":0.0,"scaleX":41.5,"scaleY":5.0,"x":512.0,"y":1952.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_31E343CD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Walls","path":"objects/Walls/Walls.yy",},"properties":[],"rotation":0.0,"scaleX":49.999996,"scaleY":5.0,"x":0.0,"y":2624.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_15BB4593","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Oreo_Spawner","path":"objects/Oreo_Spawner/Oreo_Spawner.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":384.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_59FF8EA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Oreo_pause","path":"objects/Oreo_pause/Oreo_pause.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":2304.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_5","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_2F966136","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":0.75,"scaleY":0.75,"spriteId":{"name":"LawnGames","path":"sprites/LawnGames/LawnGames.yy",},"x":704.0,"y":288.0,},

@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Walls",
-  "eventList": [],
+  "name": "Roomxx_swticharoo",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Walls",
-    "path": "folders/Objects/JalensOBJs/Walls.yy",
+    "name": "Systems",
+    "path": "folders/Objects/AshleysOBJs/Systems.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -24,10 +26,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "wall21",
-    "path": "sprites/wall21/wall21.yy",
+    "name": "_37568685_d845_42f3_b01f_81ef98536e41",
+    "path": "sprites/_37568685_d845_42f3_b01f_81ef98536e41/_37568685_d845_42f3_b01f_81ef98536e41.yy",
   },
   "spriteMaskId": null,
   "visible": true,

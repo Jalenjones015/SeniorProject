@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Walls",
+  "name": "New_walls",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": true,
-  "spriteId": {
-    "name": "wall21",
-    "path": "sprites/wall21/wall21.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

@@ -183,9 +183,10 @@ if (hit != noone) and can_hit = true
 
 
 //camera code 
+//x-whatever number, y-whatever number changes the position of player. Camera wise
 if global.active_room!=-1
 	{
-		cam_x=clamp(x-192,global.active_room.x-48,global.active_room.x+global.active_room.sprite_width+32-camera_get_view_width(view_camera[1]));
+		cam_x=clamp(x-102,global.active_room.x-48,global.active_room.x+global.active_room.sprite_width+32-camera_get_view_width(view_camera[1]));
 		cam_y=clamp(y-108,global.active_room.y-27,global.active_room.y+global.active_room.sprite_height+32-camera_get_view_height(view_camera[1]));
 		
 		camera_set_view_pos(view_camera[0],
