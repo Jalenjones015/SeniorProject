@@ -11,25 +11,13 @@ sprite_index = Ocow_hurtS;
  alarm[2] = room_speed * 1.5;
  
  
-hit = instance_place(x, y, obj_CowMelee)
+hit = instance_place(x, y, obj_Cowcan_get_close)
 if (hit != noone) and can_hit = true
 {
 	
 can_hit = false;
 hit.currenthP -= 5;
 alarm[4] = room_speed * 1.5;
-
-
-//if (currenthP == 10)
-//{colorbop = true; }
-
-//	if colorbop = true
-//	{
-//		colorbop = false;
-
-//yes_color = mycolor
-//alarm[1] = room_speed * 2;
-
 
 
 	}

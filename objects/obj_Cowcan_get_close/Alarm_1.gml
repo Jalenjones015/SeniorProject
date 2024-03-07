@@ -1,19 +1,119 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (currenthP == 10)
-{colorbop = true; }
 
-	if colorbop = true
-	{
-		colorbop = false;
+can_attack = false;
+image_index = Ocow_idleS; 
 
-yes_color = mycolor
-alarm[1] = room_speed * 2;
+
+alarm[5] = room_speed * 3;
 
 
 
-	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

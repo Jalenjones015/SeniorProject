@@ -1,5 +1,4 @@
 
-	
 if (distance_to_point(xstart, ystart) = 0)
 
 { can_wait = false;
@@ -9,7 +8,7 @@ if (distance_to_point(xstart, ystart) = 0)
 
 if distance_to_object(Obj_Player) < 100 and can_wait = false 
 
-											//ready to move and x distance is met
+											//ready to move if x distance is met
 
 { //show_debug_message("TOOOODDDDDD") 
 
@@ -33,30 +32,29 @@ sprite_index = Ocow_alertS;
 										//show_debug_message( "apple")
 move_towards_point(Obj_Player.x + 35, Obj_Player.y, 2)
 speed = 1.2;
-	can_leap = true;									// move towards plyaewr
+alarm[1] = room_speed * 3;
+	can_leap = true;	
+		
+     has_returned = false;  // move towards plyaewr
 }
 
 else 
 										// Hypo: If not ready to attack and/ or distance quota is not met
 										//it will do this instead
 {
-	
-if (distance_to_point(xstart, ystart) >= 2)
-										// if distance from origin is greater. equal to 2
+			// if distance from origin is greater. equal to 2
 										//it wil ltry to move back to origin within 2 clicks
-{
+
 	//show_debug_message( "Back pack")
-	move_towards_point(xstart, ystart, 2)	
+
 	//image_xscale = -3
 	//test the image scale thing some more to see if it would help with the image flipping. Returning to point without a hit
-	
-     has_returned = false;
+
  
-}
 
 
 
-if has_returned = false and (distance_to_point(xstart, ystart) = 0)
+if (distance_to_point(xstart, ystart) = 0)
 
 { can_actually_w = true;
 		sprite_index = Ocow_idleB;
@@ -65,7 +63,7 @@ show_debug_message("Run Barrrryyyy")
  
  if can_actually_w = true
 
-{ has_returned = true;	
+{ 
 	show_debug_message( "Run. Barry Run!")
 	speed = 0; 
 alarm[4] = room_speed * 1
@@ -75,20 +73,6 @@ alarm[4] = room_speed * 1
 }
 }
 
-//if Obj_Player.x < xstart
-
-//{
-//	sprite_index = Ocow_walkS
-	
-	
-//}
-
-//if Obj_Player.x > xstart 
-
-//{
-//	image_xscale = -3;
-//sprite_index =  Ocow_walkS	
-//}
 
 if distance_to_object( Obj_Player) < 10  and can_leap = true
 {

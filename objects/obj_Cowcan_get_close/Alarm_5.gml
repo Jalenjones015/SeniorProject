@@ -1,14 +1,37 @@
+/// @description Insert description here
+// You can write your code in this editor
 
 
-can_wait = false;
+
+
+
+
 can_attack = true;
 
 
-{
-show_debug_message( "ice cream")
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
