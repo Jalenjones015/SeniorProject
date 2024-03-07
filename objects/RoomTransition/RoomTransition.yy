@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "RoomTransition",
-    "path": "folders/RoomTransition.yy",
+    "name": "ROOMTRANSITION_CAMERA",
+    "path": "folders/Objects/JalensOBJs/ROOMTRANSITION_CAMERA.yy",
   },
   "parentObjectId": null,
   "persistent": false,

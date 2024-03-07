@@ -12,7 +12,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "SpecialWeapons",
-    "path": "folders/Objects/JalensOBJs/SpecialWeapons.yy",
+    "path": "folders/Objects/JalensOBJs/Player and Weapons/SpecialWeapons.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -16,21 +16,27 @@ var _inputY = global._down - global._up;
 
  
 	if keyboard_check(vk_up) or keyboard_check(ord("W")) 
-	{ 
+	{ //up
 		sprite_index = Oplayer_walkB;
 		weapon_x_offset = -10
+		aim_y_offset = -70
+		aim_x_offset = -15
+	
 	}
  
 	else if keyboard_check(vk_right) or keyboard_check(ord("D"))
-	{
+	{//right
 		image_xscale = 2;
 		sprite_index = Oplayer_walkS;
+		aim_y_offset = -25
+		aim_x_offset = 60
 	}
 	
 	else if keyboard_check(vk_down) or keyboard_check(ord("S"))
-	{
+	{//down
 		sprite_index = Oplayer_walkF;
 		weapon_x_offset = 10
+		aim_x_offset = 10
 	}
 	
 	else if keyboard_check(vk_left) or keyboard_check(ord("A"))
@@ -38,6 +44,7 @@ var _inputY = global._down - global._up;
 		image_xscale = -2;	
 		sprite_index = Oplayer_walkS;
 		weapon_x_offset = 5
+		aim_x_offset = 5
 	}
 	
 	else 
@@ -128,15 +135,6 @@ move_and_collide(_inputX * global.moveSpeed, _inputY * global.moveSpeed, Walls,4
 
 //this code allows you to take hp from the neemies 
 
-//hit = instance_place(x, y, obj_enemy1)
-//if (hit != noone) and can_hit = true
-//	{
-//		can_hit = false;
-//		hit.currenthP -= 5;
-//		alarm[4] = room_speed * 1;
-//	}
-
-
 
 hit = instance_place(x, y, obj_CowMelee)
 if (hit != noone) and can_hit = true
@@ -164,14 +162,6 @@ if (hit != noone) and can_hit = true
 	}
 
 
-
-hit = instance_place(x, y, ZPower_Ranger)
-if (hit != noone) and can_hit = true
-	{	
-		can_hit = false;
-		hit.currenthP -= 5;
-		alarm[4] = room_speed * 1.5;
-	}
 
 hit = instance_place(x, y, ZThrowAOE_dorpbomb_var)
 if (hit != noone) and can_hit = true

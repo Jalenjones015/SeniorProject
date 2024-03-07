@@ -53,3 +53,6 @@ weapon_y_offset = 0;
 weapon2_x_offset = 0;
 weapon2_y_offset = 0;
 
+cross_active = obj_crosshair;
+aim_x_offset = 0;
+aim_y_offset = 0;

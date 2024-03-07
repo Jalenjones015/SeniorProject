@@ -96,3 +96,4 @@ if active == SpecialWeapon2
 		instance_create_depth(active.x + -30, active.y + 0, depth - 1, OBJ_SpecialHitbox2)
 	}
 }
+

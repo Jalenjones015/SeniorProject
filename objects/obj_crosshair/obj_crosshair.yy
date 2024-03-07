@@ -1,17 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "SpecialWeapon2",
+  "name": "obj_crosshair",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "SpecialWeapons",
-    "path": "folders/Objects/JalensOBJs/Player and Weapons/SpecialWeapons.yy",
+    "name": "Systems",
+    "path": "folders/Objects/AshleysOBJs/Systems.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -30,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SP_SpecialWeapon2",
-    "path": "sprites/SP_SpecialWeapon2/SP_SpecialWeapon2.yy",
+    "name": "Sp_crosshair",
+    "path": "sprites/Sp_crosshair/Sp_crosshair.yy",
   },
   "spriteMaskId": null,
   "visible": true,
