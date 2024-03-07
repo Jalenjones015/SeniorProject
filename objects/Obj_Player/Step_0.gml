@@ -36,15 +36,17 @@ var _inputY = global._down - global._up;
 	{//down
 		sprite_index = Oplayer_walkF;
 		weapon_x_offset = 10
-		aim_x_offset = 10
+		aim_y_offset = 60
+		aim_x_offset = 15
 	}
 	
 	else if keyboard_check(vk_left) or keyboard_check(ord("A"))
-	{
+	{//left
 		image_xscale = -2;	
 		sprite_index = Oplayer_walkS;
 		weapon_x_offset = 5
-		aim_x_offset = 5
+		aim_y_offset = -25
+		aim_x_offset = -60
 	}
 	
 	else 
