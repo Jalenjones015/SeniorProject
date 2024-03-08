@@ -25,6 +25,8 @@
     {"name":"inst_64A3C51C","path":"rooms/Character_testing/Character_testing.yy",},
     {"name":"inst_1B8CCADA","path":"rooms/Character_testing/Character_testing.yy",},
     {"name":"inst_3C6ABB01","path":"rooms/Character_testing/Character_testing.yy",},
+    {"name":"inst_211039B5","path":"rooms/Character_testing/Character_testing.yy",},
+    {"name":"inst_1AA69268","path":"rooms/Character_testing/Character_testing.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -48,6 +50,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_67BE57F9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ChickenAOE","path":"objects/obj_ChickenAOE/obj_ChickenAOE.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":416.0,"y":544.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_361FA377","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_CatRanger","path":"objects/obj_CatRanger/obj_CatRanger.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":224.0,"y":544.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1B8CCADA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Cowcan_get_close","path":"objects/obj_Cowcan_get_close/obj_Cowcan_get_close.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":352.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_211039B5","colour":4281414084,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Sobj_CowMelee","path":"objects/Sobj_CowMelee/Sobj_CowMelee.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":768.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1AA69268","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Oreo_Spawner","path":"objects/Oreo_Spawner/Oreo_Spawner.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":416.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_player","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2CB8A3ED","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":224.0,"y":288.0,},

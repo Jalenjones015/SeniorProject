@@ -1,4 +1,31 @@
 
+
+
+o_dirrr = point_direction(x, y, Obj_Player.x, Obj_Player.y)
+
+x_sp = lengthdir_x(speedin, o_dirrr);
+y_sp = lengthdir_y(speedin, o_dirrr);
+
+x += x_sp;
+y += y_sp;
+
+
+
+if place_meeting(x + x_sp, y, Sobj_CowMelee )
+
+{
+	x_sp = 0;
+}
+
+
+if place_meeting(x, y + y_sp, Sobj_CowMelee )
+
+{
+	y_sp = 0;
+}
+
+
+
 	
 if (distance_to_point(xstart, ystart) = 0)
 

@@ -8,6 +8,9 @@ counter = 0;
 can_hit = true;
 can_dash = true; 
 
+
+
+
 global.moveSpeed = 3;
 
 moveX = 0;

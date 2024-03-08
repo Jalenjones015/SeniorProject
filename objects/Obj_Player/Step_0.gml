@@ -145,6 +145,16 @@ if (hit != noone) and can_hit = true
 		hit.currenthP -= 5;
 		alarm[4] = room_speed * 1.5;
 	}
+	
+	
+hit = instance_place(x, y, Sobj_CowMelee)
+if (hit != noone) and can_hit = true
+	{
+		can_hit = false;
+		hit.currenthP -= 5;
+		alarm[4] = room_speed * 1.5;
+	}
+
 
 
 hit = instance_place(x, y, obj_CatRanger)
