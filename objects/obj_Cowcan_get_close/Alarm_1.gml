@@ -3,6 +3,8 @@
 
 
 can_attack = false;
+can_wait = true;
+
 image_index = Ocow_idleS; 
 
 
