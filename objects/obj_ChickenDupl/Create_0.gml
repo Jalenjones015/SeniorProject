@@ -4,12 +4,7 @@ maxHp = 25;
 currenthP = 25;
 
 can_throw = true;
-can_check = true;
-
-//mess with below to make the eggs fly
-//or you could give a base number to make it funny
-bomb_cooldown = irandom_range(50, 90);
-bomb_cooldownv2 = 14;
+bomb_cooldown = 180;
 bomb_power = 9;
 hsp = 2;
 vsp = 2;
@@ -36,11 +31,7 @@ can_chase = true;
 can_sprite = true;
 can_directionface = true;
 
-can_idle = false;
 
-can_topaz = false;
-
-can_let_er_fly = false;
 
 
 image_speed = 1;

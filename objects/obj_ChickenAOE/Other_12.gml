@@ -1,3 +1,10 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+
+
+
+
 
 speed = 1.2;
 
@@ -10,9 +17,9 @@ sprite_index = Ochicken_attack
 }
 
 
-if can_throw {
+if can_throw {  show_debug_message( "EGG PANDA")
 	can_throw = false;
-	alarm[1] = bomb_cooldown;
+	alarm[1] = bomb_cooldownv2;
 	
 	
 	var dir = point_direction(x, y, Obj_Player.x, Obj_Player.y);
@@ -27,6 +34,159 @@ with(_inst)
 	//vsp = lengthdir_y(other.bomb_power, dir);
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

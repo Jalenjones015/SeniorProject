@@ -1,7 +1,9 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 20E23D07
-/// @DnDArgument : "code" "with(other)$(13_10)$(13_10){$(13_10)	instance_destroy();$(13_10)}$(13_10)$(13_10)image_index = 1$(13_10)alarm_set(1, room_speed * 0.1);"
+
+
+sprite_index = Ochicken_hurt;
+
+
+
 with(other)
 
 {
@@ -9,25 +11,9 @@ with(other)
 }
 
 image_index = 1
-alarm_set(1, room_speed * 0.1);
+alarm[1] = room_speed * 1
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 5B8F7199
-/// @DnDArgument : "expr" "-1"
-/// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "currenthP"
 currenthP += -1;
 
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 3B5A9CCC
-/// @DnDInput : 2
-/// @DnDArgument : "value" "1"
-/// @DnDArgument : "value_relative" "1"
-/// @DnDArgument : "value_1" "1"
-/// @DnDArgument : "value_relative_1" "1"
-/// @DnDArgument : "var" "global.ammo"
-/// @DnDArgument : "var_1" "global.SWCount"
 global.ammo += 1;
 global.SWCount += 1;

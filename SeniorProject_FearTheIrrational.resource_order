@@ -74,6 +74,7 @@
     {"name":"obj_crosshair","order":15,"path":"objects/obj_crosshair/obj_crosshair.yy",},
     {"name":"Level1","order":5,"path":"rooms/Level1/Level1.yy",},
     {"name":"Ochicken_alert","order":3,"path":"sprites/Ochicken_alert/Ochicken_alert.yy",},
+    {"name":"obj_ChickenDupl","order":15,"path":"objects/obj_ChickenDupl/obj_ChickenDupl.yy",},
     {"name":"O_Pit","order":8,"path":"objects/O_Pit/O_Pit.yy",},
     {"name":"Sprite49","order":19,"path":"sprites/Sprite49/Sprite49.yy",},
     {"name":"kitty","order":18,"path":"sprites/kitty/kitty.yy",},

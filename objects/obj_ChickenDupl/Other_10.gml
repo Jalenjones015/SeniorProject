@@ -1,5 +1,5 @@
 
-speed = 1.2;
+speed = 1;
 
 if can_sprite = true
 

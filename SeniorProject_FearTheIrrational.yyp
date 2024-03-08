@@ -147,6 +147,7 @@
     {"id":{"name":"Ochicken_alert","path":"sprites/Ochicken_alert/Ochicken_alert.yy",},},
     {"id":{"name":"WeaponButton","path":"objects/WeaponButton/WeaponButton.yy",},},
     {"id":{"name":"Fnt_menu","path":"fonts/Fnt_menu/Fnt_menu.yy",},},
+    {"id":{"name":"obj_ChickenDupl","path":"objects/obj_ChickenDupl/obj_ChickenDupl.yy",},},
     {"id":{"name":"O_Pit","path":"objects/O_Pit/O_Pit.yy",},},
     {"id":{"name":"Sprite49","path":"sprites/Sprite49/Sprite49.yy",},},
     {"id":{"name":"Untitled_1","path":"sounds/Untitled_1/Untitled_1.yy",},},

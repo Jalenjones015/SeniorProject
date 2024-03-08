@@ -24,25 +24,24 @@ if distance_to_object(Obj_Player) < 140 and yes_alert = true
 	 //show_debug_message( "Chicken")	
 	}
 	}
-									// If the distance of player is not less than X
+		else									// If the distance of player is not less than X
 												// If speed equals zero
 												// Play this sprite
-										//show_debug_message( "Kites. kites. and more kites." )
-	if speed = 0 and can_idle = true
+		{										//show_debug_message( "Kites. kites. and more kites." )
+			if speed = 0
 			
 			{	
 				//show_debug_message( "Thinking now" )
 			sprite_index = Ochicken_idle;
 			}
-	
+		}
   
 		
 		
 
-if distance_to_object(Obj_Player) < 98 and can_chase = true
+if distance_to_object(Obj_Player) < 95 and can_chase = true
 
 {
-	can_idle = true;
 	
 move_towards_point(Obj_Player.x, Obj_Player.y, 2)
 
@@ -60,8 +59,6 @@ move_towards_point(Obj_Player.x, Obj_Player.y, 2)
 
 
 //right
-if distance_to_object(Obj_Player) > 100 and can_directionface = false 
-
 if (direction > 0) && (direction < 90)
 
 {
@@ -121,7 +118,7 @@ if (direction > 270) && (direction < 360)
 }
 
 
-if distance_to_object(Obj_Player) < 95
+if distance_to_object(Obj_Player) < 90
 
 { 
 	sprite_index = Ochicken_attack;
@@ -145,28 +142,13 @@ if is_panic = true and panic_again = true
 		 speed = flee_spd
 		//direction = irandom_range(0, 359)
 		//or
-		//show_debug_message( "99 red ballons")
+		show_debug_message( "99 red ballons")
 		direction = irandom(360)
 		 alarm[3] = room_speed * 1
 
 		}
 
 
-if distance_to_object(Obj_Player) < 90 and can_check = true
-{
-can_check = false
-show_debug_message( "VOLLLEY")
-alarm[6] = room_speed * 5;
-}
-
-if distance_to_object(Obj_Player) < 90 and can_let_er_fly = true
-
-{ show_debug_message( "BUSS")
-	sprite_index = Ochicken_attack;
-	event_user (2); 
-	
-//mp_potential_step_object(Char2.x, Char2.y, 2, Walls )
-}
 
 
 
