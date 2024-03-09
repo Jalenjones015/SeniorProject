@@ -6,10 +6,8 @@
 depth = -1;
 
 global.is_enabled = true;
-
-
-
-
+global.hp = 100
+first_time = true;
 
 
 

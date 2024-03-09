@@ -142,7 +142,7 @@ hit = instance_place(x, y, obj_CowMelee)
 if (hit != noone) and can_hit = true
 	{
 		can_hit = false;
-		hit.currenthP -= 5;
+		hit.global.PcurrenthP -= 5;
 		alarm[4] = room_speed * 1.5;
 	}
 	
@@ -151,7 +151,7 @@ hit = instance_place(x, y, Sobj_CowMelee)
 if (hit != noone) and can_hit = true
 	{
 		can_hit = false;
-		hit.currenthP -= 5;
+		hit.global.PcurrenthP -= 5;
 		alarm[4] = room_speed * 1.5;
 	}
 
@@ -161,7 +161,7 @@ hit = instance_place(x, y, obj_CatRanger)
 if (hit != noone) and can_hit = true
 	{
 		can_hit = false;
-		hit.currenthP -= 5;
+		hit.global.PcurrenthP -= 5;
 		alarm[4] = room_speed * 1.5;
 	}
 
@@ -169,7 +169,7 @@ hit = instance_place(x, y, obj_ChickenAOE)
 if (hit != noone) and can_hit = true
 	{
 		can_hit = false;
-		hit.currenthP -= 5;
+		hit.global.PcurrenthP -= 5;
 		alarm[4] = room_speed * 1.5;
 	}
 
@@ -179,7 +179,7 @@ hit = instance_place(x, y, ZThrowAOE_dorpbomb_var)
 if (hit != noone) and can_hit = true
 	{
 		can_hit = false;
-		hit.currenthP -= 5;
+		hit.global.PcurrenthP -= 5;
 		alarm[4] = room_speed * 1;
 	}
 
@@ -196,7 +196,7 @@ if global.active_room!=-1
 		lerp(camera_get_view_y(view_camera[0]),cam_y,0.2));
 	}
 
-if hp = 0
+if global.hp = 0
 
 {
 	room_goto(StartMenu)

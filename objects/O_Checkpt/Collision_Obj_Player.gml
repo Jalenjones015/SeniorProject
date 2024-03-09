@@ -8,3 +8,12 @@ if(global.is_enabled)
 	
 	instance_create_depth(x, y, depth + 1,  O_sparkle);
 }
+
+if first_time = true
+
+{
+	
+first_time = false
+global.hp += 5;
+
+}

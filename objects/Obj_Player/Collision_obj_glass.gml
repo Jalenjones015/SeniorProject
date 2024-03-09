@@ -3,7 +3,7 @@
 
 sprite_index = Oplayer_hurt;
 if invinc == false {
- hp += -10;
+ global.hp += -10;
 been_hit = true;
 invinc = true;
 	alarm[1] =room_speed * 2;

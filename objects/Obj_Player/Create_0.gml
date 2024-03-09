@@ -1,6 +1,6 @@
 
-currenthp = 100;
-hp = 100;
+global.Pcurrenthp = 100;
+global.hp = 100;
 hp_max = 100;
 invinc = false;
 been_hit = false;
