@@ -160,7 +160,7 @@ if (currenthP <= 0)
 
 {
 	instance_destroy()
-	
+	global.killcounter += 1;
 }
 	
 	

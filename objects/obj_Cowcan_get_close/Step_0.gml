@@ -126,8 +126,12 @@ if (direction > 270) && (direction < 360)
 if (currenthP <= 0)
 
 {
-
+	global.killcounter += 1;
 	instance_destroy()
-	
+
+
 }
+
+
+
 

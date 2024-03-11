@@ -138,50 +138,50 @@ move_and_collide(_inputX * global.moveSpeed, _inputY * global.moveSpeed, Walls,4
 //this code allows you to take hp from the neemies 
 
 
-hit = instance_place(x, y, obj_CowMelee)
-if (hit != noone) and can_hit = true
-	{
-		can_hit = false;
-		hit.global.PcurrenthP -= 5;
-		alarm[4] = room_speed * 1.5;
-	}
+//hit = instance_place(x, y, obj_CowMelee)
+//if (hit != noone) and can_hit = true
+//	{
+//		can_hit = false;
+//		hit.global.PcurrenthP -= 5;
+//		alarm[4] = room_speed * 1.5;
+//	}
 	
 	
-hit = instance_place(x, y, Sobj_CowMelee)
-if (hit != noone) and can_hit = true
-	{
-		can_hit = false;
-		hit.global.PcurrenthP -= 5;
-		alarm[4] = room_speed * 1.5;
-	}
+//hit = instance_place(x, y, Sobj_CowMelee)
+//if (hit != noone) and can_hit = true
+//	{
+//		can_hit = false;
+//		hit.global.PcurrenthP -= 5;
+//		alarm[4] = room_speed * 1.5;
+//	}
 
 
 
-hit = instance_place(x, y, obj_CatRanger)
-if (hit != noone) and can_hit = true
-	{
-		can_hit = false;
-		hit.global.PcurrenthP -= 5;
-		alarm[4] = room_speed * 1.5;
-	}
+//hit = instance_place(x, y, obj_CatRanger)
+//if (hit != noone) and can_hit = true
+//	{
+//		can_hit = false;
+//		hit.global.PcurrenthP -= 5;
+//		alarm[4] = room_speed * 1.5;
+//	}
 
-hit = instance_place(x, y, obj_ChickenAOE)
-if (hit != noone) and can_hit = true
-	{
-		can_hit = false;
-		hit.global.PcurrenthP -= 5;
-		alarm[4] = room_speed * 1.5;
-	}
+//hit = instance_place(x, y, obj_ChickenAOE)
+//if (hit != noone) and can_hit = true
+//	{
+//		can_hit = false;
+//		hit.global.PcurrenthP -= 5;
+//		alarm[4] = room_speed * 1.5;
+//	}
 
 
 
-hit = instance_place(x, y, ZThrowAOE_dorpbomb_var)
-if (hit != noone) and can_hit = true
-	{
-		can_hit = false;
-		hit.global.PcurrenthP -= 5;
-		alarm[4] = room_speed * 1;
-	}
+//hit = instance_place(x, y, ZThrowAOE_dorpbomb_var)
+//if (hit != noone) and can_hit = true
+//	{
+//		can_hit = false;
+//		hit.global.PcurrenthP -= 5;
+//		alarm[4] = room_speed * 1;
+//	}
 
 
 //camera code 
