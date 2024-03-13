@@ -1,9 +1,9 @@
 
 if !been_hit 
 {
-	hp += -5;
+	global.hp += -5;
 	been_hit = true;
-	alarm[1] = 10;
+	alarm[1] = room_speed * 1;
 }
 // x = x + 30;
 

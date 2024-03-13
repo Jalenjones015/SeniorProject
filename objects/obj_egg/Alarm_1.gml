@@ -3,7 +3,7 @@
 
 speed = 0;
 
-instance_create_layer(x, y, "Instances_1", o_eggexplosion);
+instance_create_layer(x, y, "Instances_egg", o_eggexplosion);
 
 instance_destroy()
 
