@@ -149,6 +149,10 @@ if is_panic = true and panic_again = true
 		}
 
 
+if distance_to_object(Obj_Player) < 10
+{ 
+	speed = 0
+}
 
 
 

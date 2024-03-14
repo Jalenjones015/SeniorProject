@@ -1,25 +1,32 @@
-
-if !been_hit 
-{
-	stop_hurt = true;
-	global.hp += -5;
-	been_hit = true;
-	alarm[1] =room_speed * 2;
-}
- //x = x + 30;
-
-sprite_index = Oplayer_hurt;
+/// @description Insert description here
+// You can write your code in this editor
 
 
 
-if stop_hurt = true
-
-{
-	stop_hurt = false;
-alarm[8] = room_speed * .3;
 
 
-}
+
+
+
+stop_hurt = false; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -6,10 +6,23 @@ if invinc == false {
  global.hp += -10;
 been_hit = true;
 invinc = true;
+stop_hurt = true;
 	alarm[1] =room_speed * 2;
 }
 
  instance_destroy(other);
+
+
+
+
+if stop_hurt = true
+
+{
+	stop_hurt = false;
+alarm[8] = room_speed * .3;
+
+
+}
 
 
 

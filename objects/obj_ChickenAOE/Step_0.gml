@@ -168,7 +168,8 @@ if distance_to_object(Obj_Player) < 90 and can_let_er_fly = true
 //mp_potential_step_object(Char2.x, Char2.y, 2, Walls )
 }
 
-
+if distance_to_object(Obj_Player) < 10
+{speed = 0 }
 
 if (currenthP <= 0)
 

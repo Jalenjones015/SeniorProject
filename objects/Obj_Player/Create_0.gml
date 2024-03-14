@@ -9,7 +9,7 @@ can_hit = true;
 can_dash = true; 
 
 
-
+stop_hurt = false;
 
 global.moveSpeed = 3;
 
