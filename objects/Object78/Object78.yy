@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "RoomTransition",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "name": "Object78",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "ROOMTRANSITION_CAMERA",
-    "path": "folders/Objects/JalensOBJs/ROOMTRANSITION_CAMERA.yy",
+    "name": "SeniorProject_FearTheIrrational",
+    "path": "SeniorProject_FearTheIrrational.yyp",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -27,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "Sprite135",
-    "path": "sprites/Sprite135/Sprite135.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
