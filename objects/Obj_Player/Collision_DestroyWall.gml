@@ -2,9 +2,44 @@
 // You can write your code in this editor
 
 
-Obj_Player.x = Room_sendtooyep.x
 
-Obj_Player.y = Room_sendtooyep.y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
