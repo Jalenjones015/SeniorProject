@@ -1,7 +1,7 @@
 
 
-maxHp = 25;
-currenthP = 25;
+maxHp = 15;
+currenthP = 15;
 
 can_throw = true;
 can_check = true;
