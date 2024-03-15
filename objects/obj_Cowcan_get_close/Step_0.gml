@@ -10,15 +10,14 @@ if distance_to_object(Obj_Player) < 120 and can_wait = false
 
 											//ready to move if x distance is met
 
-{ //show_debug_message("TOOOODDDDDD") 
-
-											// ready to attack now
+	{ //show_debug_message("TOOOODDDDDD") 
+												// ready to attack now
 		can_leap = true;								// alert sprite plays 
-	can_attack = true;
+		can_attack = true;
 
-sprite_index = Ocow_alertS;
+		sprite_index = Ocow_alertS;
 
-}
+	}
 }
 
 //the true can_attack statement is working so you have to flip back to false somewhere down the code

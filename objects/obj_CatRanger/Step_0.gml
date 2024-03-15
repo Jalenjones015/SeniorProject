@@ -188,11 +188,8 @@ if(place_meeting( x, y + 2, Walls))
 //{
 	if can_reverse = true
 	{
-
 // show_debug_message("Heeeelllloooo")
-
-
-}
+	}
 }
 
 
@@ -209,67 +206,4 @@ if(place_meeting( x, y + 2, Walls))
 //	instance_destroy();
 //global.killcounter += 1;
 //}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

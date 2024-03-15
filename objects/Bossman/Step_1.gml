@@ -1,23 +1,23 @@
-if phase1 = true
-{
-	if distance_to_object(jalenstestplayer) < 10
-	{
-		is_bombing = true
-	}
+//if phase1 = true
+//{
+//	if distance_to_object(jalenstestplayer) < 10
+//	{
+//		is_bombing = true
+//	}
 
 
 
-	else if distance_to_object(jalenstestplayer) < 60
-	{
-		is_meleeing = true
-	}
+//	else if distance_to_object(jalenstestplayer) < 60
+//	{
+//		is_meleeing = true
+//	}
 
 
-	else if distance_to_object(jalenstestplayer) < 150
-	{
-		is_shooting = true
-	}
-}
+//	else if distance_to_object(jalenstestplayer) < 150
+//	{
+//		is_shooting = true
+//	}
+//}
 
 
 
