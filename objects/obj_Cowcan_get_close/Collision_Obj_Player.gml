@@ -11,16 +11,16 @@ sprite_index = Ocow_hurtS;
  alarm[2] = room_speed * 1.5;
  
  
-hit = instance_place(x, y, obj_Cowcan_get_close)
-if (hit != noone) and can_hit = true
-{
+//hit = instance_place(x, y, obj_Cowcan_get_close)
+//if (hit != noone) and can_hit = true
+//{
 	
-can_hit = false;
-hit.currenthP -= 5;
-alarm[4] = room_speed * 1.5;
-show_debug_message( "Hit.Successful")
+//can_hit = false;
+//hit.currenthP -= 5;
+//alarm[4] = room_speed * 1.5;
+//show_debug_message( "Hit.Successful")
 
-	}
+//	}
 
 
 

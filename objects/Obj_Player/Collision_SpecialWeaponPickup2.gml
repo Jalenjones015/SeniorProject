@@ -1,0 +1,1 @@
+global.pickedup2 = true;

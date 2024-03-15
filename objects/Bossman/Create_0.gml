@@ -2,17 +2,13 @@
 //Bosshp2 = 200;
 //Bosshp3 = 300;
 //Bossmaxhp = 300;
-//is_meleeing = false;
-//is_shooting = false;
-//is_bombing = false;
-//is_charging = false;
-//phase1 = true;
-//phase2 = false;
-//phase3 = false;
+phase1 = true;
+phase2 = false;
+phase3 = false;
 
 //This is code brought over from The cat ranger
-maxHp = 7;
-currenthP =	7;
+maxHp = 100
+currenthP =	100;
 bullet = 0;
 start_x = xstart;
 start_y = ystart;

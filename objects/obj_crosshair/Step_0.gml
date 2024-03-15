@@ -4,7 +4,7 @@
 		image_angle = 0;
 		image_xscale = .5;
 		image_yscale = .5;
-		depth = x;
+		depth = -x;
 	}
 	if  (keyboard_check_pressed(ord("A"))) or keyboard_check(vk_left)
 	{
@@ -17,7 +17,7 @@
 		image_angle = 90;
 		image_xscale = .5
 		image_yscale = .5;
-		depth = x;
+		depth = -x;
 	}
 	if  (keyboard_check_pressed(ord("S"))) or keyboard_check(vk_down)
 	{
