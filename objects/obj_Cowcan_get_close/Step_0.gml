@@ -49,7 +49,7 @@ if (distance_to_point(xstart, ystart) >= 0)
 
 { 
 		can_actually_w = true;
-		sprite_index = Ocow_idleB;
+		sprite_index = Ocow_idleF;
 		
 //show_debug_message("Run Barrrryyyy")
  
