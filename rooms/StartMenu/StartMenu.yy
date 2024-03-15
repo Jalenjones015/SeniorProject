@@ -11,8 +11,8 @@
     {"name":"inst_19BC84BE","path":"rooms/StartMenu/StartMenu.yy",},
     {"name":"inst_17947C52","path":"rooms/StartMenu/StartMenu.yy",},
     {"name":"inst_E3AB7E0","path":"rooms/StartMenu/StartMenu.yy",},
-    {"name":"inst_B803F4B","path":"rooms/StartMenu/StartMenu.yy",},
-    {"name":"inst_61C0F68D","path":"rooms/StartMenu/StartMenu.yy",},
+    {"name":"inst_303C4126","path":"rooms/StartMenu/StartMenu.yy",},
+    {"name":"inst_349C6DA4","path":"rooms/StartMenu/StartMenu.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -21,8 +21,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_19BC84BE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_quit","path":"objects/obj_button_quit/obj_button_quit.yy",},"properties":[],"rotation":0.0,"scaleX":1.4,"scaleY":1.0,"x":960.0,"y":576.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_17947C52","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_help","path":"objects/obj_button_help/obj_button_help.yy",},"properties":[],"rotation":0.0,"scaleX":1.4,"scaleY":1.0,"x":960.0,"y":864.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E3AB7E0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_starroom","path":"objects/obj_button_starroom/obj_button_starroom.yy",},"properties":[],"rotation":0.0,"scaleX":0.6666667,"scaleY":1.0,"x":1632.0,"y":128.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_B803F4B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_LevelTwo","path":"objects/obj_button_LevelTwo/obj_button_LevelTwo.yy",},"properties":[],"rotation":0.0,"scaleX":1.3333334,"scaleY":1.0,"x":960.0,"y":864.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61C0F68D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_level1","path":"objects/obj_button_level1/obj_button_level1.yy",},"properties":[],"rotation":0.0,"scaleX":0.6666667,"scaleY":1.0,"x":1664.0,"y":448.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_303C4126","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_LevelTwo","path":"objects/obj_button_LevelTwo/obj_button_LevelTwo.yy",},"properties":[],"rotation":0.0,"scaleX":0.625,"scaleY":1.0,"x":1664.0,"y":544.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_349C6DA4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_level1","path":"objects/obj_button_level1/obj_button_level1.yy",},"properties":[],"rotation":0.0,"scaleX":1.3333334,"scaleY":1.0833334,"x":960.0,"y":878.75,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":false,"effectType":"_filter_gradient","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_GradientColour1","type":1,"value":"#FFFF60B2",},

@@ -68,7 +68,7 @@ else
 	if Obj_Player.x < x
 
 	{
-		image_xscale = 1.5
+		image_xscale = 2
 		sprite_index = Ocat_moveattackS;
 		
 		
@@ -77,7 +77,7 @@ else
 	//if (direction > 181) && (direction < 359)
 		if Obj_Player.x > x
 	
-	{	image_xscale = -1.5;
+	{	image_xscale = -2;
 		sprite_index = Ocat_moveattackS;
 		
 	}
