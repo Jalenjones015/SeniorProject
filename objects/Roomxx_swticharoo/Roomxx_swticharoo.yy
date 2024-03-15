@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Systems",
-    "path": "folders/Objects/AshleysOBJs/Systems.yy",
+    "name": "TELEPORT BLOCKS",
+    "path": "folders/Objects/AshleysOBJs/Systems/TELEPORT BLOCKS.yy",
   },
   "parentObjectId": null,
   "persistent": false,
