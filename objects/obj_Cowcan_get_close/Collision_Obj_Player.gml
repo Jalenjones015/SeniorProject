@@ -1,6 +1,6 @@
 
 
-show_debug_message( "Hit.Successful")
+
 can_wait = true;
 can_attack = false;
 has_returned = true;
@@ -18,7 +18,7 @@ if (hit != noone) and can_hit = true
 can_hit = false;
 hit.currenthP -= 5;
 alarm[4] = room_speed * 1.5;
-
+show_debug_message( "Hit.Successful")
 
 	}
 

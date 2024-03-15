@@ -61,205 +61,218 @@
 }
 
 //THIS IS SHOOTING CODE AND IS WORKING PERFECRTLY
+//if canShoot = false
+//{
+//	canShoot = true
+//	alarm[8] = room_speed * 1.5
+//	if distance_to_object(Obj_Player) < 90
+//	{
+//		event_user (0); 
+//		//show_debug_message("Coookkkiiieeesss")
+//	}
 
-	//////if distance_to_object(Obj_Player) < 90
-	//////{
-	//////	event_user (0); 
-	//////	//show_debug_message("Coookkkiiieeesss")
-	//////}
-
-	////////running away code
-	//////if distance_to_object(Obj_Player) < 110
-	//////{ 
-	//////	//show_debug_message( "Kansas")
-	//////	can_turn = false;
-	//////	is_panic = true;
-	//////}
+//	//running away code
+//	if distance_to_object(Obj_Player) < 110
+//	{ 
+//		//show_debug_message( "Kansas")
+//		can_turn = false;
+//		is_panic = true;
+//	}
 	
 	
-	//////if is_panic = true and panic_again = true 
-	//////{ 	
-	//////	is_panic = false;
-	//////	panic_again = false;
-	//////	//show_debug_message("Dangit Jim")
-	//////	speed = panic_spd
-	//////	direction = irandom(360)
-	//////	alarm[5] = room_speed * 1
-	//////}
+//	if is_panic = true and panic_again = true 
+//	{ 	
+//		is_panic = false;
+//		panic_again = false;
+//		//show_debug_message("Dangit Jim")
+//		speed = panic_spd
+//		direction = irandom(360)
+//		alarm[5] = room_speed * 1
+//	}
+//}
 
 
 //THIS IS MELEE CODE AND IS WORKING PERFECRTLY
 
-//////if (distance_to_point(xstart, ystart) = 0)
-//////{ 
-//////	can_wait = false;
-//////	can_actually_w = false;
-//////	//show_debug_message( "DLDLEIFIEJFIEJ")
-//////	if distance_to_object(Obj_Player) < 120 and can_wait = false 
-//////	{ 
-//////		//show_debug_message("TOOOODDDDDD") 
-//////		can_leap = true;
-//////		can_attack = true;
-//////		//sprite_index = Ocow_alertS;
-//////	}
-//////}
-
-//////if distance_to_object(Obj_Player) < 100 and can_attack = true
-//////{
-//////	//show_debug_message( "apple")
-//////	move_towards_point(Obj_Player.x + 35, Obj_Player.y, 1.2)
-//////	alarm[1] = room_speed * 3;
-//////	can_leap = true;		
-//////	has_returned = false;
-//////}
-
-//////else 										
-//////{			
-//////	if (distance_to_point(xstart, ystart) >= 0)
-//////	{ 
-//////		can_actually_w = true;
-//////		//sprite_index = Ocow_idleB;
-//////		if can_actually_w = true
-//////		{ 
-//////			speed = 0		
-//////		}
-//////	}
-//////}
-
-
-////////attacking sprite code
-//////if distance_to_object( Obj_Player) < 10  and can_leap = true
-//////{
-//////	can_trot = false; 
-//////	alarm[3]  = room_speed * .5;
-//////	//show_debug_message("Phil") 
-//////	//sprite_index = Ocow_attackS;
-//////}
-
-//////if distance_to_object( Obj_Player) < 95 and can_trot = true
-////////right
-//////if (direction > 0) && (direction < 90)
-//////{
-//////    image_xscale = -3;
-//////	//sprite_index = Ocow_walkS;
-//////}
-
-
-//THIS IS AOE CODE AND IT WORKS
-
-
-
-//left
-if distance_to_object(Obj_Player) > 100 and can_directionface = false 
+if canMelee = false
 {
-	can_directionface = true;
-	alarm[4] = room_speed * .5	
-}
-
-
-if distance_to_object(Obj_Player) < 140 and yes_alert = true 
-{ 
-	can_alert = true;						
-	if can_alert = true
+	canMelee = true
+	alarm[9] = room_speed * .5
+	if distance_to_object(Obj_Player) < 80
 	{
-		//sprite_index = Ochicken_alert;
-	}
-}
-								
-if speed = 0 and can_idle = true
-{	
-	//sprite_index = Ochicken_idle;
-}
+			if (distance_to_point(xstart, ystart) = 0)
+			{ 
+				can_wait = false;
+				can_actually_w = false;
+				//show_debug_message( "DLDLEIFIEJFIEJ")
+				if distance_to_object(Obj_Player) < 120 and can_wait = false 
+				{ 
+					show_debug_message("TOOOODDDDDD") 
+					can_leap = true;
+					can_attack = true;
+					//sprite_index = Ocow_alertS;
+				}
+			}
+
+			if distance_to_object(Obj_Player) < 100 and can_attack = true
+			{
+				//show_debug_message( "apple")
+				move_towards_point(Obj_Player.x + 35, Obj_Player.y, 1.2)
+				alarm[0] = room_speed * 3;
+				can_leap = true;		
+				has_returned = false;
+			}
 	
-if distance_to_object(Obj_Player) < 98 and can_chase = true
-{
-	can_idle = true;
-	move_towards_point(Obj_Player.x, Obj_Player.y, 2)
+	}
+	else 										
+			{			
+				if (distance_to_point(xstart, ystart) >= 0)
+				{ 
+					can_actually_w = true;
+					//sprite_index = Ocow_idleB;
+					if can_actually_w = true
+					{ 
+						speed = 0		
+					}
+				}
+			}
 
+
+	//attacking sprite code
+	if distance_to_object( Obj_Player) < 10  and can_leap = true
+	{
+		can_trot = false; 
+		alarm[3]  = room_speed * .5;
+		//show_debug_message("Phil") 
+		//sprite_index = Ocow_attackS;
+	}
+
+	if distance_to_object( Obj_Player) < 95 and can_trot = true
 	//right
-	if distance_to_object(Obj_Player) > 100 and can_directionface = false 
-
 	if (direction > 0) && (direction < 90)
 	{
-	    image_xscale = 1.5;
-		//sprite_index = Ochicken_walk;
-	}
-
-	//left
-	if (direction > 90) && (direction < 180)
-	{
-		image_xscale = -1.5;
-		//sprite_index = Ochicken_walk;
-	}
-
-	//left
-	if (direction > 180) && (direction < 270)
-	{
-		image_xscale = -1.5;
-		//sprite_index = Ochicken_walk;
-	}
-
-	//right
-	if (direction > 270) && (direction < 360)
-	{
-		image_xscale = 1.5
-		//sprite_index =Ochicken_walk;
-	}
-
-	else				
-	{												
-		if speed = 0	
-		{	
-			//sprite_index = Ochicken_idle;
-		}
+	    image_xscale = -3;
+		//sprite_index = Ocow_walkS;
 	}
 }
 
-
-if distance_to_object(Obj_Player) < 95
-{ 
-	//sprite_index = Ochicken_attack;	
-	//event_user (1); 
-}
-
-if distance_to_object(Obj_Player) < 100
-{  
-	can_directionface = false;
-	is_panic = true;
-}
-
-if is_panic = true and panic_again = true 
-{ 	
-	is_panic = false;
-	panic_again = false;
-	speed = flee_spd
-	direction = irandom(360)
-	alarm[3] = room_speed * 1
-}
-
-
-if distance_to_object(Obj_Player) < 90 and can_check = true
+	
+//THIS IS AOE CODE AND IT WORKS
+if canAOE = false
 {
-	can_check = false
-	show_debug_message( "VOLLLEY")
-	alarm[7] = room_speed * 5;
+	//canAOE = true
+	//alarm[1] = room_speed * 5
+	//if distance_to_object(Obj_Player) < 200
+	//{
+	//	//left
+	//	if distance_to_object(Obj_Player) > 100 and can_directionface = false 
+	//	{
+	//		can_directionface = true;
+	//		alarm[4] = room_speed * .5	
+	//	}
+
+
+	//	if distance_to_object(Obj_Player) < 140 and yes_alert = true 
+	//	{ 
+	//		can_alert = true;						
+	//		if can_alert = true
+	//		{
+	//			//sprite_index = Ochicken_alert;
+	//		}
+	//	}
+								
+	//	if speed = 0 and can_idle = true
+	//	{	
+	//		//sprite_index = Ochicken_idle;
+	//	}
+	
+	//	if distance_to_object(Obj_Player) < 98 and can_chase = true
+	//	{
+	//		can_idle = true;
+	//		move_towards_point(Obj_Player.x, Obj_Player.y, 2)
+
+	//		//right
+	//		if distance_to_object(Obj_Player) > 100 and can_directionface = false 
+
+	//		if (direction > 0) && (direction < 90)
+	//		{
+	//			image_xscale = 1.5;
+	//			//sprite_index = Ochicken_walk;
+	//		}
+
+	//		//left
+	//		if (direction > 90) && (direction < 180)
+	//		{
+	//			image_xscale = -1.5;
+	//			//sprite_index = Ochicken_walk;
+	//		}
+
+	//		//left
+	//		if (direction > 180) && (direction < 270)
+	//		{
+	//			image_xscale = -1.5;
+	//			//sprite_index = Ochicken_walk;
+	//		}
+
+	//		//right
+	//		if (direction > 270) && (direction < 360)
+	//		{
+	//			image_xscale = 1.5
+	//			//sprite_index =Ochicken_walk;
+	//		}
+
+	//		else				
+	//		{												
+	//			if speed = 0	
+	//			{	
+	//				//sprite_index = Ochicken_idle;
+	//			}
+	//		}
+	//	}
+
+
+	//	if distance_to_object(Obj_Player) < 95
+	//	{ 
+	//		//sprite_index = Ochicken_attack;	
+	//		//event_user (1); 
+	//	}
+
+	//	if distance_to_object(Obj_Player) < 100
+	//	{  
+	//		can_directionface = false;
+	//		is_panic = true;
+	//	}
+
+	//	if is_panic = true and panic_again = true 
+	//	{ 	
+	//		is_panic = false;
+	//		panic_again = false;
+	//		speed = flee_spd
+	//		direction = irandom(360)
+	//		alarm[3] = room_speed * 1
+	//	}
+
+
+	//	if distance_to_object(Obj_Player) < 90 and can_check = true
+	//	{
+	//		can_check = false
+	//		show_debug_message( "VOLLLEY")
+	//		alarm[7] = room_speed * 1;
+	//	}
+
+	//	if distance_to_object(Obj_Player) < 90 and can_let_er_fly = true
+	//	{ 
+	//		show_debug_message( "BUSS")
+	//		//sprite_index = Ochicken_attack;
+	//		event_user (1); 
+	//	}
+
+	//	if distance_to_object(Obj_Player) < 50
+	//	{
+	//		speed = 0 
+	//	}
+	//}
 }
-
-if distance_to_object(Obj_Player) < 90 and can_let_er_fly = true
-{ 
-	show_debug_message( "BUSS")
-	//sprite_index = Ochicken_attack;
-	event_user (1); 
-}
-
-if distance_to_object(Obj_Player) < 10
-{speed = 0 }
-
-if (currenthP <= 0)
-{
-	instance_destroy()
-}
-
 
 
 

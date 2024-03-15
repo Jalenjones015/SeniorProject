@@ -5,7 +5,7 @@ can_wait = true;
 
 
 
-alarm[5] = room_speed * 3;
+alarm[10] = room_speed * 3;
 
 
 //if is_meleeing == false

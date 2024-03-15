@@ -55,3 +55,6 @@ can_directionface = true;
 can_idle = false;
 can_let_er_fly = false;
 
+canAOE = false
+canMelee = false
+canShoot = false

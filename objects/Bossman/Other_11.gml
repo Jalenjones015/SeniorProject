@@ -6,7 +6,6 @@
 //	//sprite_index = Ochicken_attack
 //}
 
-
 if can_throw = true 
 {
 	can_throw = false;

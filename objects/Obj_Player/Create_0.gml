@@ -1,5 +1,5 @@
 
-global.Pcurrenthp = 100;
+global.currenthp = 100;
 global.hp = 100;
 hp_max = 100;
 invinc = false;
