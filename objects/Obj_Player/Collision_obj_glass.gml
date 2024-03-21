@@ -1,6 +1,6 @@
 
 
-
+audio_play_sound(soundhurt, 1,false);
 sprite_index = Oplayer_hurt;
 if invinc == false {
  global.hp += -10;

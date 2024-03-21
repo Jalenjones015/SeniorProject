@@ -25,3 +25,4 @@ has_returned = true;
 can_actually_w = false;
 can_leap = false;
 can_trot = true;
+can_moo = false;

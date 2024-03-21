@@ -1,6 +1,9 @@
 
+
+alarm[9] = room_speed *.1;
 if !been_hit 
 {
+	
 	stop_hurt = true;
 	global.hp += -5;
 	been_hit = true;

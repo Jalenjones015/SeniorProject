@@ -19,7 +19,7 @@ if distance_to_object(Obj_Player) < 140 and yes_alert = true
 	if can_alert = true
 	
 	{
-		
+		alarm[6] = room_speed * .1
 		sprite_index = Ochicken_alert;
 	 //show_debug_message( "Chicken")	
 	}
@@ -174,6 +174,7 @@ if distance_to_object(Obj_Player) < 10
 if (currenthP <= 0)
 
 {
+	audio_play_sound(sound_defeatall, 1,false)
 	instance_destroy()
 //	global.killcounter += 1;
 }

@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 //if invinc == false {
+//audio_play_sound(soundhurt, 1,false);
 // global.hp += -3;
 //been_hit = true;
 //invinc = true;

@@ -8,7 +8,7 @@ if distance_to_object(Obj_Player) > 100 and can_directionface = false
 can_directionface = true;
 		//show_debug_message( "Turn now" )
 		alarm[2] = room_speed * .5
-		
+		alarm[6] = room_speed * .1
 }
 
 
@@ -159,6 +159,7 @@ if distance_to_object(Obj_Player) < 10
 if (currenthP <= 0)
 
 {
+	audio_play_sound(sound_defeatall, 1, false);
 	instance_destroy()
 //	global.killcounter += 1;
 }

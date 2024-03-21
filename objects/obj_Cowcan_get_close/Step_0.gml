@@ -3,21 +3,31 @@ if (distance_to_point(xstart, ystart) = 0)
 
 { can_wait = false;
 	can_actually_w = false;
-											//ready to move 
+						//ready to move 
 											//show_debug_message( "DLDLEIFIEJFIEJ")
 
 if distance_to_object(Obj_Player) < 120 and can_wait = false 
 
 											//ready to move if x distance is met
 
-	{ //show_debug_message("TOOOODDDDDD") 
+	{  
+		if can_moo = true 
+		
+		{
+		can_moo = false;
+		
+		alarm[6] = room_speed * .1;
+		
+		}
+
 												// ready to attack now
 		can_leap = true;								// alert sprite plays 
 		can_attack = true;
-
 		sprite_index = Ocow_alertS;
 
 	}
+	
+
 }
 
 //the true can_attack statement is working so you have to flip back to false somewhere down the code
@@ -48,14 +58,16 @@ else
 if (distance_to_point(xstart, ystart) >= 0)
 
 { 
+	image_xscale = 3;
 		can_actually_w = true;
-		sprite_index = Ocow_idleF;
+		sprite_index = Ocow_idleS;
 		
 //show_debug_message("Run Barrrryyyy")
  
  if can_actually_w = true
 
-{ 
+{ 	can_moo = true;
+						
 	//show_debug_message( "Run. Barry Run!")
 	speed = 0; 
 	
@@ -70,13 +82,15 @@ alarm[4] = room_speed * 1
 
 //attacking sprite code
 if distance_to_object( Obj_Player) < 10  and can_leap = true
+
 {
 	can_trot = false; 
-	
 	//allows the direction al stuff to happen
 	 alarm[3]  = room_speed * .5;
-	 
+	 alarm[7] = room_speed *.1;
+
 	//show_debug_message("Phil") 
+	
 	
 sprite_index = Ocow_attackS;
 
@@ -127,7 +141,7 @@ if (currenthP <= 0)
 {
 	global.killcounter += 1;
 	instance_destroy()
-
+audio_play_sound(sound_defeatall, 1, false);
 
 }
 

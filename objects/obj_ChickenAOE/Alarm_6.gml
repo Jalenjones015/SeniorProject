@@ -6,6 +6,11 @@
 can_let_er_fly = true;
 
 
+audio_play_sound(alert_enemy15, 1,false);
+
+
+
+
 
 
 

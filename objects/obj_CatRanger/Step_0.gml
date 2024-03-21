@@ -51,6 +51,7 @@ if distance_to_object(Obj_Player) < 130 and yes_alert = true
 	if can_alert = true
 	
 	{
+		audio_play_sound(alert_enemy, 1,false);
 
 		sprite_index = Ocat_alertS;
 	 show_debug_message( "Tim")	

@@ -1,7 +1,7 @@
 
 
 sprite_index = Ochicken_hurt;
-
+audio_play_sound(soundhurt1, 1, false);
 
 
 with(other)

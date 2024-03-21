@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 0.548571,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "player",
+    "path": "folders/AUDIO/player.yy",
   },
   "preload": false,
   "sampleRate": 44100,

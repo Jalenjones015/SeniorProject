@@ -199,6 +199,7 @@ if global.active_room!=-1
 if global.hp = 0
 
 {
+	audio_play_sound(sound_defeat, 1,false);
 	room_goto(StartMenu)
 }
 
