@@ -5,7 +5,6 @@
 
 
 
-audio_play_sound(cownoises, 1,false);
 can_attack = true;
 can_wait = false;
 

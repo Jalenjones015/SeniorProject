@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "glass_break3",
+  "name": "BOOM",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.456,
+  "duration": 0.931995,
   "parent": {
-    "name": "cat",
-    "path": "folders/AUDIO/cat.yy",
+    "name": "Other",
+    "path": "folders/AUDIO/Other.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "glass_break3.mp3",
+  "soundFile": "BOOM.wav",
   "type": 0,
-  "volume": 0.46,
+  "volume": 1.0,
 }

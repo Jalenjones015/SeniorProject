@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "glass_break3",
+  "name": "bossdefeated2v2",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.456,
+  "duration": 3.442472,
   "parent": {
-    "name": "cat",
-    "path": "folders/AUDIO/cat.yy",
+    "name": "Boss1",
+    "path": "folders/AUDIO/Boss1.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "glass_break3.mp3",
+  "soundFile": "bossdefeated2v2.wav",
   "type": 0,
-  "volume": 0.46,
+  "volume": 1.0,
 }

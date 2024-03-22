@@ -2,7 +2,7 @@
 image_speed = 1;
 
 
-
+audio_play_sound(BOOM, 1, false)
 
 
 

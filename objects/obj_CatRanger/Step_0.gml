@@ -47,15 +47,19 @@ if (direction > 270) && (direction < 360)
 if distance_to_object(Obj_Player) < 130 and yes_alert = true 
 												//If the distance of player is less than X
 {	can_alert = true;	//play this sprite
-	
+	can_sparkle = true;
 	if can_alert = true
 	
 	{
-		audio_play_sound(alert_enemy, 1,false);
+		
 
 		sprite_index = Ocat_alertS;
 	 show_debug_message( "Tim")	
-	
+	 if can_sparkle = true
+	 {
+		 can_sparkle = false
+	alarm[7] = room_speed * .1
+	 }
 	}
 }
 		else									// If the distance of player is not less than X
@@ -159,7 +163,7 @@ if distance_to_object(Obj_Player) < 130 and yes_alert = true
 
 if (currenthP <= 0)
 
-{
+{  audio_play_sound(sound_defeatall, 1, false)
 	instance_destroy()
 	global.killcounter += 1;
 }

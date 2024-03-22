@@ -14,4 +14,4 @@ global.ammo += 1;
 global.SWCount += 1;
 
 
-audio_play_sound(Zoom_Sound_Effect, 1, false)
+audio_play_sound(bosshurt, 1, false)

@@ -45,7 +45,7 @@ if alarm[2] <= 0 && instance_exists(Obj_Player)
 	
 	var bullet = instance_create_layer( x, y, "Instances_2", obj_glass);
 	bullet.direction = point_direction(x, y, Obj_Player.x, Obj_Player.y); 
-	
+	audio_play_sound(glass_break3, 1, false)
 alarm[2] = room_speed * 1.5;
 
 }
