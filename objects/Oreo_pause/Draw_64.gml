@@ -19,9 +19,9 @@ if (pause) {
 	
 	
 	
-	draw_text((view_wport[0]-96)/2, (view_hport[0]-120)/2, "You paused");
+	draw_text((view_wport[6]/2), (view_hport[6]/2), "You paused");
 	//draw_sprite(Sprite131, 0, (view_wport[0]-96)/2 ,(view_hport[0]-120)/2)
-	draw_rectangle(view_xport[0], view_yport[0],view_wport[0], view_hport[0],0);
+	draw_rectangle(view_xport[6], view_yport[6],view_wport[6], view_hport[6],0);
 draw_set_font(Fnt_menu);
 draw_set_color(c_white);
 draw_set_alpha(1);

@@ -7,10 +7,6 @@ pause_surf  = -1 ;
 pauseSurf_buff = -1;
 
 
-
-width = 96;
-height = 160;
-
 op_board =  15;
 op_space = 45;
 
