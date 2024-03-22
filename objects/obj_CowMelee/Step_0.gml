@@ -5,7 +5,7 @@ if (distance_to_point(xstart, ystart) = 0)
 { can_wait = false;
 	can_actually_w = false;
 											//ready to move 
-											//show_debug_message( "DLDLEIFIEJFIEJ")
+									//show_debug_message( "DLDLEIFIEJFIEJ")
 
 if distance_to_object(Obj_Player) < 140 and can_wait = false 
 
@@ -13,7 +13,12 @@ if distance_to_object(Obj_Player) < 140 and can_wait = false
 
 { //show_debug_message("TOOOODDDDDD") 
 
-											// ready to attack now
+		if can_moomoo = true
+		{
+			can_moomoo = false;
+				alarm[6] = room_speed * .1;	
+		}
+		// ready to attack now
 		can_leap = true;								// alert sprite plays 
 	can_attack = true;
 
@@ -64,7 +69,8 @@ show_debug_message("Run Barrrryyyy")
  
  if can_actually_w = true
 
-{ has_returned = true;	
+{	can_moomoo = true;
+	has_returned = true;	
 	show_debug_message( "Run. Barry Run!")
 	speed = 0; 
 alarm[4] = room_speed * 1
@@ -93,6 +99,7 @@ if distance_to_object( Obj_Player) < 10  and can_leap = true
 {
 	can_trot = false; 
 	 alarm[3]  = room_speed * .5;
+	 	 alarm[7] = room_speed *.1;
 	 
 	//show_debug_message("Phil") 
 	
@@ -143,6 +150,7 @@ if (direction > 270) && (direction < 360)
 if (currenthP <= 0)
 
 {
+	audio_play_sound(sound_defeatall, 1, false);
 global.killcounter += 1;
 	instance_destroy()
 	

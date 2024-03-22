@@ -173,7 +173,7 @@ if distance_to_object(Obj_Player) < 10
 
 if (currenthP <= 0)
 
-{
+{global.killcounter += 1;
 	audio_play_sound(sound_defeatall, 1,false)
 	instance_destroy()
 //	global.killcounter += 1;

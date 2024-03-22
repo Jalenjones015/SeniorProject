@@ -14,6 +14,7 @@
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"AUDIO","folderPath":"folders/AUDIO.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Boss1","folderPath":"folders/AUDIO/Boss1.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"cat","folderPath":"folders/AUDIO/cat.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"chicken","folderPath":"folders/AUDIO/chicken.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"cow","folderPath":"folders/AUDIO/cow.yy",},
@@ -54,7 +55,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Z_Might_Delete","folderPath":"folders/Z_Might_Delete.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Z_unused_Test_Stuff","folderPath":"folders/Z_unused_Test_Stuff.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Boss1","folderPath":"folders/AUDIO/Boss1.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"sound.new attack po2","CopyToMask":-1,"filePath":"datafiles",},

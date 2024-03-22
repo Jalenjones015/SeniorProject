@@ -12,3 +12,4 @@ currenthP += -2;
 
 global.ammo += 1;
 global.SWCount += 1;
+audio_play_sound(hurt_alt, 1, false)
