@@ -10,7 +10,7 @@ if instance_exists(obj_egg) and yes_bomb = true
 	//alarm[0]=timer;
 	
 	//alarm determines how long the bomb will fly
-	alarm[0] = room_speed * .5; 
+	alarm[0] = room_speed * .4; 
 //instance_create_layer(x, y, "Instance_Enemy", o_explosion);
 
 

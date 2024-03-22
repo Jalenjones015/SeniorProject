@@ -12,7 +12,7 @@ if(global.is_enabled)
 if first_time = true
 
 {
-	
+	audio_play_sound(activate_ckpt, 1, false)
 first_time = false
 global.hp += 5;
 

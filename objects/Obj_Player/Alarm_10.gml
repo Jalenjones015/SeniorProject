@@ -1,10 +1,58 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-audio_play_sound(victory_sound, 1, false)
-Obj_Player.x = Room_sendtooyep.x
 
-Obj_Player.y = Room_sendtooyep.y
+
+
+
+
+
+
+audio_play_sound(fallingpit_sound, 1, false)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

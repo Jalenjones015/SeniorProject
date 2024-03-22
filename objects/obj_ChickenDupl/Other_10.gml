@@ -18,6 +18,7 @@ if can_throw {
 	var dir = point_direction(x, y, Obj_Player.x, Obj_Player.y);
 
 var _inst = instance_create_layer( x, y, "Instance_Enemy", obj_egg);
+audio_play_sound(chicken, 1, false);
 with(_inst)
 //speed tje egg will be flying
 { _inst.speed = 4;
