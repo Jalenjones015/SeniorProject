@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "Sp_WeaponButton",
-  "bbox_bottom": 379,
-  "bbox_left": 47,
-  "bbox_right": 707,
-  "bbox_top": 84,
+  "name": "InventoryBorder",
+  "bbox_bottom": 167,
+  "bbox_left": 0,
+  "bbox_right": 659,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 384,
+  "height": 168,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e6d0e333-631b-46cd-8266-c35e4ff8893c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -25,8 +25,8 @@
   "nineSlice": {
     "resourceType": "GMNineSliceData",
     "resourceVersion": "1.0",
-    "bottom": 0,
-    "enabled": false,
+    "bottom": 72,
+    "enabled": true,
     "guideColour": [
       4294902015,
       4294902015,
@@ -35,8 +35,8 @@
     ],
     "highlightColour": 1728023040,
     "highlightStyle": 0,
-    "left": 0,
-    "right": 0,
+    "left": 87,
+    "right": 85,
     "tileMode": [
       0,
       0,
@@ -44,9 +44,9 @@
       0,
       0,
     ],
-    "top": 0,
+    "top": 69,
   },
-  "origin": 9,
+  "origin": 4,
   "parent": {
     "name": "JalensSprites",
     "path": "folders/Sprites/JalensSprites.yy",
@@ -55,7 +55,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "Sp_WeaponButton",
+    "name": "InventoryBorder",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -77,13 +77,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9a800c30-e549-4e31-84e1-1e25582a8948","path":"sprites/Sp_WeaponButton/Sp_WeaponButton.yy",},},},"Disabled":false,"id":"c40df973-a665-4c9d-b201-58d7e25f5de0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9a800c30-e549-4e31-84e1-1e25582a8948","path":"sprites/InventoryBorder/InventoryBorder.yy",},},},"Disabled":false,"id":"e879f9d2-e420-4b0b-abcf-f04b645fc62d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 384,
-    "yorigin": 177,
+    "xorigin": 330,
+    "yorigin": 84,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -93,5 +93,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 768,
+  "width": 660,
 }
