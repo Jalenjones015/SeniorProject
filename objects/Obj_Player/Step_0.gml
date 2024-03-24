@@ -196,7 +196,7 @@ if global.active_room!=-1
 		lerp(camera_get_view_y(view_camera[0]),cam_y,0.2));
 	}
 
-if global.hp = 0
+if global.hp <= 0
 
 {
 	audio_play_sound(sound_defeat, 1,false);
