@@ -28,8 +28,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Animations",
-    "path": "folders/Sprites/AshleysSprites/Animations.yy",
+    "name": "ZLevel 1",
+    "path": "folders/Sprites/AshleysSprites/Animations/ZLevel 1.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

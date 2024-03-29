@@ -25,7 +25,7 @@ if Obj_Player.x < x
 if Obj_Player.x > x
 
 {
-	image_xscale = -.5;
+	image_xscale = .5;
 sprite_index =  Odragon_walk;	
 }
 

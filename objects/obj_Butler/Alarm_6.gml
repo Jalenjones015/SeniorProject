@@ -8,7 +8,7 @@ can_moo = false;
 
 audio_play_sound(cowalert_enemy, 1,false);
 
-
+sprite_index = Obutler_alert;
 
 
 

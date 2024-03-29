@@ -107,7 +107,7 @@ if alarm[2] <= 0 && instance_exists(Obj_Player)
 {
 
 	var dir = point_direction(x, y, Obj_Player.x, Obj_Player.y);
-	
+
 	var bullet = instance_create_layer( x, y, "Instance_Enemy", obj_bubble);
 	bullet.direction = point_direction(x, y, Obj_Player.x, Obj_Player.y); 
 	

@@ -1,4 +1,12 @@
 
+
+if speed = 0 and can_actually_w = true
+
+{
+	
+sprite_index = Obutler_idle	
+}
+image_xscale = 1;
 if (distance_to_point(xstart, ystart) = 0)
 
 { can_wait = false;
@@ -11,6 +19,7 @@ if distance_to_object(Obj_Player) < 120 and can_wait = false
 											//ready to move if x distance is met
 
 	{  
+			sprite_index = Obutler_alert;
 		if can_moo = true 
 		
 		{
@@ -23,7 +32,6 @@ if distance_to_object(Obj_Player) < 120 and can_wait = false
 												// ready to attack now
 		can_leap = true;								// alert sprite plays 
 		can_attack = true;
-		sprite_index = Ocow_alertS;
 
 	}
 	
@@ -58,9 +66,8 @@ else
 if (distance_to_point(xstart, ystart) >= 0)
 
 { 
-	image_xscale = 3;
+	
 		can_actually_w = true;
-		sprite_index = Ocow_idleS;
 		
 //show_debug_message("Run Barrrryyyy")
  
@@ -92,9 +99,22 @@ if distance_to_object( Obj_Player) < 10  and can_leap = true
 	//show_debug_message("Phil") 
 	
 	
-sprite_index = Ocow_attackS;
+sprite_index = Obutler_attack;
 
 }
+
+	if Obj_Player.x < x  and can_leap = true
+
+	{
+	
+	if 	distance_to_object( Obj_Player) < 10
+	{
+		image_xscale = -1;
+		sprite_index = Obutler_attack;
+
+	}
+	}
+
 
 if distance_to_object( Obj_Player) < 95 and can_trot = true
 
@@ -103,8 +123,8 @@ if distance_to_object( Obj_Player) < 95 and can_trot = true
 if (direction > 0) && (direction < 90)
 
 {
-    image_xscale = -3;
-		sprite_index = Ocow_walkS;
+    image_xscale = 1;
+		sprite_index = Obutler_walk;
 		
 
 }
@@ -112,8 +132,8 @@ if (direction > 0) && (direction < 90)
 //up
 if (direction > 90) && (direction < 180)
 
-{
-  sprite_index = Ocow_walkB;
+{   image_xscale = -1;
+  sprite_index = Obutler_walk;
   
 }
 
@@ -121,16 +141,16 @@ if (direction > 90) && (direction < 180)
 if (direction > 180) && (direction < 270)
 
 {
-	image_xscale = 3;
-	sprite_index = Ocow_walkS;
+	image_xscale = -1;
+	sprite_index = Obutler_walk;
 }
 
-//down
+//down and right
 if (direction > 270) && (direction < 360)
 
 {
 	
-	sprite_index = Ocow_walkF;
+	sprite_index = Obutler_walk;
 
 }
 }

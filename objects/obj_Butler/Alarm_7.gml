@@ -4,7 +4,7 @@
 
 
 
-	audio_play_sound(New_attackfirst, 1, false)
+//	audio_play_sound(New_attackfirst, 1, false)
 
 
 

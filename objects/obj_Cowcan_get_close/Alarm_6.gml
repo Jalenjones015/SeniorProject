@@ -264,7 +264,3 @@ audio_play_sound(cowalert_enemy, 1,false);
 
 
 
-
-
-
-

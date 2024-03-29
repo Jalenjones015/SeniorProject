@@ -5,8 +5,9 @@ with(other)
 }
 
 
-image_index = 1
 
+
+sprite_index = Obutler_hurt;
 
 currenthP += -1;
 

@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Animations",
-    "path": "folders/Sprites/AshleysSprites/Animations.yy",
+    "name": "ZPLayer",
+    "path": "folders/Sprites/AshleysSprites/Animations/ZPLayer.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -1,4 +1,17 @@
 
+
+
+
+if speed = 0 and can_actually_w = true
+
+{
+	
+sprite_index = Ocow_idleS;
+}
+image_xscale = 3;
+
+
+
 if (distance_to_point(xstart, ystart) = 0)
 
 { can_wait = false;
@@ -10,7 +23,8 @@ if distance_to_object(Obj_Player) < 120 and can_wait = false
 
 											//ready to move if x distance is met
 
-	{  
+	{  	sprite_index = Ocow_alertS;
+		
 		if can_moo = true 
 		
 		{
@@ -23,7 +37,6 @@ if distance_to_object(Obj_Player) < 120 and can_wait = false
 												// ready to attack now
 		can_leap = true;								// alert sprite plays 
 		can_attack = true;
-		sprite_index = Ocow_alertS;
 
 	}
 	
@@ -58,9 +71,9 @@ else
 if (distance_to_point(xstart, ystart) >= 0)
 
 { 
-	image_xscale = 3;
+
 		can_actually_w = true;
-		sprite_index = Ocow_idleS;
+	
 		
 //show_debug_message("Run Barrrryyyy")
  
@@ -96,6 +109,7 @@ sprite_index = Ocow_attackS;
 
 }
 
+
 if distance_to_object( Obj_Player) < 95 and can_trot = true
 
 {
@@ -113,7 +127,8 @@ if (direction > 0) && (direction < 90)
 if (direction > 90) && (direction < 180)
 
 {
-  sprite_index = Ocow_walkB;
+	 image_xscale = 3;
+  sprite_index = Ocow_walkS;
   
 }
 
