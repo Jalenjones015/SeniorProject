@@ -12,25 +12,42 @@ y += vspd;
 		show_debug_message( "Jim!!!!!!!" )
 		alarm[4] = room_speed * .1
 		
+		
+		
+if Obj_Player.x < x
+{
+		image_xscale = .5;
+	sprite_index = Odragon_walk;
 	
-	if (direction > 0) && (direction < 90)
 	
-{//right
-    image_xscale = -.5;
-	sprite_index = Odragon_walk;	
 }
-	
 
-
-//left
-if (direction > 180) && (direction < 270)
+if Obj_Player.x > x
 
 {
-	image_xscale = .5;
-	sprite_index = Odragon_walk;
+	image_xscale = -.5;
+sprite_index =  Odragon_walk;	
 }
 
-//down
+	
+//	if (direction > 0) && (direction < 90)
+	
+//{//right
+//    image_xscale = -.5;
+//	sprite_index = Odragon_walk;	
+//}
+	
+
+
+////left
+//if (direction > 180) && (direction < 270)
+
+//{
+//	image_xscale = .5;
+//	sprite_index = Odragon_walk;
+//}
+
+////down
 	}
 
 
@@ -56,13 +73,27 @@ if distance_to_object(Obj_Player) < 130 and yes_alert = true
 												// If speed equals zero
 												// Play this sprite
 		{										//show_debug_message( "Kites. kites. and more kites." )
-			if speed = 0
+			if speed = 0 and Obj_Player.x < x
 			
-			{												//show_debug_message( "Oranges" )
-			sprite_index = Odragon_idle
-			
+			{
+				//show_debug_message( "Oranges" )
+			sprite_index = Odragon_idle;
 			}
+			
+			
+			if speed = 0 and Obj_Player.x > x
+
+			{
+				
+			image_xscale = -.5;
+				sprite_index =  Odragon_idle;	
+			}
+
+			
 		}
+			
+			
+		
 
 
 // NEED TO FLIP IT BACK TO LESS THAN 10

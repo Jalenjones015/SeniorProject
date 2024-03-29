@@ -30,8 +30,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Animations",
-    "path": "folders/Sprites/AshleysSprites/Animations.yy",
+    "name": "LEVEL 2",
+    "path": "folders/Sprites/AshleysSprites/Animations/LEVEL 2.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
