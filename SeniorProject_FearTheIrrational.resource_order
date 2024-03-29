@@ -30,6 +30,8 @@
     {"name":"Sprites","order":13,"path":"folders/Sprites.yy",},
     {"name":"Animations","order":1,"path":"folders/Sprites/AshleysSprites/Animations.yy",},
     {"name":"LEVEL 2","order":17,"path":"folders/Sprites/AshleysSprites/Animations/LEVEL 2.yy",},
+    {"name":"ZLevel 1","order":18,"path":"folders/Sprites/AshleysSprites/Animations/ZLevel 1.yy",},
+    {"name":"ZPLayer","order":19,"path":"folders/Sprites/AshleysSprites/Animations/ZPLayer.yy",},
     {"name":"HOUSE","order":2,"path":"folders/Sprites/AshleysSprites/HOUSE.yy",},
     {"name":"JalensSprites","order":1,"path":"folders/Sprites/JalensSprites.yy",},
     {"name":"MIsc","order":2,"path":"folders/Sprites/MIsc.yy",},
@@ -38,8 +40,6 @@
     {"name":"Timelines","order":15,"path":"folders/Timelines.yy",},
     {"name":"Z_Might_Delete","order":16,"path":"folders/Z_Might_Delete.yy",},
     {"name":"Z_unused_Test_Stuff","order":17,"path":"folders/Z_unused_Test_Stuff.yy",},
-    {"name":"ZLevel 1","order":18,"path":"folders/Sprites/AshleysSprites/Animations/ZLevel 1.yy",},
-    {"name":"ZPLayer","order":19,"path":"folders/Sprites/AshleysSprites/Animations/ZPLayer.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"DashSprite","order":1,"path":"sprites/DashSprite/DashSprite.yy",},

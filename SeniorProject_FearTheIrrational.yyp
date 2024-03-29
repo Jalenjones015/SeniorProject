@@ -47,6 +47,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"AshleysSprites","folderPath":"folders/Sprites/AshleysSprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animations","folderPath":"folders/Sprites/AshleysSprites/Animations.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"LEVEL 2","folderPath":"folders/Sprites/AshleysSprites/Animations/LEVEL 2.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ZLevel 1","folderPath":"folders/Sprites/AshleysSprites/Animations/ZLevel 1.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ZPLayer","folderPath":"folders/Sprites/AshleysSprites/Animations/ZPLayer.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"HOUSE","folderPath":"folders/Sprites/AshleysSprites/HOUSE.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Other","folderPath":"folders/Sprites/AshleysSprites/Other.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"JalensSprites","folderPath":"folders/Sprites/JalensSprites.yy",},
@@ -56,8 +58,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Z_Might_Delete","folderPath":"folders/Z_Might_Delete.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Z_unused_Test_Stuff","folderPath":"folders/Z_unused_Test_Stuff.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ZLevel 1","folderPath":"folders/Sprites/AshleysSprites/Animations/ZLevel 1.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ZPLayer","folderPath":"folders/Sprites/AshleysSprites/Animations/ZPLayer.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"sound.new attack po2","CopyToMask":-1,"filePath":"datafiles",},
