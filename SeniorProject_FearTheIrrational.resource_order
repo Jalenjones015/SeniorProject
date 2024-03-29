@@ -75,6 +75,7 @@
     {"name":"cat","order":3,"path":"sounds/cat/cat.yy",},
     {"name":"OBJ_Projectile","order":2,"path":"objects/OBJ_Projectile/OBJ_Projectile.yy",},
     {"name":"soundhurt","order":2,"path":"sounds/soundhurt/soundhurt.yy",},
+    {"name":"Sprite150","order":24,"path":"sprites/Sprite150/Sprite150.yy",},
     {"name":"Snow_city_scene","order":31,"path":"sprites/Snow_city_scene/Snow_city_scene.yy",},
     {"name":"Sprite31","order":30,"path":"sprites/Sprite31/Sprite31.yy",},
     {"name":"leavves_layer","order":29,"path":"sprites/leavves_layer/leavves_layer.yy",},

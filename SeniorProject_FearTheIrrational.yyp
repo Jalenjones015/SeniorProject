@@ -121,6 +121,7 @@
     {"id":{"name":"cat","path":"sounds/cat/cat.yy",},},
     {"id":{"name":"OBJ_Projectile","path":"objects/OBJ_Projectile/OBJ_Projectile.yy",},},
     {"id":{"name":"soundhurt","path":"sounds/soundhurt/soundhurt.yy",},},
+    {"id":{"name":"Sprite150","path":"sprites/Sprite150/Sprite150.yy",},},
     {"id":{"name":"alert_enemy","path":"sounds/alert_enemy/alert_enemy.yy",},},
     {"id":{"name":"OBJ_Hitbox","path":"objects/OBJ_Hitbox/OBJ_Hitbox.yy",},},
     {"id":{"name":"WAll2","path":"objects/WAll2/WAll2.yy",},},
