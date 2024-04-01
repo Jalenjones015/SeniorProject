@@ -1,5 +1,9 @@
 global.equip1 = true
 show_debug_message("Equipping")
+instance_deactivate_object(Equipbutton)
+instance_activate_object(Equippedbutton)
+
+
 
 
 

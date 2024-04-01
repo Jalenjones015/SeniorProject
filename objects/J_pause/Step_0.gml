@@ -6,12 +6,22 @@ if (keyboard_check_pressed(ord("R")))
 		global.pause = true; 
 		instance_deactivate_layer("Instances_1")
 		instance_deactivate_layer("Instance_Enemy")
+		instance_deactivate_layer("Weapons")
+		instance_deactivate_layer("Player")
+		instance_deactivate_layer("Instances")
+		instance_deactivate_layer("Assets_3")
+		instance_deactivate_layer("Sidewalks")
 		instance_deactivate_object(Obj_Player)
 		instance_deactivate_object(Stats1)
 		instance_deactivate_object(Stats2)
-		instance_deactivate_object(inst_26CF33CC)
-		instance_deactivate_object(inst_237B767D)
-		instance_deactivate_object(inst_14F0A59E)
+		instance_deactivate_object(inst_26CF33CC)//Jalen Test Level
+		instance_deactivate_object(inst_5B05C5D0)//Level 1
+		instance_deactivate_object(inst_237B767D)//Jalen Test Level
+		instance_deactivate_object(inst_3E91EA7C)//Level 1
+		instance_deactivate_object(inst_14F0A59E)//Jalen Test Level
+		instance_deactivate_object(inst_61D6FF6A)//Level 1
+		instance_deactivate_object(inst_7905D109)//Jalen Test Level
+		instance_deactivate_object(inst_7B947B31)//Level 1
 		layer_set_visible("Instances_1", false)
 		layer_set_visible("Instance_Enemy", false)
 		layer_set_visible("Instances_Play", false)
@@ -20,6 +30,11 @@ if (keyboard_check_pressed(ord("R")))
 		layer_set_visible("Assets_1", true)
 		view_set_visible(5, true)
 		view_set_visible(0, false)
+		if object_exists(SpecialWeaponPickupMenu) and global.pickedup1 = true
+		{
+			instance_destroy(inst_1D144AA1)//Jalen Test Level
+			instance_destroy(inst_55FB946A)//Level 1
+		}
 	}
 	else 
 	{

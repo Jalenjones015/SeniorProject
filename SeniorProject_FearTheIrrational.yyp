@@ -197,7 +197,6 @@
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"id":{"name":"Ochicken_alert","path":"sprites/Ochicken_alert/Ochicken_alert.yy",},},
     {"id":{"name":"soundhurt2","path":"sounds/soundhurt2/soundhurt2.yy",},},
-    {"id":{"name":"WeaponButton","path":"objects/WeaponButton/WeaponButton.yy",},},
     {"id":{"name":"Fnt_menu","path":"fonts/Fnt_menu/Fnt_menu.yy",},},
     {"id":{"name":"obj_ChickenDupl","path":"objects/obj_ChickenDupl/obj_ChickenDupl.yy",},},
     {"id":{"name":"obj_Butler","path":"objects/obj_Butler/obj_Butler.yy",},},
