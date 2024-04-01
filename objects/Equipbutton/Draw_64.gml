@@ -1,9 +1,4 @@
-	instance_activate_object(Stats1)
-	instance_deactivate_object(Stats2)
-	instance_activate_object(inst_26CF33CC)
-	instance_activate_object(inst_237B767D)
-	instance_activate_object(inst_14F0A59E)
-
+draw_text_color(467, 855, string("Equip "), $010101, $010101, $010101, $010101, 1)
 
 
 
