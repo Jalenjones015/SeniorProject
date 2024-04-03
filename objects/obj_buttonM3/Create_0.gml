@@ -2,10 +2,16 @@
 // You can write your code in this editor
 
 
-instance_deactivate_layer("Controls_X_out")
-layer_set_visible("Controls_X_out", false);
-layer_set_visible("controls_assests", false);
-instance_activate_layer("Instances_button")
+
+
+
+pause = false;
+pause_surf  = -1 ;
+pauseSurf_buff = -1;
+
+
+
+
 
 
 

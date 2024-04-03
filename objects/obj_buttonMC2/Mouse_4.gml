@@ -6,7 +6,7 @@ instance_activate_layer("Controls_assests");
 		
 		
 		instance_activate_layer("Controls_x_out");
-		layer_set_visible("Controls_x_out", true);
+		layer_set_visible("Controls_x_out", false);
 		
 		instance_deactivate_layer("Instances_button");
 

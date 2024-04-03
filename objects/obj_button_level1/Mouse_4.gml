@@ -8,4 +8,4 @@ event_inherited();
 /// @DnDHash : 03D1212E
 /// @DnDArgument : "room" "Level1"
 /// @DnDSaveInfo : "room" "Level1"
-room_goto(Level1);
+room_goto(Menu_Stuff);

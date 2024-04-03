@@ -3,6 +3,7 @@
 
 counter ++;
 image_speed = 1;
+image_xscale = 2;
 
 global._right = keyboard_check(vk_right) or keyboard_check(ord("D")) and place_free(x + collide_speed, y);
 global._left = keyboard_check(vk_left) or keyboard_check(ord("A"))  and place_free(x - collide_speed, y );
