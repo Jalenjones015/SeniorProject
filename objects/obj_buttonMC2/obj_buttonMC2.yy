@@ -1,19 +1,25 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Oreo_pause",
+  "name": "obj_buttonMC2",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obaj_button_par","path":"objects/obaj_button_par/obaj_button_par.yy",},"propertyId":{"name":"button_text","path":"objects/obaj_button_par/obaj_button_par.yy",},"value":"Controls",},
+  ],
   "parent": {
     "name": "MENU_OBJECTS",
     "path": "folders/Objects/AshleysOBJs/Systems/MENU_OBJECTS.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obaj_button_par",
+    "path": "objects/obaj_button_par/obaj_button_par.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,7 +35,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "button",
+    "path": "sprites/button/button.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

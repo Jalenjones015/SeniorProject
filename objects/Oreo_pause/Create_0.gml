@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 
 pause = false;
 pause_surf  = -1 ;
@@ -24,45 +21,7 @@ op_len = 0;
 menu_level = 0;
 
 
+view_set_visible(0, true);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+layer_set_visible("Instances_button", false)
 

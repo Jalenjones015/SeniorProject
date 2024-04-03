@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object78",
-  "eventList": [],
+  "name": "Object_x",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "SeniorProject_FearTheIrrational",
-    "path": "SeniorProject_FearTheIrrational.yyp",
+    "name": "MENU_OBJECTS",
+    "path": "folders/Objects/AshleysOBJs/Systems/MENU_OBJECTS.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,7 +27,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "Sp_crosshair",
+    "path": "sprites/Sp_crosshair/Sp_crosshair.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

@@ -44,8 +44,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite162",
-    "path": "sprites/Sprite162/Sprite162.yy",
+    "name": "butler_idle",
+    "path": "sprites/butler_idle/butler_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
