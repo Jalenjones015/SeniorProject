@@ -13,7 +13,7 @@ first_time = true;
 
 
 
-
+text_testing = "srorme"
 
 
 

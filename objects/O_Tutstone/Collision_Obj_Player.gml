@@ -17,3 +17,4 @@ first_time = false
 global.hp += 5;
 
 }
+
