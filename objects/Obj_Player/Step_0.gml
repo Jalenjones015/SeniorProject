@@ -272,6 +272,11 @@ if global.hp <= 0
 		global.ammo = 10;
 	}
 	
+	if global.SWCount >= 100
+	{
+		global.SWCount = 100;
+	}
+	
 	
 	
 	if global.SWCount < 0
