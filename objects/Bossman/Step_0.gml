@@ -731,11 +731,13 @@ if (currenthP = 40) and phase2 = true
 	show_debug_message("Phase3 is activated")
 }
 
-if (currenthP = 0) and phase3 = true
+if (currenthP <= 0) and phase3 = true
 {
+	
 	instance_destroy()
 	show_debug_message("Boss is dead")
 	global.killcounter += 10;
+	room_goto(StartMenu)
 }
 	
 

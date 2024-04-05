@@ -2,13 +2,13 @@
 //Bosshp2 = 200;
 //Bosshp3 = 300;
 //Bossmaxhp = 300;
-phase1 = true;
+phase1 = false;
 phase2 = false;
-phase3 = false;
+phase3 = true;
 
 //This is code brought over from The cat ranger
-maxHp = 100
-currenthP =	100;
+maxHp = 20
+currenthP =	20;
 bullet = 0;
 start_x = xstart;
 start_y = ystart;
