@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "HOUSE",
-    "path": "folders/Sprites/AshleysSprites/HOUSE.yy",
+    "path": "folders/Sprites/SpritesForLevel/HOUSE.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
