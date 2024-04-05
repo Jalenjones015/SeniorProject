@@ -1,4 +1,5 @@
 
+image_xscale = 3;
 	
 if (distance_to_point(xstart, ystart) = 0)
 

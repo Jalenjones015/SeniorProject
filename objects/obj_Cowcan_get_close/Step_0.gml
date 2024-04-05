@@ -144,8 +144,8 @@ if (direction > 180) && (direction < 270)
 if (direction > 270) && (direction < 360)
 
 {
-	
-	sprite_index = Ocow_walkF;
+	 image_xscale = -3;
+	sprite_index = Ocow_walkS;
 
 }
 }

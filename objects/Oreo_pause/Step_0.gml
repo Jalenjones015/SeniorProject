@@ -41,7 +41,7 @@
 	
 //		}
 
-if (keyboard_check_pressed(ord("P"))) {
+if keyboard_check_pressed(ord("P")) or keyboard_check_pressed(vk_escape) {
 
 	if (!pause)
 {
@@ -57,6 +57,7 @@ if (keyboard_check_pressed(ord("P"))) {
 	
 	
 }
+
 else
 
 {
