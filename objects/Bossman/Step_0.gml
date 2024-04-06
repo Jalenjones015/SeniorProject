@@ -1,7 +1,8 @@
 //This code is sprite work. it turns the object into that sprite Which I tested and works. 
 //This will probably be needed for when we have the sprites in.
-
-{
+image_xscale = 1;
+	image_yscale = 1;
+{ 
 		//x += hspd;
 		//y += vspd;
 
@@ -141,6 +142,7 @@ if phase1 =  true
 		//attacking sprite code
 		if distance_to_object( Obj_Player) < 10  and can_leap = true
 		{
+			sprite_index = OMman_attack;
 			can_trot = false; 
 			alarm[3]  = room_speed * .5;
 			//show_debug_message("Phil") 
@@ -151,7 +153,7 @@ if phase1 =  true
 		//right
 		if (direction > 0) && (direction < 90)
 		{
-		    image_xscale = -3;
+		    image_xscale = -1;
 			//sprite_index = Ocow_walkS;
 		}
 	}
@@ -196,29 +198,29 @@ if phase1 =  true
 
 				if (direction > 0) && (direction < 90)
 				{
-					image_xscale = 1.5;
-					//sprite_index = Ochicken_walk;
+					image_xscale = 1;
+					sprite_index = OMman_walk;
 				}
 
 				//left
 				if (direction > 90) && (direction < 180)
 				{
-					image_xscale = -1.5;
-					//sprite_index = Ochicken_walk;
+					image_xscale = -1;
+				sprite_index = OMman_walk;
 				}
 
 				//left
 				if (direction > 180) && (direction < 270)
 				{
-					image_xscale = -1.5;
-					//sprite_index = Ochicken_walk;
+					image_xscale = -1;
+					sprite_index = OMman_walk;
 				}
 
 				//right
 				if (direction > 270) && (direction < 360)
 				{
-					image_xscale = 1.5
-					//sprite_index =Ochicken_walk;
+					image_xscale = 1;
+						sprite_index = OMman_walk;
 				}
 
 				else				
@@ -360,15 +362,15 @@ if phase2 =  true
 			can_trot = false; 
 			alarm[3]  = room_speed * .5;
 			//show_debug_message("Phil") 
-			//sprite_index = Ocow_attackS;
+				sprite_index = OMman_attack;
 		}
 
 		if distance_to_object( Obj_Player) < 95 and can_trot = true
 		//right
 		if (direction > 0) && (direction < 90)
 		{
-		    image_xscale = -3;
-			//sprite_index = Ocow_walkS;
+		    image_xscale = -1;
+				sprite_index = OMman_walk;
 		}
 	}
 
@@ -399,7 +401,7 @@ if phase2 =  true
 								
 			if speed = 0 and can_idle = true
 			{	
-				//sprite_index = Ochicken_idle;
+				
 			}
 	
 			if distance_to_object(Obj_Player) < 98 and can_chase = true
@@ -412,36 +414,36 @@ if phase2 =  true
 
 				if (direction > 0) && (direction < 90)
 				{
-					image_xscale = 1.5;
-					//sprite_index = Ochicken_walk;
+					image_xscale = 1;
+				sprite_index = OMman_walk;
 				}
 
 				//left
 				if (direction > 90) && (direction < 180)
 				{
-					image_xscale = -1.5;
-					//sprite_index = Ochicken_walk;
+					image_xscale = -1;
+						sprite_index = OMman_walk;
 				}
 
 				//left
 				if (direction > 180) && (direction < 270)
 				{
-					image_xscale = -1.5;
-					//sprite_index = Ochicken_walk;
+					image_xscale = -1;
+						sprite_index = OMman_walk;
 				}
 
 				//right
 				if (direction > 270) && (direction < 360)
 				{
-					image_xscale = 1.5
-					//sprite_index =Ochicken_walk;
+					image_xscale = 1;
+						sprite_index = OMman_walk;
 				}
 
 				else				
 				{												
 					if speed = 0	
 					{	
-						//sprite_index = Ochicken_idle;
+							sprite_index = OMman_idle;
 					}
 				}
 			}
@@ -485,6 +487,7 @@ if phase2 =  true
 
 			if distance_to_object(Obj_Player) < 50
 			{
+				sprite_index = OMman_idle;
 				speed = 0 
 			}
 		}
@@ -564,7 +567,8 @@ if phase3 =  true
 						//sprite_index = Ocow_idleB;
 						if can_actually_w = true
 						{ 
-							speed = 0		
+							speed = 0	
+							
 						}
 					}
 				}
@@ -583,7 +587,7 @@ if phase3 =  true
 		//right
 		if (direction > 0) && (direction < 90)
 		{
-		    image_xscale = -3;
+		    image_xscale = -1;
 			//sprite_index = Ocow_walkS;
 		}
 	}
@@ -627,30 +631,32 @@ if phase3 =  true
 				if distance_to_object(Obj_Player) > 100 and can_directionface = false 
 
 				if (direction > 0) && (direction < 90)
-				{
-					image_xscale = 1.5;
-					//sprite_index = Ochicken_walk;
+				{ 
+					image_xscale = 1;
+					sprite_index = OMman_walk;
 				}
 
 				//left
 				if (direction > 90) && (direction < 180)
 				{
-					image_xscale = -1.5;
-					//sprite_index = Ochicken_walk;
+					image_xscale = -1;
+				
+						sprite_index = OMman_walk;
 				}
 
 				//left
 				if (direction > 180) && (direction < 270)
 				{
-					image_xscale = -1.5;
-					//sprite_index = Ochicken_walk;
+					image_xscale = -1;
+						sprite_index = OMman_walk;
 				}
 
 				//right
 				if (direction > 270) && (direction < 360)
 				{
-					image_xscale = 1.5
-					//sprite_index =Ochicken_walk;
+					image_xscale = 1;
+						sprite_index = OMman_walk;
+				
 				}
 
 				else				
@@ -702,6 +708,7 @@ if phase3 =  true
 			if distance_to_object(Obj_Player) < 50
 			{
 				speed = 0 
+				sprite_index = OMman_idle;
 			}
 		}
 	}

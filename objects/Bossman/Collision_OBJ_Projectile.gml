@@ -1,5 +1,5 @@
 with(other)
-
+sprite_index = OMman_attack;
 {
 	instance_destroy();
 }

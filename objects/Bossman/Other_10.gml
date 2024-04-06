@@ -1,5 +1,7 @@
 //This code is sprite work. it turns the object into that sprite Which I tested and works. 
 //This will probably be needed for when we have the sprites in.
+image_xscale = 1;
+image_yscale = 1;
 {
 	//image_speed = 1;
 
@@ -38,8 +40,10 @@
 	//}
 }
 
+
 if alarm[2] <= 0 && instance_exists(Obj_Player) 
-{
+{  sprite_index = OMman_throw;
+
 
 	var dir = point_direction(x, y, Obj_Player.x, Obj_Player.y);
 	

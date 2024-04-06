@@ -6,8 +6,12 @@
 //	//sprite_index = Ochicken_attack
 //}
 
+
+image_xscale = 1;
+image_yscale = 1;
+
 if can_throw = true 
-{
+{sprite_index = OMman_attack;
 	can_throw = false;
 	alarm[3] = bomb_cooldown;	
 	var dir = point_direction(x, y, Obj_Player.x, Obj_Player.y);

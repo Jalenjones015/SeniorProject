@@ -23,7 +23,8 @@ yes_alert = true;
 can_turn = true;
 all_the_turns = true;
 image_speed = 1;
-image_xscale = 2;
+image_xscale = 1;
+image_yscale = 1;
 
 can_wait = true;	
 can_attack = false;

@@ -22,7 +22,6 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":8,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":9,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":2,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"OBJ_ProjectileUp","path":"objects/OBJ_ProjectileUp/OBJ_ProjectileUp.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"OBJ_Hitbox","path":"objects/OBJ_Hitbox/OBJ_Hitbox.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"OBJ_Hitbox2","path":"objects/OBJ_Hitbox2/OBJ_Hitbox2.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
@@ -54,8 +53,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Rghostie",
-    "path": "sprites/Rghostie/Rghostie.yy",
+    "name": "Bossman_frame",
+    "path": "sprites/Bossman_frame/Bossman_frame.yy",
   },
   "spriteMaskId": null,
   "visible": true,
