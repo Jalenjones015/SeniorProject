@@ -1,8 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-audio_play_sound(victory_sound, 1, false)
-room_goto(Room_toLevel1);
+
+room_goto(Level_1)
+
+
 
 
 
