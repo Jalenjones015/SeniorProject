@@ -1,9 +1,10 @@
+global.equip2 = true
+global.equip1 = false
 
-global.equip1 = true
-global.equip2 = false
+
 
 show_debug_message("Equipping")
-instance_deactivate_object(Equipbutton)
+instance_deactivate_object(Equipbutton2)
 instance_activate_object(Equippedbutton)
 
 

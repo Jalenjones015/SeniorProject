@@ -284,6 +284,7 @@
     {"id":{"name":"HouseFacev1","path":"sprites/HouseFacev1/HouseFacev1.yy",},},
     {"id":{"name":"Zoom_Sound_Effect","path":"sounds/Zoom_Sound_Effect/Zoom_Sound_Effect.yy",},},
     {"id":{"name":"Obroom_walk","path":"sprites/Obroom_walk/Obroom_walk.yy",},},
+    {"id":{"name":"Equipbutton2","path":"objects/Equipbutton2/Equipbutton2.yy",},},
     {"id":{"name":"dashhin","path":"sounds/dashhin/dashhin.yy",},},
     {"id":{"name":"New_attack","path":"sounds/New_attack/New_attack.yy",},},
     {"id":{"name":"controls_tut_p","path":"sprites/controls_tut_p/controls_tut_p.yy",},},
@@ -481,9 +482,9 @@
     {"id":{"name":"POS_DEL_JalensRoom","path":"rooms/POS_DEL_JalensRoom/POS_DEL_JalensRoom.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"StartMenu","path":"rooms/StartMenu/StartMenu.yy",},},
     {"roomId":{"name":"Transition_to_Lv1","path":"rooms/Transition_to_Lv1/Transition_to_Lv1.yy",},},
     {"roomId":{"name":"Castle_outside","path":"rooms/Castle_outside/Castle_outside.yy",},},
-    {"roomId":{"name":"StartMenu","path":"rooms/StartMenu/StartMenu.yy",},},
     {"roomId":{"name":"Level_1","path":"rooms/Level_1/Level_1.yy",},},
     {"roomId":{"name":"TutorialLevel_0","path":"rooms/TutorialLevel_0/TutorialLevel_0.yy",},},
     {"roomId":{"name":"Character_testing","path":"rooms/Character_testing/Character_testing.yy",},},

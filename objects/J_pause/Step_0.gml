@@ -16,16 +16,25 @@ if (keyboard_check_pressed(ord("R")))
 		instance_deactivate_object(obj_crosshair)
 		instance_deactivate_object(inst_7D05FE5A)//Jalen Test Level
 		instance_deactivate_object(inst_567BE3DC)//Level 1
+		instance_deactivate_object(inst_C8D7CF4)//Level 2
 		instance_deactivate_object(inst_3F7FCE5C)//Jalen Test Level
 		instance_deactivate_object(inst_4B1CFDB4)//Level 1
+		instance_deactivate_object(inst_25A78725)//Level 2
 		instance_deactivate_object(inst_26CF33CC)//Jalen Test Level
 		instance_deactivate_object(inst_12D05C8C)//Level 1
+		instance_deactivate_object(inst_63FF57E3)//Level 2
+		instance_deactivate_object(inst_79F5A7C9)//Level 2
 		instance_deactivate_object(inst_237B767D)//Jalen Test Level
 		instance_deactivate_object(inst_179F42CA)//Level 1
+		instance_deactivate_object(inst_7F159BE3)//Level 2
+		instance_deactivate_object(inst_7C0C9706)//Level 2
 		instance_deactivate_object(inst_14F0A59E)//Jalen Test Level
 		instance_deactivate_object(inst_B2645B7)//Level 1
+		instance_deactivate_object(inst_55792AB4)//Level 2
+		instance_deactivate_object(inst_2ABD4C97)//Level 2
 		instance_deactivate_object(inst_7905D109)//Jalen Test Level
 		instance_deactivate_object(inst_5A361698)//Level 1
+		instance_deactivate_object(inst_28F88CA3)//Level 2
 		layer_set_visible("Instances_1", false)
 		layer_set_visible("Instance_Enemy", false)
 		layer_set_visible("Instances_Play", false)
@@ -38,6 +47,11 @@ if (keyboard_check_pressed(ord("R")))
 		{
 			instance_destroy(inst_1D144AA1)//Jalen Test Level
 			instance_destroy(inst_31489A4D)//Level 1
+			instance_destroy(inst_5AD1DD4F)//Level 2
+		}
+		if object_exists(SpecialWeaponPickupMenu2) and global.pickedup2 = true
+		{
+			instance_destroy(inst_75075A57)
 		}
 	}
 	else 

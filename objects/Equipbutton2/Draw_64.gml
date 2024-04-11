@@ -1,14 +1,4 @@
-
-global.equip1 = true
-global.equip2 = false
-
-show_debug_message("Equipping")
-instance_deactivate_object(Equipbutton)
-instance_activate_object(Equippedbutton)
-
-
-
-
+draw_text_color(575, 1180, string("Equip "), $010101, $010101, $010101, $010101, 1)
 
 
 

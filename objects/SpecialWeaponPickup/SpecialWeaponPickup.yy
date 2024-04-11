@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SP_SpecialWeapon",
-    "path": "sprites/SP_SpecialWeapon/SP_SpecialWeapon.yy",
+    "name": "StickWeaponAni",
+    "path": "sprites/StickWeaponAni/StickWeaponAni.yy",
   },
   "spriteMaskId": null,
   "visible": true,

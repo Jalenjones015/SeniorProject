@@ -226,6 +226,7 @@
     {"name":"HouseFacev1","order":3,"path":"sprites/HouseFacev1/HouseFacev1.yy",},
     {"name":"Zoom_Sound_Effect","order":4,"path":"sounds/Zoom_Sound_Effect/Zoom_Sound_Effect.yy",},
     {"name":"Obroom_walk","order":14,"path":"sprites/Obroom_walk/Obroom_walk.yy",},
+    {"name":"Equipbutton2","order":18,"path":"objects/Equipbutton2/Equipbutton2.yy",},
     {"name":"controls_tut_p","order":5,"path":"sprites/controls_tut_p/controls_tut_p.yy",},
     {"name":"Ogoat_idle","order":25,"path":"sprites/Ogoat_idle/Ogoat_idle.yy",},
     {"name":"arrowkeys","order":1,"path":"sprites/arrowkeys/arrowkeys.yy",},

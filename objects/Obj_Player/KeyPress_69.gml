@@ -19,7 +19,7 @@
 	}
 
 
-	if global.SWCount >= 20
+	if global.SWCount >= 15
 	{
 		if global.pickedup2 == true
 			{
