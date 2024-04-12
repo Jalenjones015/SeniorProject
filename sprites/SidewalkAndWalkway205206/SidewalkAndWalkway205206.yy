@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "JalensSprites",
-    "path": "folders/Sprites/JalensSprites.yy",
+    "name": "No Curves",
+    "path": "folders/Sprites/JalensSprites/No Curves.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

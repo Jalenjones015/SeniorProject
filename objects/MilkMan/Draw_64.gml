@@ -17,5 +17,5 @@ draw_healthbar(800, 1330, 1700, 1400, currenthP/maxHp * 100, $FF000000 & $FFFFFF
 /// @DnDHash : 327AB71A
 /// @DnDArgument : "x" "1200"
 /// @DnDArgument : "y" "1250"
-/// @DnDArgument : "caption" ""Bossman""
-draw_text(1200, 1250, string("Bossman") + "");
+/// @DnDArgument : "caption" ""Milk Man""
+draw_text(1200, 1250, string("Milk Man") + "");

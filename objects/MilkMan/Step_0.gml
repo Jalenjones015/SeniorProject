@@ -744,7 +744,6 @@ if (currenthP <= 0) and phase3 = true
 	instance_destroy()
 	show_debug_message("Boss is dead")
 	global.killcounter += 10;
-	room_goto(StartMenu)
 }
 	
 

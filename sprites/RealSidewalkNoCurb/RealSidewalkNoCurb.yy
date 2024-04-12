@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "RealSidewalkNoCurve214",
+  "name": "RealSidewalkNoCurb",
   "bbox_bottom": 127,
   "bbox_left": 0,
   "bbox_right": 127,
@@ -25,14 +25,14 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "JalensSprites",
-    "path": "folders/Sprites/JalensSprites.yy",
+    "name": "No Curves",
+    "path": "folders/Sprites/JalensSprites/No Curves.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "RealSidewalkNoCurve",
+    "name": "RealSidewalkNoCurb",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"28b3cdf0-e82a-4d06-9287-6dac3fa9c8c4","path":"sprites/RealSidewalkNoCurve214/RealSidewalkNoCurve214.yy",},},},"Disabled":false,"id":"b97fff14-d6cc-4de6-87d6-ea519b4a7bbd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"28b3cdf0-e82a-4d06-9287-6dac3fa9c8c4","path":"sprites/RealSidewalkNoCurb/RealSidewalkNoCurb.yy",},},},"Disabled":false,"id":"992f4488-4b09-457c-a91c-bfe0086ea882","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
