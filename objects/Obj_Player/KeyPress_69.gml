@@ -12,7 +12,7 @@
 							//weapon2.x = x + weapon_x_offset;
 							//weapon.y = y + weapon_y_offset;
 							active = SpecialWeapon;
-							activeani = SP_SpecialWeapon;
+							activeani = StickSpecialWeaponAni;
 						}
 				}
 		}
@@ -33,7 +33,7 @@
 							//weapon2.x = x + weapon_x_offset;
 							//weapon.y = y + weapon_y_offset;
 							active = SpecialWeapon2;
-							activeani = SP_SpecialWeapon2;
+							activeani = SP_SpecialWeapon;
 						}
 				}
 			}

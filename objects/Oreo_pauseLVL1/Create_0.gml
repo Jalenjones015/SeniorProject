@@ -24,4 +24,4 @@ menu_level = 0;
 view_set_visible(0, true);
 
 layer_set_visible("Instances_button", false)
-
+instance_deactivate_layer("Instances_button");

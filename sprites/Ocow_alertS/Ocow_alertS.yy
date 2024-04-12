@@ -27,7 +27,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b130be08-b4fe-4ee7-951d-e66058fbf05e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "ZLevel 1",
     "path": "folders/Sprites/AshleysSprites/Animations/ZLevel 1.yy",
@@ -68,7 +68,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 19,
-    "yorigin": 14,
+    "yorigin": 24,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

@@ -1,5 +1,5 @@
 
-if (pause) {
+if (global.pause) {
 	draw_set_color(c_grey);
 	draw_set_alpha(0.50);
 

@@ -51,7 +51,29 @@ if keyboard_check_pressed(ord("P")) or keyboard_check_pressed(vk_escape) {
 	instance_deactivate_all(true);
 	instance_activate_layer("Instances_button");
 	layer_set_visible("Instances_button", true);
-	
+	instance_deactivate_layer("Instances_1")
+	instance_deactivate_layer("Instance_Enemy")
+	instance_deactivate_layer("Instance_walls")
+	instance_deactivate_layer("Instance_egg")
+	instance_deactivate_layer("Instance_3")
+	instance_deactivate_layer("Instance_breakwalls")
+	instance_deactivate_layer("Instance_camera_tiles")
+	instance_deactivate_layer("Instance_portareas")
+	instance_deactivate_layer("Castle_tiles")
+	instance_deactivate_layer("Tiles_details")
+	instance_deactivate_layer("Castle_tiles_expansion")
+	instance_deactivate_layer("Tiles_details_expansion")
+	instance_deactivate_layer("Weapons")
+	instance_deactivate_layer("Player")
+	instance_deactivate_layer("Instances")
+	instance_deactivate_layer("Assets_3")
+	instance_deactivate_layer("Sidewalks")
+	instance_deactivate_layer("Houses")
+	instance_deactivate_layer("StreetAndSidewalk")
+	instance_deactivate_layer("Grass")
+	instance_deactivate_object(Obj_Player)
+	instance_deactivate_object(OBJ_StickWeapon)
+	instance_deactivate_object(obj_crosshair)
 	view_set_visible(0, false);
 	view_set_visible(6, true);
 	
@@ -61,14 +83,48 @@ else
 
 {
  pause = false;
- instance_activate_all();
  if (surface_exists(pause_surf)) surface_free(pause_surf);
  if (buffer_exists(pauseSurf_buff)) buffer_delete(pauseSurf_buff);
 	view_set_visible(0, true);
 	view_set_visible(6, false);
 	instance_deactivate_layer("Instances_button");
+	layer_set_visible("Instances_1", true)
+	layer_set_visible("Instance_Enemy", true)
+	layer_set_visible("Instances_Play", true)
+	layer_set_visible("Instances_wallz", true)
+	layer_set_visible("Weapons", true)
+	layer_set_visible("Player", true)
+	layer_set_visible("Instances", true)
+	layer_set_visible("Assets_3", true)
+	layer_set_visible("Sidewalks", true)
+	layer_set_visible("Houses", true)
+	layer_set_visible("StreetAndSidewalk", true)
+	layer_set_visible("Instances_2", false)
+	layer_set_visible("Assets_1", false)
+	instance_activate_layer("Houses")
+	instance_activate_layer("StreetAndSidewalk")
+	instance_activate_layer("Grass")
+	instance_activate_layer("Instances_1")
+	instance_activate_layer("Instance_Enemy")
+	instance_activate_layer("Weapons")
+	instance_activate_layer("Player")
+	instance_activate_layer("Instances")
+	instance_activate_layer("Assets_3")
+	instance_activate_layer("Sidewalks")
+	instance_activate_layer("Instance_egg")
+	instance_activate_layer("Instance_3")
+	instance_activate_layer("Instance_breakwalls")
+	instance_activate_layer("Instance_camera_tiles")
+	instance_activate_layer("Instance_portareas")
+	instance_activate_layer("Castle_tiles")
+	instance_activate_layer("Tiles_details")
+	instance_activate_layer("Castle_tiles_expansion")
+	instance_activate_layer("Tiles_details_expansion")
+	instance_activate_object(Obj_Player)
+	instance_activate_object(OBJ_StickWeapon)
+	instance_activate_object(obj_crosshair)
 	layer_set_visible("Instances_button", false);
-layer_set_visible("Controls_assests", false);
+	layer_set_visible("Controls_assests", false);
 
 	pause_surf = surface_create(room_width , room_height);
 	surface_set_target(pause_surf);

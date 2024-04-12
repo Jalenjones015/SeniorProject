@@ -55,6 +55,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Other","folderPath":"folders/Sprites/AshleysSprites/Other.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TILES","folderPath":"folders/Sprites/AshleysSprites/TILES.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"JalensSprites","folderPath":"folders/Sprites/JalensSprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Curves","folderPath":"folders/Sprites/JalensSprites/Curves.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"No Curves","folderPath":"folders/Sprites/JalensSprites/No Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MIsc","folderPath":"folders/Sprites/MIsc.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SpritesForLevel","folderPath":"folders/Sprites/SpritesForLevel.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"HOUSE","folderPath":"folders/Sprites/SpritesForLevel/HOUSE.yy",},
@@ -62,8 +64,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Z_Might_Delete","folderPath":"folders/Z_Might_Delete.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Z_unused_Test_Stuff","folderPath":"folders/Z_unused_Test_Stuff.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Curves","folderPath":"folders/Sprites/JalensSprites/Curves.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"No Curves","folderPath":"folders/Sprites/JalensSprites/No Curves.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"sound.new attack po2","CopyToMask":-1,"filePath":"datafiles",},
