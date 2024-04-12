@@ -23,7 +23,7 @@ global.dash_sp = global.moveSpeed * 2;
 	global.pickedup2 = false;
 
 	active = OBJ_StickWeapon;
-	activeani = StickWeaponAni;
+	activeani = StickSpecialWeaponAni;
 	
 	invinc = false;
 	been_hit = false;

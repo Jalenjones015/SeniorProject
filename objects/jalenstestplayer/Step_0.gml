@@ -146,6 +146,6 @@ move_and_collide(xinput * global.moveSpeed, yinput * global.moveSpeed, Walls,4,0
 		instance_deactivate_object(SpecialWeapon);
 		instance_create_depth(x, y, depth - 1, OBJ_StickWeapon);
 		active = OBJ_StickWeapon;
-		activeani = StickWeaponAni;
+		activeani = StickSpecialWeaponAni;
 	}
 

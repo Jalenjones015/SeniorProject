@@ -285,6 +285,6 @@ if global.hp <= 0
 		instance_deactivate_object(SpecialWeapon);
 		instance_create_depth(x, y, depth - 1, OBJ_StickWeapon);
 		active = OBJ_StickWeapon;
-		activeani = StickWeaponAni;
+		activeani = StickSpecialWeaponAni;
 	}
 
