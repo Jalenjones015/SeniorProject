@@ -1,14 +1,13 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 693B85FB
-/// @DnDArgument : "code" "with(other)$(13_10)$(13_10){$(13_10)	instance_destroy();$(13_10)}$(13_10)$(13_10)x += 20$(13_10)image_index = 1$(13_10)alarm_set(1, room_speed * 0.1);"
+/// @DnDArgument : "code" "with(other)$(13_10)$(13_10){$(13_10)	instance_destroy();$(13_10)}$(13_10)$(13_10)image_index = 1$(13_10)alarm_set(1, room_speed * 0.1);"
 with(other)
 
 {
 	instance_destroy();
 }
 
-x += 20
 image_index = 1
 alarm_set(1, room_speed * 0.1);
 

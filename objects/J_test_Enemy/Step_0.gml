@@ -42,13 +42,4 @@ if(enemyhp <= 0)
 	/// @DnDHash : 03E69A77
 	/// @DnDParent : 27B1B641
 	instance_destroy();
-
-	/// @DnDAction : YoYo Games.Common.Set_Global
-	/// @DnDVersion : 1
-	/// @DnDHash : 060F31B1
-	/// @DnDParent : 27B1B641
-	/// @DnDArgument : "value" "1"
-	/// @DnDArgument : "value_relative" "1"
-	/// @DnDArgument : "var" "global.killcounter"
-	global.killcounter += 1;
 }
