@@ -222,7 +222,6 @@
     {"id":{"name":"Character","path":"objects/Character/Character.yy",},},
     {"id":{"name":"CarFront","path":"sprites/CarFront/CarFront.yy",},},
     {"id":{"name":"chicken_ya","path":"sprites/chicken_ya/chicken_ya.yy",},},
-    {"id":{"name":"Level2GoTo","path":"objects/Level2GoTo/Level2GoTo.yy",},},
     {"id":{"name":"BossSpawn","path":"objects/BossSpawn/BossSpawn.yy",},},
     {"id":{"name":"CowSpawn","path":"objects/CowSpawn/CowSpawn.yy",},},
     {"id":{"name":"Oreo_pause","path":"objects/Oreo_pause/Oreo_pause.yy",},},

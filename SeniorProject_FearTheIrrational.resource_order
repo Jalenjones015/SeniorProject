@@ -172,7 +172,6 @@
     {"name":"car_siren","order":2,"path":"sounds/car_siren/car_siren.yy",},
     {"name":"CarFront","order":56,"path":"sprites/CarFront/CarFront.yy",},
     {"name":"chicken_ya","order":40,"path":"sprites/chicken_ya/chicken_ya.yy",},
-    {"name":"Level2GoTo","order":10,"path":"objects/Level2GoTo/Level2GoTo.yy",},
     {"name":"BossSpawn","order":17,"path":"objects/BossSpawn/BossSpawn.yy",},
     {"name":"CowSpawn","order":21,"path":"objects/CowSpawn/CowSpawn.yy",},
     {"name":"Oreo_pause","order":2,"path":"objects/Oreo_pause/Oreo_pause.yy",},
