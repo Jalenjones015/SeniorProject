@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Level1_end",
+  "name": "Room_toLevel2",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite236",
-    "path": "sprites/Sprite236/Sprite236.yy",
+    "name": "_37568685_d845_42f3_b01f_81ef98536e41",
+    "path": "sprites/_37568685_d845_42f3_b01f_81ef98536e41/_37568685_d845_42f3_b01f_81ef98536e41.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -3,7 +3,7 @@
 audio_play_sound(soundhurt, 1,false);
 sprite_index = Oplayer_hurt;
 if invinc == false {
- global.hp += -10;
+ global.hp += -8;
 been_hit = true;
 invinc = true;
 stop_hurt = true;
