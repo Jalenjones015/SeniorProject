@@ -1,7 +1,9 @@
-instance_deactivate_object(inst_40F06E95)
-instance_deactivate_object(inst_3FB7E0CD)
-instance_deactivate_object(inst_58175185)
+
+instance_deactivate_object(inst_58402860)
+instance_deactivate_object(inst_196EF61)
+instance_deactivate_object(inst_3CE8EFB5)
 instance_deactivate_object(inst_5F42BD03)
+instance_deactivate_object(inst_507BDE46)
 
 
 

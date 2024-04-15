@@ -235,25 +235,25 @@ if global.hp <= 0
                 is_shooting = false;
                 if sprite_index = Oplayer_walkS or sprite_index = Oplayer_idleS and image_xscale = 2
                 {
-	                instance_create_layer(x + 20 , y + 0, "Instances", OBJ_Projectile);
+	                instance_create_layer(x + 20 , y + 0, "Instances_3", OBJ_Projectile);
 	                global.ammo -= 1
                 }
 
                 if sprite_index = Oplayer_walkS or sprite_index = Oplayer_idleS and image_xscale = -2
                 {
-	                instance_create_layer(x - 20, y + 0, "Instances", OBJ_Projectile);
+	                instance_create_layer(x - 20, y + 0, "Instances_3", OBJ_Projectile);
 	                global.ammo -= 1
                 }
 				
                 if sprite_index = Oplayer_walkB or sprite_index = Oplayer_idleB
                 {
-	                instance_create_layer(x + 0, y - 20, "Instances", OBJ_ProjectileUp);
+	                instance_create_layer(x + 0, y - 20, "Instances_3", OBJ_ProjectileUp);
 	                global.ammo -= 1
                 }
 				
                 if sprite_index = Oplayer_walkF or sprite_index = Oplayer_idleF
                 {
-	                instance_create_layer(x - 0, y + 20, "Instances", OBJ_ProjectileUp);
+	                instance_create_layer(x - 0, y + 20, "Instances_3", OBJ_ProjectileUp);
 	                global.ammo -= 1
                 }
                 alarm_set(7, room_speed * .50)
@@ -285,6 +285,6 @@ if global.hp <= 0
 		instance_deactivate_object(SpecialWeapon);
 		instance_create_depth(x, y, depth - 1, OBJ_StickWeapon);
 		active = OBJ_StickWeapon;
-		activeani = StickSpecialWeaponAni;
+		activeani = StickWeaponAni;
 	}
 

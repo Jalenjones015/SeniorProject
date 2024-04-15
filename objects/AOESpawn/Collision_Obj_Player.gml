@@ -1,4 +1,4 @@
-instance_activate_object(inst_40F06E95)
+
 instance_activate_object(inst_58175185)
 
 

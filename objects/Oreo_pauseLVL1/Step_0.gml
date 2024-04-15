@@ -74,6 +74,8 @@ if keyboard_check_pressed(ord("P")) or keyboard_check_pressed(vk_escape) {
 	instance_deactivate_object(Obj_Player)
 	instance_deactivate_object(OBJ_StickWeapon)
 	instance_deactivate_object(obj_crosshair)
+	instance_deactivate_object(J_pause)
+
 	view_set_visible(0, false);
 	view_set_visible(6, true);
 	
@@ -99,8 +101,6 @@ else
 	layer_set_visible("Sidewalks", true)
 	layer_set_visible("Houses", true)
 	layer_set_visible("StreetAndSidewalk", true)
-	layer_set_visible("Instances_2", false)
-	layer_set_visible("Assets_1", false)
 	instance_activate_layer("Houses")
 	instance_activate_layer("StreetAndSidewalk")
 	instance_activate_layer("Grass")
@@ -113,6 +113,7 @@ else
 	instance_activate_layer("Sidewalks")
 	instance_activate_layer("Instance_egg")
 	instance_activate_layer("Instance_3")
+	instance_activate_layer("Instance_2")
 	instance_activate_layer("Instance_breakwalls")
 	instance_activate_layer("Instance_camera_tiles")
 	instance_activate_layer("Instance_portareas")
@@ -123,6 +124,12 @@ else
 	instance_activate_object(Obj_Player)
 	instance_activate_object(OBJ_StickWeapon)
 	instance_activate_object(obj_crosshair)
+	instance_activate_object(J_pause)
+	instance_activate_object(AOESpawn)
+	instance_activate_object(BossSpawn)
+	instance_activate_object(CowSpawn)
+	instance_activate_object(RangerSpawn)
+
 	layer_set_visible("Instances_button", false);
 	layer_set_visible("Controls_assests", false);
 

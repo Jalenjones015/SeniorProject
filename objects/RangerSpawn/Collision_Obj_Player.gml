@@ -1,6 +1,7 @@
 instance_activate_object(inst_3CE8EFB5)
 instance_activate_object(inst_58402860)
 instance_activate_object(inst_196EF61)
+instance_activate_object(inst_507BDE46)
 
 
 

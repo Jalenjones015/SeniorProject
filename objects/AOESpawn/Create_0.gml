@@ -1,4 +1,4 @@
-instance_deactivate_object(inst_40F06E95)
+
 instance_deactivate_object(inst_3FB7E0CD)
 instance_deactivate_object(inst_58175185)
 instance_deactivate_object(inst_520AF38)
