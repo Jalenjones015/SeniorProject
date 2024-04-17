@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-room_goto(Level_2)
+room_goto(Transition_to_Lvl2)
 
 
 

@@ -5,6 +5,7 @@ instance_activate_all();
  if (buffer_exists(pauseSurf_buff)) buffer_delete(pauseSurf_buff);
 	view_set_visible(0, true);
 	view_set_visible(6, false);
+	view_set_visible(5, false);
 	instance_deactivate_layer("Instances_button");
 	layer_set_visible("Instances_button", false);
 	layer_set_visible("Controls_assests", false);

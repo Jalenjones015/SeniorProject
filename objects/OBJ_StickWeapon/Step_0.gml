@@ -9,6 +9,7 @@
 	{
 		image_angle = 180;
 		image_yscale = -1;
+	
 		depth = -y;
 	}
 	if  (keyboard_check_pressed(ord("W"))) or keyboard_check(vk_up)

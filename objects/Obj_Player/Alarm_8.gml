@@ -10,7 +10,7 @@
 
 stop_hurt = false; 
 
-
+sprite_index = Oplayer_idleS
 
 
 
