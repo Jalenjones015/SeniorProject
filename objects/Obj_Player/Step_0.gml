@@ -3,7 +3,7 @@
 
 counter ++;
 image_speed = 1;
-image_xscale = 2;
+//image_xscale = 2;
 
 global._right = keyboard_check(vk_right) or keyboard_check(ord("D")) and place_free(x + collide_speed, y);
 global._left = keyboard_check(vk_left) or keyboard_check(ord("A"))  and place_free(x - collide_speed, y );
@@ -57,14 +57,14 @@ var _inputY = global._down - global._up;
 		{
 			image_speed = 0;
 			sprite_index = Oplayer_idleS;
-			//image_xscale = -2
+			image_xscale = -2
 		}
 		
 		if keyboard_check_released(vk_right) or keyboard_check_released(ord("D"))
 		{
 			image_speed = 0;
 			sprite_index = Oplayer_idleS;
-			//image_xscale = 2
+			image_xscale = 2
 		}
 		
 		if keyboard_check_released(vk_up) or keyboard_check_released(ord("W")) 
@@ -283,6 +283,7 @@ if global.hp <= 0
 	{
 		global.SWCount = 0;
 		instance_deactivate_object(SpecialWeapon);
+		instance_deactivate_object(SpecialWeapon2);
 		instance_create_depth(x, y, depth - 1, OBJ_StickWeapon);
 		active = OBJ_StickWeapon;
 		activeani = StickWeaponAni;

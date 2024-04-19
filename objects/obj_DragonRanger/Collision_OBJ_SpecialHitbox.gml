@@ -3,7 +3,7 @@ alarm_set(1, room_speed * 0.1);
 audio_play_sound(oldhurt, 1, false)
 currenthP += -3;
 
-
+global.SWCount += -2;
 
 
 

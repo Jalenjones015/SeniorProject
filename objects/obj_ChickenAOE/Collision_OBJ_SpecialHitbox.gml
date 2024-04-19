@@ -4,7 +4,7 @@ audio_play_sound(oldhurt, 1, false)
 currenthP += -3;
 
 
-
+global.SWCount += -2;
 
 
 
