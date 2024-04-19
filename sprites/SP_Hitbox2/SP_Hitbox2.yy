@@ -93,5 +93,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 30,
+  "width": 35,
 }

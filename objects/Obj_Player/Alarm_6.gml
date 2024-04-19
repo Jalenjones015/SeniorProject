@@ -28,7 +28,7 @@ if active == OBJ_StickWeapon
 {//down
 	if OBJ_StickWeapon.image_angle = 270
 	{
-		instance_create_depth(active.x + -10, active.y + 13, depth - 1, OBJ_Hitbox2)
+		instance_create_depth(active.x + -15, active.y + 13, depth - 1, OBJ_Hitbox2)
 	}
 }
 if active == SpecialWeapon
