@@ -29,7 +29,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
     "name": "Sprite33",
     "path": "sprites/Sprite33/Sprite33.yy",

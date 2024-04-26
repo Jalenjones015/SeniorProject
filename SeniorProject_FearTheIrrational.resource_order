@@ -264,6 +264,7 @@
     {"name":"hurt_alt","order":2,"path":"sounds/hurt_alt/hurt_alt.yy",},
     {"name":"bossdefeated2v1","order":5,"path":"sounds/bossdefeated2v1/bossdefeated2v1.yy",},
     {"name":"RangerSpawn","order":19,"path":"objects/RangerSpawn/RangerSpawn.yy",},
+    {"name":"Sprite242","order":27,"path":"sprites/Sprite242/Sprite242.yy",},
     {"name":"OBJ_ProjectileUp","order":1,"path":"objects/OBJ_ProjectileUp/OBJ_ProjectileUp.yy",},
     {"name":"LightTop","order":7,"path":"sprites/LightTop/LightTop.yy",},
     {"name":"House3","order":4,"path":"objects/House3/House3.yy",},

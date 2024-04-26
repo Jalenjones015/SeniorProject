@@ -327,6 +327,7 @@
     {"id":{"name":"bossdefeated2v1","path":"sounds/bossdefeated2v1/bossdefeated2v1.yy",},},
     {"id":{"name":"RangerSpawn","path":"objects/RangerSpawn/RangerSpawn.yy",},},
     {"id":{"name":"Room_sendtooyep","path":"objects/Room_sendtooyep/Room_sendtooyep.yy",},},
+    {"id":{"name":"Sprite242","path":"sprites/Sprite242/Sprite242.yy",},},
     {"id":{"name":"OBJ_ProjectileUp","path":"objects/OBJ_ProjectileUp/OBJ_ProjectileUp.yy",},},
     {"id":{"name":"LightTop","path":"sprites/LightTop/LightTop.yy",},},
     {"id":{"name":"House3","path":"objects/House3/House3.yy",},},

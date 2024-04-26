@@ -4,7 +4,7 @@ if instance_exists(inst_4C16D624) or instance_exists(inst_230B230) or instance_e
 	instance_deactivate_object(inst_6AC1667E)
 }
 
-if !instance_exists(inst_36C600DE) and instance_exists(inst_230B230) and instance_exists(inst_7F4E677D) and  instance_exists(inst_4109E2C7) and instance_exists(inst_5990CE42)
+if !instance_exists(inst_36C600DE) and !instance_exists(inst_230B230) and !instance_exists(inst_7F4E677D) and  !instance_exists(inst_4109E2C7) and !instance_exists(inst_5990CE42)
 {
 	instance_deactivate_object(inst_491A0309)
 	instance_activate_object(inst_6AC1667E)
