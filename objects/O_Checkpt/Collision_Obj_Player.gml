@@ -6,7 +6,7 @@ if(global.is_enabled)
 	global.checkpt_x = x + 90;
 	global.checkpt_y = y + 50;
 	
-	instance_create_depth(x, y, depth + 1,  O_sparkle);
+	instance_create_depth(x, y, depth - 1,  O_sparkle);
 }
 
 if first_time = true

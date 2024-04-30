@@ -249,6 +249,7 @@
     {"id":{"name":"O_Pit","path":"objects/O_Pit/O_Pit.yy",},},
     {"id":{"name":"Obutler_walk","path":"sprites/Obutler_walk/Obutler_walk.yy",},},
     {"id":{"name":"Sprite49","path":"sprites/Sprite49/Sprite49.yy",},},
+    {"id":{"name":"PressE","path":"objects/PressE/PressE.yy",},},
     {"id":{"name":"Castle_end_screen","path":"sprites/Castle_end_screen/Castle_end_screen.yy",},},
     {"id":{"name":"OMman_idle","path":"sprites/OMman_idle/OMman_idle.yy",},},
     {"id":{"name":"Castle_top_edn_screen","path":"sprites/Castle_top_edn_screen/Castle_top_edn_screen.yy",},},

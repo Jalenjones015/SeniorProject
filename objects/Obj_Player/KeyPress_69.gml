@@ -13,6 +13,7 @@
 							//weapon.y = y + weapon_y_offset;
 							active = SpecialWeapon;
 							activeani = StickSpecialWeaponAni;
+							instance_deactivate_object(PressE)
 						}
 				}
 		}
@@ -34,6 +35,7 @@
 							//weapon.y = y + weapon_y_offset;
 							active = SpecialWeapon2;
 							activeani = SP_SpecialWeapon;
+							instance_deactivate_object(PressE)	
 						}
 				}
 			}

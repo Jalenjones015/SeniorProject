@@ -8,7 +8,7 @@ event_inherited();
 	instance_deactivate_layer("Instances_button");
 	layer_set_visible("Instances_button", false);
 	layer_set_visible("Controls_assests", false);
-		instance_deactivate_layer("Instances_button");
+	instance_deactivate_layer("Instances_button");
 	layer_set_visible("Instances_1", true)
 	layer_set_visible("Instance_Enemy", true)
 	layer_set_visible("Instances_Play", true)

@@ -197,6 +197,7 @@
     {"name":"O_Pit","order":8,"path":"objects/O_Pit/O_Pit.yy",},
     {"name":"Obutler_walk","order":11,"path":"sprites/Obutler_walk/Obutler_walk.yy",},
     {"name":"Sprite49","order":19,"path":"sprites/Sprite49/Sprite49.yy",},
+    {"name":"PressE","order":22,"path":"objects/PressE/PressE.yy",},
     {"name":"Castle_end_screen","order":21,"path":"sprites/Castle_end_screen/Castle_end_screen.yy",},
     {"name":"OMman_idle","order":26,"path":"sprites/OMman_idle/OMman_idle.yy",},
     {"name":"Castle_top_edn_screen","order":20,"path":"sprites/Castle_top_edn_screen/Castle_top_edn_screen.yy",},

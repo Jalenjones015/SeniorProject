@@ -1,6 +1,24 @@
-instance_activate_object(inst_4C16D624)
-instance_activate_object(inst_230B230)
-instance_activate_object(inst_491A0309)
+//if instance_exists(SpecialWeapon)
+//{
+//	instance_deactivate_object(PressE)
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

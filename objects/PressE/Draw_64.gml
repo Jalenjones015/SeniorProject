@@ -1,6 +1,30 @@
-instance_activate_object(inst_4C16D624)
-instance_activate_object(inst_230B230)
-instance_activate_object(inst_491A0309)
+if global.equip1 and global.SWCount >= 10
+{
+	draw_text(150, 1170, string("Press E to Use"));
+}
+
+if global.equip2 and global.SWCount >= 15
+{
+	draw_text(150, 1170, string("Press E to Use"));
+}
+
+display_set_gui_size(2352, 1470)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

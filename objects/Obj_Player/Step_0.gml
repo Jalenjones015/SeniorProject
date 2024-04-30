@@ -289,3 +289,8 @@ if global.hp <= 0
 		activeani = StickWeaponAni;
 	}
 
+layer_depth("Houses", -8)
+
+
+
+
