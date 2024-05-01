@@ -308,7 +308,6 @@
     {"id":{"name":"New_attack","path":"sounds/New_attack/New_attack.yy",},},
     {"id":{"name":"controls_tut_p","path":"sprites/controls_tut_p/controls_tut_p.yy",},},
     {"id":{"name":"House6","path":"objects/House6/House6.yy",},},
-    {"id":{"name":"RealSidewalkCuld","path":"sprites/RealSidewalkCuld/RealSidewalkCuld.yy",},},
     {"id":{"name":"Ogoat_idle","path":"sprites/Ogoat_idle/Ogoat_idle.yy",},},
     {"id":{"name":"arrowkeys","path":"sprites/arrowkeys/arrowkeys.yy",},},
     {"id":{"name":"HouseFace","path":"sprites/HouseFace/HouseFace.yy",},},
@@ -520,6 +519,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"StartMenu","path":"rooms/StartMenu/StartMenu.yy",},},
+    {"roomId":{"name":"Level_2","path":"rooms/Level_2/Level_2.yy",},},
     {"roomId":{"name":"Transition_to_Lvl2","path":"rooms/Transition_to_Lvl2/Transition_to_Lvl2.yy",},},
     {"roomId":{"name":"Transition_to_Lv1","path":"rooms/Transition_to_Lv1/Transition_to_Lv1.yy",},},
     {"roomId":{"name":"Castle_outside","path":"rooms/Castle_outside/Castle_outside.yy",},},
@@ -527,7 +527,6 @@
     {"roomId":{"name":"TutorialLevel_0","path":"rooms/TutorialLevel_0/TutorialLevel_0.yy",},},
     {"roomId":{"name":"Character_testing","path":"rooms/Character_testing/Character_testing.yy",},},
     {"roomId":{"name":"MainRoom","path":"rooms/MainRoom/MainRoom.yy",},},
-    {"roomId":{"name":"Level_2","path":"rooms/Level_2/Level_2.yy",},},
     {"roomId":{"name":"ZLights_artroom","path":"rooms/ZLights_artroom/ZLights_artroom.yy",},},
     {"roomId":{"name":"Second_level","path":"rooms/Second_level/Second_level.yy",},},
     {"roomId":{"name":"Startroom","path":"rooms/Startroom/Startroom.yy",},},

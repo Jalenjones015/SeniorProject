@@ -248,7 +248,6 @@
     {"name":"Equipbutton2","order":16,"path":"objects/Equipbutton2/Equipbutton2.yy",},
     {"name":"controls_tut_p","order":5,"path":"sprites/controls_tut_p/controls_tut_p.yy",},
     {"name":"House6","order":7,"path":"objects/House6/House6.yy",},
-    {"name":"RealSidewalkCuld","order":8,"path":"sprites/RealSidewalkCuld/RealSidewalkCuld.yy",},
     {"name":"Ogoat_idle","order":25,"path":"sprites/Ogoat_idle/Ogoat_idle.yy",},
     {"name":"arrowkeys","order":1,"path":"sprites/arrowkeys/arrowkeys.yy",},
     {"name":"HouseFace","order":8,"path":"sprites/HouseFace/HouseFace.yy",},

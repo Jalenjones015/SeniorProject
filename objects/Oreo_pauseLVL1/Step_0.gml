@@ -91,7 +91,7 @@ else
  pause = false;
  //if (surface_exists(pause_surf)) surface_free(pause_surf);
  //if (buffer_exists(pauseSurf_buff)) buffer_delete(pauseSurf_buff);
-		view_set_visible(0, true);
+	view_set_visible(0, true);
 	view_set_visible(6, false);
 	instance_deactivate_layer("Instances_button");
 	layer_set_visible("Instances_button", false);
@@ -120,11 +120,11 @@ else
 	instance_activate_layer("Instances")
 	instance_activate_layer("Assets_3")
 	instance_activate_layer("Sidewalks")
-	instance_activate_layer("Instance_egg")
-	instance_activate_layer("Instance_3")
-	instance_activate_layer("Instance_breakwalls")
-	instance_activate_layer("Instance_camera_tiles")
-	instance_activate_layer("Instance_portareas")
+	instance_activate_layer("Instances_egg")
+	instance_activate_layer("Instances_3")
+	instance_activate_layer("Instances_breakwalls")
+	instance_activate_layer("Instances_camera_tiles")
+	instance_activate_layer("Instances_portareas")
 	instance_activate_layer("Castle_tiles")
 	instance_activate_layer("Tiles_details")
 	instance_activate_layer("Castle_tiles_expansion")
@@ -157,10 +157,11 @@ else
 	instance_activate_layer("Assets_3")
 	instance_activate_layer("Sidewalks")
 	instance_activate_layer("Instance_egg")
-	instance_activate_layer("Instance_3")
-	instance_activate_layer("Instance_breakwalls")
-	instance_activate_layer("Instance_camera_tiles")
-	instance_activate_layer("Instance_portareas")
+	instance_activate_layer("Instances_3")
+	instance_activate_layer("Instances_breakwalls")
+	instance_activate_layer("Instances_Player")
+	instance_activate_layer("Instances_camera_tiles")
+	instance_activate_layer("Instances_portareas")
 	instance_activate_layer("Castle_tiles")
 	instance_activate_layer("Tiles_details")
 	instance_activate_layer("Castle_tiles_expansion")
@@ -168,6 +169,7 @@ else
 	instance_activate_object(Obj_Player)
 	instance_activate_object(OBJ_StickWeapon)
 	instance_activate_object(obj_crosshair)
+	instance_activate_object(DrawingRegularStats)
 	instance_activate_object(J_pause)
 	instance_activate_object(AOESpawn)
 	instance_activate_object(BossSpawn)
